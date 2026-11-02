@@ -1,30 +1,31 @@
 # Project summary: Bd-inhibitory bullfrog skin isolates as rare / novel taxa
 *Status as of 2026-11-02. All numbers come from the saved artifacts linked below.*
 
+*Isolate IDs follow the BF1–BF7 scheme (crosswalk to the original labels: isolate_ID_crosswalk.csv).*
+
 ## 1. Goal
 Bacteria cultured from bullfrog (*Lithobates catesbeianus*) skin inhibit *Batrachochytrium dendrobatidis* (Bd) at about 100% in vitro. The aim is to show that these isolates (i) are undescribed or poorly known taxa, (ii) are rare or absent in amphibian skin amplicon surveys, and (iii) carry novel biosynthetic potential. They are set against the background of the AmphiBac isolate database and the amphibian skin microbiome meta-analysis.
 
 ## 2. Genome taxonomy (MiGA, TypeMat)
-Tables: [MiGA_isolate_summary_7.xlsx](../outputs/01_MiGA_taxonomy/MiGA_isolate_summary_7.xlsx) (7 genomes) and [MiGA_isolate_summary.xlsx](../outputs/01_MiGA_taxonomy/MiGA_isolate_summary.xlsx) (first 9 reports). All genomes were rated Excellent quality by MiGA (100% complete, ≤4.3% contamination).
+Tables: [MiGA_isolate_summary_7.xlsx](../outputs/01_MiGA_taxonomy/MiGA_isolate_summary_7.xlsx) (7 genomes). All genomes were rated Excellent quality by MiGA (100% complete, ≤4.3% contamination).
 
 | Isolate | Closest type genome | Metric | Interpretation |
 |---|---|---|---|
-| sfa6 | *Rhodococcoides fascians* DSM 43673 | ANI 98.05% | *R. fascians* (≥95% ANI; MiGA's p-value call says "novel species") |
-| BF261 | *Kineococcus rhizosphaerae* DSM 19711 | AAI 74.21% | *Kineococcus* sp. nov. |
-| M1241 | *Psychromicrobium lacuslunae* IHBB 11108 | ANI 83.30% | *Psychromicrobium* sp. nov. |
-| CSWG105 | *Arthrobacter humicola* JCM 15921 | ANI 88.16% | *Arthrobacter* sp. nov. |
-| CSWG105 cryobin | *Cryobacterium soli* GCJ02 | ANI 90.97% | *Cryobacterium* sp. nov.; second organism in the CSWG105 culture (different family); no 16S gene recovered |
-| BF170 | *Ancylobacter pratisalsi* DSM 102029 | AAI 70.15% | Xanthobacteraceae, possibly a new genus |
-| 78E | *Sphingomonas paucimobilis* | ANI 99.49% | *S. paucimobilis*; contaminant *Bacillus* 16S on one low-coverage contig (NODE_103) |
+| BF7 | *Rhodococcoides fascians* DSM 43673 | ANI 98.05% | *R. fascians* (≥95% ANI; MiGA's p-value call says "novel species") |
+| BF3 | *Kineococcus rhizosphaerae* DSM 19711 | AAI 74.21% | *Kineococcus* sp. nov. |
+| BF6 | *Psychromicrobium lacuslunae* IHBB 11108 | ANI 83.30% | *Psychromicrobium* sp. nov. |
+| BF5 | *Arthrobacter humicola* JCM 15921 | ANI 88.16% | *Arthrobacter* sp. nov. |
+| BF4 | *Cryobacterium soli* GCJ02 | ANI 90.97% | *Cryobacterium* sp. nov.; binned from the same culture as BF5 (different family); no 16S gene recovered |
+| BF2 | *Ancylobacter pratisalsi* DSM 102029 | AAI 70.15% | Xanthobacteraceae, possibly a new genus |
+| BF1 | *Sphingomonas paucimobilis* | ANI 99.49% | *S. paucimobilis*; contaminant *Bacillus* 16S on one low-coverage contig (NODE_103) |
 
-Isolates covered only in the first batch: HB58 is *Acinetobacter oleivorans* (ANI 95.25%), BF4 is *Bacillus velezensis*, and BF246 is *Microbacterium* sp. nov.
 Taxonomy note: *Rhodococcoides* is the recent split of *R. fascians*, *R. corynebacterioides*, *R. kroppenstedtii*, *R. kyotonensis*, *R. navarretei*, *R. trifolii*, *R. yunnanensis* and *R. luteus* from *Rhodococcus*. Older 16S databases still label these as *Rhodococcus*.
 
 ## 3. Biosynthetic potential (antiSMASH 7.1.0, relaxed)
 Files: [antiSMASH_BGC_summary.xlsx](../outputs/02_antiSMASH/antiSMASH_BGC_summary.xlsx), [antiSMASH_regions.csv](../outputs/02_antiSMASH/antiSMASH_regions.csv), and one full-result zip per genome.
-- There are 57 regions in total: sfa6 23, BF261 9, M1241 9, CSWG105 6, CSWG105 cryobin 4, BF170 4, 78E 2.
-- Only 3 regions reach ≥75% similarity to a known MIBiG cluster: ε-poly-L-lysine in sfa6 and in the cryobin, and zeaxanthin in 78E. Most regions are below 50%, i.e. potentially novel.
-- The two CSWG105 assemblies share NAPAA, T3PKS and betalactone region types.
+- There are 57 regions in total: BF7 23, BF3 9, BF6 9, BF5 6, BF4 4, BF2 4, BF1 2.
+- Only 3 regions reach ≥75% similarity to a known MIBiG cluster: ε-poly-L-lysine in BF7 and in BF4, and zeaxanthin in BF1. Most regions are below 50%, i.e. potentially novel.
+- BF5 and BF4 (binned from the same culture) share NAPAA, T3PKS and betalactone region types.
 
 ![BGC types per genome](../outputs/02_antiSMASH/antiSMASH_BGC_stacked_bar.png)
 
@@ -48,9 +49,9 @@ File: [salamander_genus_abundance.xlsx](../outputs/03_genus_abundance/salamander
 - Not detected: *Rhodococcoides*, *Psychromicrobium* and *Kineococcus*.
 
 ### 4d. Your isolates' own V4 sequences (from the genomes) in the meta-analysis
-- CSWG105: 0.22% (rank 55). 78E: 0.052%. BF261: 0.012%. M1241: 0.0007%.
-- Absent: sfa6 and BF170.
-- AmphiBac isolates that share sfa6's V4 are mostly non-inhibitory (19 of 28). All 3 that share BF261's V4 are non-inhibitory.
+- BF5: 0.22% (rank 55). BF1: 0.052%. BF3: 0.012%. BF6: 0.0007%.
+- Absent: BF7 and BF2.
+- AmphiBac isolates that share BF7's V4 are mostly non-inhibitory (19 of 28). All 3 that share BF3's V4 are non-inhibitory.
 
 ## 5. AmphiBac 2025.1 (tested) vs the meta-analysis
 Isolates were matched to sOTUs by exact containment of the 90-bp sOTU in the isolate 16S, otherwise by ≤3 mismatches over the V4 window (allowing for Sanger error). Files: [AmphiBac_meta_abundance.xlsx](../outputs/04_AmphiBac_vs_meta/AmphiBac_meta_abundance.xlsx), [AmphiBac_near_matches.xlsx](../outputs/04_AmphiBac_vs_meta/AmphiBac_near_matches.xlsx).
@@ -106,7 +107,7 @@ Files: [AmphiBac_multihit_sensitivity.xlsx](../outputs/05_multihit_sensitivity/A
 - **Isolate side:** 852 of the 5,972 matched Bd-tested isolates (14%) have no exact match and are tied between several nearest sOTUs (median 5). No isolate exactly contains more than one sOTU. The original "most abundant tied sOTU" rule placed 229 isolates in the dominant or intermediate class that a "rarest" rule would call rare.
 - **sOTU side:** 75.5% of sOTUs with ≥2 isolates have conflicting Bd labels (dominant 13/13, intermediate 45/49, rare 189/265).
 - **Taxon-level χ² (p = 0.048):** significant only under the most-abundant rule (0.048) or the all-tied rule (0.023). It is not significant with rarest-tied (0.26), drop-tied (0.29), exact-only (0.39) or random tie-breaking (median 0.16).
-- **Direction:** dominant ≥ rare under every tie rule.
+- **Direction:** dominant ≥ rare under every tie rule and under the majority, unanimous and random-isolate label rules. The exception is the "all isolates inhibitory" label rule, where rare > dominant (23.5% vs 6.7%, p = 0.008). That reversal reflects isolate count: an sOTU with 19 isolates rarely has all of them inhibitory.
 - **Label rules:** "any isolate inhibitory" and "all isolates inhibitory" are confounded by isolate count (median 19 per dominant sOTU vs 2 per rare sOTU).
 - **Robust to every rule:** isolate-level inhibitory share (68–69 / 51–52 / 40–41%), cultured share (dominant always 15/15), and a weak positive correlation between abundance and median score (ρ 0.12–0.14, p ≤ 0.009).
 - **Manuscript wording:** "rare taxa are not more often inhibitory" stands; describe the dominant > rare gradient as a trend that is sensitive to how multi-hits are resolved.

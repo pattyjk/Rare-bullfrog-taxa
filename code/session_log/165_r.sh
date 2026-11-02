@@ -1,0 +1,4 @@
+# session cell 165 | 2026-10-18 12:53 | env: r | language: bash
+# files written: [{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/panelA_sOTU_Bd_spread.png","sha256":"bf5eaf428707c36fa54e44ce4f54e143c414bf461bbf866a6ceafba58539dd9c","preview_sha256":"bf5eaf428707c36fa54e44ce4f54e143c414bf461bbf866a6ceafba58539dd9c","preview_content_type":"image/png"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/methods_panelA.md","sha256":"830bfa5c1c0f2c50b72fa443a4c62b78bf84193d4c4e87bd1cdd8ec4a9d159ba"}]
+
+cp sOTU_Bd_panelA/output/panelA_sOTU_Bd_spread.png sOTU_Bd_panelA/methods_panelA.md . && ls sOTU_Bd_panelA.zip panelA_sOTU_Bd_spread.png methods_panelA.md

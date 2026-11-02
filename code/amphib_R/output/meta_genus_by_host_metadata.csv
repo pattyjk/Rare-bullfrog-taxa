@@ -1,0 +1,1148 @@
+genus,method,n_samples,prevalence_pct,mean_rel_pct,stratum,level
+Rhodococcoides,BLAST97,82,0,0,host_order,caudata
+Rhodococcoides,BLASTany,82,0,0,host_order,caudata
+Rhodococcoides,exactV4,82,1.21951219512195,0.00151500752683285,host_order,caudata
+Rhodococcoides,exactV4_min2refs,82,1.21951219512195,0.00151500752683285,host_order,caudata
+Rhodococcoides,exactV4_unique_min2refs,82,0,0,host_order,caudata
+Psychromicrobium,BLAST97,82,0,0,host_order,caudata
+Psychromicrobium,BLASTany,82,0,0,host_order,caudata
+Psychromicrobium,exactV4,82,0,0,host_order,caudata
+Psychromicrobium,exactV4_min2refs,82,0,0,host_order,caudata
+Psychromicrobium,exactV4_unique_min2refs,82,0,0,host_order,caudata
+Arthrobacter,BLAST97,82,17.0731707317073,0.0103775344332543,host_order,caudata
+Arthrobacter,BLASTany,82,17.0731707317073,0.0103775344332543,host_order,caudata
+Arthrobacter,exactV4,82,23.1707317073171,0.0128598887651159,host_order,caudata
+Arthrobacter,exactV4_min2refs,82,18.2926829268293,0.0109211529228416,host_order,caudata
+Arthrobacter,exactV4_unique_min2refs,82,1.21951219512195,0.000118137079516381,host_order,caudata
+Cryobacterium,BLAST97,82,0,0,host_order,caudata
+Cryobacterium,BLASTany,82,0,0,host_order,caudata
+Cryobacterium,exactV4,82,34.1463414634146,0.0631034824717581,host_order,caudata
+Cryobacterium,exactV4_min2refs,82,14.6341463414634,0.0124842492408644,host_order,caudata
+Cryobacterium,exactV4_unique_min2refs,82,14.6341463414634,0.0124842492408644,host_order,caudata
+Ancylobacter,BLAST97,82,28.0487804878049,0.0183000327076128,host_order,caudata
+Ancylobacter,BLASTany,82,29.2682926829268,0.0191378051812545,host_order,caudata
+Ancylobacter,exactV4,82,4.87804878048781,0.0027978040035539,host_order,caudata
+Ancylobacter,exactV4_min2refs,82,4.87804878048781,0.0027978040035539,host_order,caudata
+Ancylobacter,exactV4_unique_min2refs,82,4.87804878048781,0.0027978040035539,host_order,caudata
+Sphingomonas,BLAST97,82,65.8536585365854,0.56719989150445,host_order,caudata
+Sphingomonas,BLASTany,82,71.9512195121951,0.652932638194348,host_order,caudata
+Sphingomonas,exactV4,82,93.9024390243902,0.962473237366916,host_order,caudata
+Sphingomonas,exactV4_min2refs,82,86.5853658536585,0.869355117496609,host_order,caudata
+Sphingomonas,exactV4_unique_min2refs,82,86.5853658536585,0.869355117496609,host_order,caudata
+Kineococcus,BLAST97,82,9.75609756097561,0.00876197945223381,host_order,caudata
+Kineococcus,BLASTany,82,9.75609756097561,0.00882040619532266,host_order,caudata
+Kineococcus,exactV4,82,6.09756097560976,0.00469558760518708,host_order,caudata
+Kineococcus,exactV4_min2refs,82,6.09756097560976,0.00469558760518708,host_order,caudata
+Kineococcus,exactV4_unique_min2refs,82,6.09756097560976,0.00469558760518708,host_order,caudata
+Rhodococcus (other),BLAST97,82,36.5853658536585,0.151379461451497,host_order,caudata
+Rhodococcus (other),BLASTany,82,36.5853658536585,0.151379461451497,host_order,caudata
+Rhodococcoides,BLAST97,2329,0,0,host_order,anura
+Rhodococcoides,BLASTany,2329,0,0,host_order,anura
+Rhodococcoides,exactV4,2329,6.18291112065264,0.00493889582213743,host_order,anura
+Rhodococcoides,exactV4_min2refs,2329,6.18291112065264,0.00493889582213743,host_order,anura
+Rhodococcoides,exactV4_unique_min2refs,2329,0,0,host_order,anura
+Psychromicrobium,BLAST97,2329,0,0,host_order,anura
+Psychromicrobium,BLASTany,2329,0,0,host_order,anura
+Psychromicrobium,exactV4,2329,0.98754830399313,0.00068328621549861,host_order,anura
+Psychromicrobium,exactV4_min2refs,2329,0.98754830399313,0.00068328621549861,host_order,anura
+Psychromicrobium,exactV4_unique_min2refs,2329,0,0,host_order,anura
+Arthrobacter,BLAST97,2329,42.5504508372692,0.33629356735739,host_order,anura
+Arthrobacter,BLASTany,2329,42.7221983683985,0.336501187012139,host_order,anura
+Arthrobacter,exactV4,2329,58.4800343495062,0.532763734685364,host_order,anura
+Arthrobacter,exactV4_min2refs,2329,54.2292829540575,0.505609012985743,host_order,anura
+Arthrobacter,exactV4_unique_min2refs,2329,17.2176899957063,0.0810583330921871,host_order,anura
+Cryobacterium,BLAST97,2329,0.12881064834693,2.8678641272809e-05,host_order,anura
+Cryobacterium,BLASTany,2329,0.8587376556462,0.00020143481140893,host_order,anura
+Cryobacterium,exactV4,2329,23.4864748819236,0.0325476092333639,host_order,anura
+Cryobacterium,exactV4_min2refs,2329,17.0030055817948,0.021244654444151,host_order,anura
+Cryobacterium,exactV4_unique_min2refs,2329,17.0030055817948,0.021244654444151,host_order,anura
+Ancylobacter,BLAST97,2329,13.1386861313869,0.021556551341681,host_order,anura
+Ancylobacter,BLASTany,2329,19.7080291970803,0.0297427010277391,host_order,anura
+Ancylobacter,exactV4,2329,8.32975525976814,0.00808375876308754,host_order,anura
+Ancylobacter,exactV4_min2refs,2329,8.32975525976814,0.00808375876308754,host_order,anura
+Ancylobacter,exactV4_unique_min2refs,2329,8.32975525976814,0.00808375876308754,host_order,anura
+Sphingomonas,BLAST97,2329,81.4512666380421,0.788689899716729,host_order,anura
+Sphingomonas,BLASTany,2329,84.4139115500215,0.871938418996836,host_order,anura
+Sphingomonas,exactV4,2329,90.3821382567626,1.34224155942602,host_order,anura
+Sphingomonas,exactV4_min2refs,2329,88.1923572348648,1.0482992890465,host_order,anura
+Sphingomonas,exactV4_unique_min2refs,2329,88.1923572348648,1.0482992890465,host_order,anura
+Kineococcus,BLAST97,2329,14.5985401459854,0.0192717633249511,host_order,anura
+Kineococcus,BLASTany,2329,14.8561614426793,0.0193197279937955,host_order,anura
+Kineococcus,exactV4,2329,11.4641477028768,0.0183707652958912,host_order,anura
+Kineococcus,exactV4_min2refs,2329,10.6912838127952,0.0166735590194267,host_order,anura
+Kineococcus,exactV4_unique_min2refs,2329,10.6912838127952,0.0166735590194267,host_order,anura
+Rhodococcus (other),BLAST97,2329,32.2455989695148,0.274284938180384,host_order,anura
+Rhodococcus (other),BLASTany,2329,35.8952340060112,0.277820349671877,host_order,anura
+Rhodococcoides,BLAST97,266,0,0,host_family,ranidae
+Rhodococcoides,BLASTany,266,0,0,host_family,ranidae
+Rhodococcoides,exactV4,266,9.77443609022556,0.00575784106109515,host_family,ranidae
+Rhodococcoides,exactV4_min2refs,266,9.77443609022556,0.00575784106109515,host_family,ranidae
+Rhodococcoides,exactV4_unique_min2refs,266,0,0,host_family,ranidae
+Psychromicrobium,BLAST97,266,0,0,host_family,ranidae
+Psychromicrobium,BLASTany,266,0,0,host_family,ranidae
+Psychromicrobium,exactV4,266,0,0,host_family,ranidae
+Psychromicrobium,exactV4_min2refs,266,0,0,host_family,ranidae
+Psychromicrobium,exactV4_unique_min2refs,266,0,0,host_family,ranidae
+Arthrobacter,BLAST97,266,56.390977443609,0.240107185186048,host_family,ranidae
+Arthrobacter,BLASTany,266,56.7669172932331,0.241346134429551,host_family,ranidae
+Arthrobacter,exactV4,266,60.5263157894737,0.264270634453756,host_family,ranidae
+Arthrobacter,exactV4_min2refs,266,58.6466165413534,0.258840065605848,host_family,ranidae
+Arthrobacter,exactV4_unique_min2refs,266,6.76691729323308,0.00175320795866098,host_family,ranidae
+Cryobacterium,BLAST97,266,0.37593984962406,6.16598080406858e-05,host_family,ranidae
+Cryobacterium,BLASTany,266,3.38345864661654,0.000774213065617104,host_family,ranidae
+Cryobacterium,exactV4,266,45.4887218045113,0.0495099264908876,host_family,ranidae
+Cryobacterium,exactV4_min2refs,266,33.4586466165414,0.0311669432389965,host_family,ranidae
+Cryobacterium,exactV4_unique_min2refs,266,33.4586466165414,0.0311669432389965,host_family,ranidae
+Ancylobacter,BLAST97,266,23.3082706766917,0.0660852425266463,host_family,ranidae
+Ancylobacter,BLASTany,266,30.4511278195489,0.0683731236909902,host_family,ranidae
+Ancylobacter,exactV4,266,11.2781954887218,0.00573218374333359,host_family,ranidae
+Ancylobacter,exactV4_min2refs,266,11.2781954887218,0.00573218374333359,host_family,ranidae
+Ancylobacter,exactV4_unique_min2refs,266,11.2781954887218,0.00573218374333359,host_family,ranidae
+Sphingomonas,BLAST97,266,81.9548872180451,0.719965095777628,host_family,ranidae
+Sphingomonas,BLASTany,266,86.0902255639098,0.764715961093572,host_family,ranidae
+Sphingomonas,exactV4,266,92.1052631578947,1.32858942837556,host_family,ranidae
+Sphingomonas,exactV4_min2refs,266,86.4661654135338,0.849716875278928,host_family,ranidae
+Sphingomonas,exactV4_unique_min2refs,266,86.4661654135338,0.849716875278928,host_family,ranidae
+Kineococcus,BLAST97,266,15.0375939849624,0.0272977525415977,host_family,ranidae
+Kineococcus,BLASTany,266,16.1654135338346,0.0275412585632979,host_family,ranidae
+Kineococcus,exactV4,266,10.5263157894737,0.0265720842128562,host_family,ranidae
+Kineococcus,exactV4_min2refs,266,9.3984962406015,0.0236096393468931,host_family,ranidae
+Kineococcus,exactV4_unique_min2refs,266,9.3984962406015,0.0236096393468931,host_family,ranidae
+Rhodococcus (other),BLAST97,266,30.8270676691729,0.915467518509099,host_family,ranidae
+Rhodococcus (other),BLASTany,266,40.9774436090226,0.920548626069441,host_family,ranidae
+Rhodococcoides,BLAST97,1037,0,0,host_family,mantellidae
+Rhodococcoides,BLASTany,1037,0,0,host_family,mantellidae
+Rhodococcoides,exactV4,1037,2.41080038572806,0.00231892906337886,host_family,mantellidae
+Rhodococcoides,exactV4_min2refs,1037,2.41080038572806,0.00231892906337886,host_family,mantellidae
+Rhodococcoides,exactV4_unique_min2refs,1037,0,0,host_family,mantellidae
+Psychromicrobium,BLAST97,1037,0,0,host_family,mantellidae
+Psychromicrobium,BLASTany,1037,0,0,host_family,mantellidae
+Psychromicrobium,exactV4,1037,0.289296046287367,0.000325509495170144,host_family,mantellidae
+Psychromicrobium,exactV4_min2refs,1037,0.289296046287367,0.000325509495170144,host_family,mantellidae
+Psychromicrobium,exactV4_unique_min2refs,1037,0,0,host_family,mantellidae
+Arthrobacter,BLAST97,1037,34.9083895853423,0.154504957724084,host_family,mantellidae
+Arthrobacter,BLASTany,1037,35.0048216007715,0.154535092728906,host_family,mantellidae
+Arthrobacter,exactV4,1037,55.7377049180328,0.34385576291282,host_family,mantellidae
+Arthrobacter,exactV4_min2refs,1037,48.5053037608486,0.29973252807399,host_family,mantellidae
+Arthrobacter,exactV4_unique_min2refs,1037,18.3220829315333,0.119487087685603,host_family,mantellidae
+Cryobacterium,BLAST97,1037,0,0,host_family,mantellidae
+Cryobacterium,BLASTany,1037,0,0,host_family,mantellidae
+Cryobacterium,exactV4,1037,19.1899710703954,0.0143777755847037,host_family,mantellidae
+Cryobacterium,exactV4_min2refs,1037,14.4648023143684,0.0102495993110207,host_family,mantellidae
+Cryobacterium,exactV4_unique_min2refs,1037,14.4648023143684,0.0102495993110207,host_family,mantellidae
+Ancylobacter,BLAST97,1037,6.46094503375121,0.0105281225487996,host_family,mantellidae
+Ancylobacter,BLASTany,1037,10.1253616200579,0.01283362197435,host_family,mantellidae
+Ancylobacter,exactV4,1037,3.76084860173578,0.00290274596411928,host_family,mantellidae
+Ancylobacter,exactV4_min2refs,1037,3.76084860173578,0.00290274596411928,host_family,mantellidae
+Ancylobacter,exactV4_unique_min2refs,1037,3.76084860173578,0.00290274596411928,host_family,mantellidae
+Sphingomonas,BLAST97,1037,80.2314368370299,0.490408794213788,host_family,mantellidae
+Sphingomonas,BLASTany,1037,83.2208293153327,0.595820392135545,host_family,mantellidae
+Sphingomonas,exactV4,1037,88.7174541947927,0.956926289109651,host_family,mantellidae
+Sphingomonas,exactV4_min2refs,1037,86.9816779170685,0.816097863727342,host_family,mantellidae
+Sphingomonas,exactV4_unique_min2refs,1037,86.9816779170685,0.816097863727342,host_family,mantellidae
+Kineococcus,BLAST97,1037,17.7434908389585,0.0147784544018515,host_family,mantellidae
+Kineococcus,BLASTany,1037,17.7434908389585,0.0147784544018515,host_family,mantellidae
+Kineococcus,exactV4,1037,12.632594021215,0.0120173181746475,host_family,mantellidae
+Kineococcus,exactV4_min2refs,1037,12.1504339440694,0.0116832959797088,host_family,mantellidae
+Kineococcus,exactV4_unique_min2refs,1037,12.1504339440694,0.0116832959797088,host_family,mantellidae
+Rhodococcus (other),BLAST97,1037,28.9296046287367,0.157069321423058,host_family,mantellidae
+Rhodococcus (other),BLASTany,1037,29.7010607521697,0.15777096827129,host_family,mantellidae
+Rhodococcoides,BLAST97,42,0,0,host_family,eleutherodactylidae
+Rhodococcoides,BLASTany,42,0,0,host_family,eleutherodactylidae
+Rhodococcoides,exactV4,42,0,0,host_family,eleutherodactylidae
+Rhodococcoides,exactV4_min2refs,42,0,0,host_family,eleutherodactylidae
+Rhodococcoides,exactV4_unique_min2refs,42,0,0,host_family,eleutherodactylidae
+Psychromicrobium,BLAST97,42,0,0,host_family,eleutherodactylidae
+Psychromicrobium,BLASTany,42,0,0,host_family,eleutherodactylidae
+Psychromicrobium,exactV4,42,0,0,host_family,eleutherodactylidae
+Psychromicrobium,exactV4_min2refs,42,0,0,host_family,eleutherodactylidae
+Psychromicrobium,exactV4_unique_min2refs,42,0,0,host_family,eleutherodactylidae
+Arthrobacter,BLAST97,42,21.4285714285714,0.22184937299655,host_family,eleutherodactylidae
+Arthrobacter,BLASTany,42,26.1904761904762,0.223159982665524,host_family,eleutherodactylidae
+Arthrobacter,exactV4,42,45.2380952380953,0.307805559299045,host_family,eleutherodactylidae
+Arthrobacter,exactV4_min2refs,42,45.2380952380953,0.307281274423615,host_family,eleutherodactylidae
+Arthrobacter,exactV4_unique_min2refs,42,11.9047619047619,0.0100036738856507,host_family,eleutherodactylidae
+Cryobacterium,BLAST97,42,0,0,host_family,eleutherodactylidae
+Cryobacterium,BLASTany,42,0,0,host_family,eleutherodactylidae
+Cryobacterium,exactV4,42,4.76190476190476,0.00169581850030286,host_family,eleutherodactylidae
+Cryobacterium,exactV4_min2refs,42,4.76190476190476,0.00064389209085988,host_family,eleutherodactylidae
+Cryobacterium,exactV4_unique_min2refs,42,4.76190476190476,0.00064389209085988,host_family,eleutherodactylidae
+Ancylobacter,BLAST97,42,21.4285714285714,0.0125489844138685,host_family,eleutherodactylidae
+Ancylobacter,BLASTany,42,21.4285714285714,0.0125489844138685,host_family,eleutherodactylidae
+Ancylobacter,exactV4,42,21.4285714285714,0.0125489844138685,host_family,eleutherodactylidae
+Ancylobacter,exactV4_min2refs,42,21.4285714285714,0.0125489844138685,host_family,eleutherodactylidae
+Ancylobacter,exactV4_unique_min2refs,42,21.4285714285714,0.0125489844138685,host_family,eleutherodactylidae
+Sphingomonas,BLAST97,42,64.2857142857143,0.29939316880747,host_family,eleutherodactylidae
+Sphingomonas,BLASTany,42,71.4285714285714,0.361390366335045,host_family,eleutherodactylidae
+Sphingomonas,exactV4,42,85.7142857142857,0.453551570043299,host_family,eleutherodactylidae
+Sphingomonas,exactV4_min2refs,42,85.7142857142857,0.383224421788919,host_family,eleutherodactylidae
+Sphingomonas,exactV4_unique_min2refs,42,85.7142857142857,0.383224421788919,host_family,eleutherodactylidae
+Kineococcus,BLAST97,42,0,0,host_family,eleutherodactylidae
+Kineococcus,BLASTany,42,0,0,host_family,eleutherodactylidae
+Kineococcus,exactV4,42,0,0,host_family,eleutherodactylidae
+Kineococcus,exactV4_min2refs,42,0,0,host_family,eleutherodactylidae
+Kineococcus,exactV4_unique_min2refs,42,0,0,host_family,eleutherodactylidae
+Rhodococcus (other),BLAST97,42,45.2380952380953,2.60238873558535,host_family,eleutherodactylidae
+Rhodococcus (other),BLASTany,42,47.6190476190476,2.60261066683105,host_family,eleutherodactylidae
+Rhodococcoides,BLAST97,176,0,0,host_family,hylidae
+Rhodococcoides,BLASTany,176,0,0,host_family,hylidae
+Rhodococcoides,exactV4,176,8.52272727272727,0.011970746758513,host_family,hylidae
+Rhodococcoides,exactV4_min2refs,176,8.52272727272727,0.011970746758513,host_family,hylidae
+Rhodococcoides,exactV4_unique_min2refs,176,0,0,host_family,hylidae
+Psychromicrobium,BLAST97,176,0,0,host_family,hylidae
+Psychromicrobium,BLASTany,176,0,0,host_family,hylidae
+Psychromicrobium,exactV4,176,6.81818181818182,0.00496702714285121,host_family,hylidae
+Psychromicrobium,exactV4_min2refs,176,6.81818181818182,0.00496702714285121,host_family,hylidae
+Psychromicrobium,exactV4_unique_min2refs,176,0,0,host_family,hylidae
+Arthrobacter,BLAST97,176,44.8863636363636,0.302580838144282,host_family,hylidae
+Arthrobacter,BLASTany,176,44.8863636363636,0.302898955702717,host_family,hylidae
+Arthrobacter,exactV4,176,51.7045454545455,0.362278812489789,host_family,hylidae
+Arthrobacter,exactV4_min2refs,176,48.2954545454546,0.33750219971751,host_family,hylidae
+Arthrobacter,exactV4_unique_min2refs,176,6.81818181818182,0.008843096108951,host_family,hylidae
+Cryobacterium,BLAST97,176,0,0,host_family,hylidae
+Cryobacterium,BLASTany,176,0,0,host_family,hylidae
+Cryobacterium,exactV4,176,22.1590909090909,0.032394713304004,host_family,hylidae
+Cryobacterium,exactV4_min2refs,176,14.7727272727273,0.0190654668214503,host_family,hylidae
+Cryobacterium,exactV4_unique_min2refs,176,14.7727272727273,0.0190654668214503,host_family,hylidae
+Ancylobacter,BLAST97,176,32.3863636363636,0.0538299981637435,host_family,hylidae
+Ancylobacter,BLASTany,176,34.6590909090909,0.0557339358265118,host_family,hylidae
+Ancylobacter,exactV4,176,31.25,0.0552226343234983,host_family,hylidae
+Ancylobacter,exactV4_min2refs,176,31.25,0.0552226343234983,host_family,hylidae
+Ancylobacter,exactV4_unique_min2refs,176,31.25,0.0552226343234983,host_family,hylidae
+Sphingomonas,BLAST97,176,83.5227272727273,1.14136432713216,host_family,hylidae
+Sphingomonas,BLASTany,176,85.7954545454546,1.22940229566866,host_family,hylidae
+Sphingomonas,exactV4,176,94.3181818181818,1.81052312773601,host_family,hylidae
+Sphingomonas,exactV4_min2refs,176,90.9090909090909,1.33361957076689,host_family,hylidae
+Sphingomonas,exactV4_unique_min2refs,176,90.9090909090909,1.33361957076689,host_family,hylidae
+Kineococcus,BLAST97,176,18.1818181818182,0.0371183574812487,host_family,hylidae
+Kineococcus,BLASTany,176,18.1818181818182,0.0371183574812487,host_family,hylidae
+Kineococcus,exactV4,176,16.4772727272727,0.0334632169122904,host_family,hylidae
+Kineococcus,exactV4_min2refs,176,15.3409090909091,0.0329572299857362,host_family,hylidae
+Kineococcus,exactV4_unique_min2refs,176,15.3409090909091,0.0329572299857362,host_family,hylidae
+Rhodococcus (other),BLAST97,176,47.7272727272727,0.248132710044553,host_family,hylidae
+Rhodococcus (other),BLASTany,176,49.4318181818182,0.2535611938665,host_family,hylidae
+Rhodococcoides,BLAST97,334,0,0,host_family,bufonidae
+Rhodococcoides,BLASTany,334,0,0,host_family,bufonidae
+Rhodococcoides,exactV4,334,17.3652694610778,0.0124271203472767,host_family,bufonidae
+Rhodococcoides,exactV4_min2refs,334,17.3652694610778,0.0124271203472767,host_family,bufonidae
+Rhodococcoides,exactV4_unique_min2refs,334,0,0,host_family,bufonidae
+Psychromicrobium,BLAST97,334,0,0,host_family,bufonidae
+Psychromicrobium,BLASTany,334,0,0,host_family,bufonidae
+Psychromicrobium,exactV4,334,1.19760479041916,0.000832277361437756,host_family,bufonidae
+Psychromicrobium,exactV4_min2refs,334,1.19760479041916,0.000832277361437756,host_family,bufonidae
+Psychromicrobium,exactV4_unique_min2refs,334,0,0,host_family,bufonidae
+Arthrobacter,BLAST97,334,51.497005988024,0.374563746411393,host_family,bufonidae
+Arthrobacter,BLASTany,334,51.497005988024,0.374563746411393,host_family,bufonidae
+Arthrobacter,exactV4,334,55.9880239520958,0.52315102218804,host_family,bufonidae
+Arthrobacter,exactV4_min2refs,334,55.688622754491,0.520106553495714,host_family,bufonidae
+Arthrobacter,exactV4_unique_min2refs,334,8.08383233532934,0.0185464055088146,host_family,bufonidae
+Cryobacterium,BLAST97,334,0.29940119760479,9.51688485711344e-05,host_family,bufonidae
+Cryobacterium,BLASTany,334,0.29940119760479,9.51688485711344e-05,host_family,bufonidae
+Cryobacterium,exactV4,334,35.9281437125749,0.0847626127393882,host_family,bufonidae
+Cryobacterium,exactV4_min2refs,334,25.4491017964072,0.0477372243130187,host_family,bufonidae
+Cryobacterium,exactV4_unique_min2refs,334,25.4491017964072,0.0477372243130187,host_family,bufonidae
+Ancylobacter,BLAST97,334,22.4550898203593,0.0247898355463006,host_family,bufonidae
+Ancylobacter,BLASTany,334,33.2335329341317,0.0627839236411054,host_family,bufonidae
+Ancylobacter,exactV4,334,9.2814371257485,0.00350426332491024,host_family,bufonidae
+Ancylobacter,exactV4_min2refs,334,9.2814371257485,0.00350426332491024,host_family,bufonidae
+Ancylobacter,exactV4_unique_min2refs,334,9.2814371257485,0.00350426332491024,host_family,bufonidae
+Sphingomonas,BLAST97,334,83.8323353293413,1.70420790396234,host_family,bufonidae
+Sphingomonas,BLASTany,334,85.0299401197605,1.76575159456082,host_family,bufonidae
+Sphingomonas,exactV4,334,86.5269461077844,2.78385878381747,host_family,bufonidae
+Sphingomonas,exactV4_min2refs,334,84.1317365269461,1.90146737348388,host_family,bufonidae
+Sphingomonas,exactV4_unique_min2refs,334,84.1317365269461,1.90146737348388,host_family,bufonidae
+Kineococcus,BLAST97,334,7.48502994011976,0.0108435021118675,host_family,bufonidae
+Kineococcus,BLASTany,334,8.08383233532934,0.0109601366852642,host_family,bufonidae
+Kineococcus,exactV4,334,6.88622754491018,0.0115699168654001,host_family,bufonidae
+Kineococcus,exactV4_min2refs,334,6.2874251497006,0.00958878005669972,host_family,bufonidae
+Kineococcus,exactV4_unique_min2refs,334,6.2874251497006,0.00958878005669972,host_family,bufonidae
+Rhodococcus (other),BLAST97,334,24.251497005988,0.111909408306695,host_family,bufonidae
+Rhodococcus (other),BLASTany,334,34.4311377245509,0.117695729988424,host_family,bufonidae
+Rhodococcoides,BLAST97,87,0,0,host_family,microhylidae
+Rhodococcoides,BLASTany,87,0,0,host_family,microhylidae
+Rhodococcoides,exactV4,87,2.29885057471264,0.000697949182962674,host_family,microhylidae
+Rhodococcoides,exactV4_min2refs,87,2.29885057471264,0.000697949182962674,host_family,microhylidae
+Rhodococcoides,exactV4_unique_min2refs,87,0,0,host_family,microhylidae
+Psychromicrobium,BLAST97,87,0,0,host_family,microhylidae
+Psychromicrobium,BLASTany,87,0,0,host_family,microhylidae
+Psychromicrobium,exactV4,87,0,0,host_family,microhylidae
+Psychromicrobium,exactV4_min2refs,87,0,0,host_family,microhylidae
+Psychromicrobium,exactV4_unique_min2refs,87,0,0,host_family,microhylidae
+Arthrobacter,BLAST97,87,34.4827586206897,0.0825290780262584,host_family,microhylidae
+Arthrobacter,BLASTany,87,34.4827586206897,0.0825290780262584,host_family,microhylidae
+Arthrobacter,exactV4,87,62.0689655172414,0.31201038358447,host_family,microhylidae
+Arthrobacter,exactV4_min2refs,87,52.8735632183908,0.243770445091999,host_family,microhylidae
+Arthrobacter,exactV4_unique_min2refs,87,28.7356321839081,0.141898009469903,host_family,microhylidae
+Cryobacterium,BLAST97,87,1.14942528735632,0.000213846565089548,host_family,microhylidae
+Cryobacterium,BLASTany,87,1.14942528735632,0.000213846565089548,host_family,microhylidae
+Cryobacterium,exactV4,87,17.2413793103448,0.0432119622653206,host_family,microhylidae
+Cryobacterium,exactV4_min2refs,87,16.0919540229885,0.0387249173614088,host_family,microhylidae
+Cryobacterium,exactV4_unique_min2refs,87,16.0919540229885,0.0387249173614088,host_family,microhylidae
+Ancylobacter,BLAST97,87,2.29885057471264,0.00426009823720746,host_family,microhylidae
+Ancylobacter,BLASTany,87,10.3448275862069,0.0139324762978849,host_family,microhylidae
+Ancylobacter,exactV4,87,1.14942528735632,0.00182401508115388,host_family,microhylidae
+Ancylobacter,exactV4_min2refs,87,1.14942528735632,0.00182401508115388,host_family,microhylidae
+Ancylobacter,exactV4_unique_min2refs,87,1.14942528735632,0.00182401508115388,host_family,microhylidae
+Sphingomonas,BLAST97,87,82.7586206896552,0.422715549064259,host_family,microhylidae
+Sphingomonas,BLASTany,87,85.0574712643678,0.508898702998886,host_family,microhylidae
+Sphingomonas,exactV4,87,94.2528735632184,0.779319973802512,host_family,microhylidae
+Sphingomonas,exactV4_min2refs,87,94.2528735632184,0.686193351082007,host_family,microhylidae
+Sphingomonas,exactV4_unique_min2refs,87,94.2528735632184,0.686193351082007,host_family,microhylidae
+Kineococcus,BLAST97,87,5.74712643678161,0.0245335166702329,host_family,microhylidae
+Kineococcus,BLASTany,87,6.89655172413793,0.0246252541926685,host_family,microhylidae
+Kineococcus,exactV4,87,6.89655172413793,0.0249873133616881,host_family,microhylidae
+Kineococcus,exactV4_min2refs,87,4.59770114942529,0.0241914936726066,host_family,microhylidae
+Kineococcus,exactV4_unique_min2refs,87,4.59770114942529,0.0241914936726066,host_family,microhylidae
+Rhodococcus (other),BLAST97,87,33.3333333333333,0.161258801146433,host_family,microhylidae
+Rhodococcus (other),BLASTany,87,34.4827586206897,0.163690160823548,host_family,microhylidae
+Rhodococcoides,BLAST97,74,0,0,host_family,craugastoridae
+Rhodococcoides,BLASTany,74,0,0,host_family,craugastoridae
+Rhodococcoides,exactV4,74,9.45945945945946,0.00957872646715682,host_family,craugastoridae
+Rhodococcoides,exactV4_min2refs,74,9.45945945945946,0.00957872646715682,host_family,craugastoridae
+Rhodococcoides,exactV4_unique_min2refs,74,0,0,host_family,craugastoridae
+Psychromicrobium,BLAST97,74,0,0,host_family,craugastoridae
+Psychromicrobium,BLASTany,74,0,0,host_family,craugastoridae
+Psychromicrobium,exactV4,74,2.7027027027027,0.000376525144167712,host_family,craugastoridae
+Psychromicrobium,exactV4_min2refs,74,2.7027027027027,0.000376525144167712,host_family,craugastoridae
+Psychromicrobium,exactV4_unique_min2refs,74,0,0,host_family,craugastoridae
+Arthrobacter,BLAST97,74,17.5675675675676,0.0159623400258148,host_family,craugastoridae
+Arthrobacter,BLASTany,74,17.5675675675676,0.0159623400258148,host_family,craugastoridae
+Arthrobacter,exactV4,74,45.945945945946,0.171194377074104,host_family,craugastoridae
+Arthrobacter,exactV4_min2refs,74,44.5945945945946,0.168367202860222,host_family,craugastoridae
+Arthrobacter,exactV4_unique_min2refs,74,5.40540540540541,0.000577178102822152,host_family,craugastoridae
+Cryobacterium,BLAST97,74,0,0,host_family,craugastoridae
+Cryobacterium,BLASTany,74,0,0,host_family,craugastoridae
+Cryobacterium,exactV4,74,9.45945945945946,0.0068548177044017,host_family,craugastoridae
+Cryobacterium,exactV4_min2refs,74,6.75675675675676,0.00413741501506765,host_family,craugastoridae
+Cryobacterium,exactV4_unique_min2refs,74,6.75675675675676,0.00413741501506765,host_family,craugastoridae
+Ancylobacter,BLAST97,74,12.1621621621622,0.00351734085092998,host_family,craugastoridae
+Ancylobacter,BLASTany,74,31.0810810810811,0.00680523486467881,host_family,craugastoridae
+Ancylobacter,exactV4,74,12.1621621621622,0.00318418707541933,host_family,craugastoridae
+Ancylobacter,exactV4_min2refs,74,12.1621621621622,0.00318418707541933,host_family,craugastoridae
+Ancylobacter,exactV4_unique_min2refs,74,12.1621621621622,0.00318418707541933,host_family,craugastoridae
+Sphingomonas,BLAST97,74,86.4864864864865,0.586264869807002,host_family,craugastoridae
+Sphingomonas,BLASTany,74,91.8918918918919,0.715182530976057,host_family,craugastoridae
+Sphingomonas,exactV4,74,100,0.974671430437854,host_family,craugastoridae
+Sphingomonas,exactV4_min2refs,74,98.6486486486486,0.929032038398211,host_family,craugastoridae
+Sphingomonas,exactV4_unique_min2refs,74,98.6486486486486,0.929032038398211,host_family,craugastoridae
+Kineococcus,BLAST97,74,9.45945945945946,0.00218305219320868,host_family,craugastoridae
+Kineococcus,BLASTany,74,9.45945945945946,0.00218305219320868,host_family,craugastoridae
+Kineococcus,exactV4,74,9.45945945945946,0.00187594247811204,host_family,craugastoridae
+Kineococcus,exactV4_min2refs,74,9.45945945945946,0.00187594247811204,host_family,craugastoridae
+Kineococcus,exactV4_unique_min2refs,74,9.45945945945946,0.00187594247811204,host_family,craugastoridae
+Rhodococcus (other),BLAST97,74,54.0540540540541,0.0628721189227228,host_family,craugastoridae
+Rhodococcus (other),BLASTany,74,55.4054054054054,0.0665872983976469,host_family,craugastoridae
+Rhodococcoides,BLAST97,23,0,0,host_family,dendrobatidae
+Rhodococcoides,BLASTany,23,0,0,host_family,dendrobatidae
+Rhodococcoides,exactV4,23,4.34782608695652,0.000326033976000639,host_family,dendrobatidae
+Rhodococcoides,exactV4_min2refs,23,4.34782608695652,0.000326033976000639,host_family,dendrobatidae
+Rhodococcoides,exactV4_unique_min2refs,23,0,0,host_family,dendrobatidae
+Psychromicrobium,BLAST97,23,0,0,host_family,dendrobatidae
+Psychromicrobium,BLASTany,23,0,0,host_family,dendrobatidae
+Psychromicrobium,exactV4,23,4.34782608695652,0.000540665112705022,host_family,dendrobatidae
+Psychromicrobium,exactV4_min2refs,23,4.34782608695652,0.000540665112705022,host_family,dendrobatidae
+Psychromicrobium,exactV4_unique_min2refs,23,0,0,host_family,dendrobatidae
+Arthrobacter,BLAST97,23,43.4782608695652,0.0803451151268856,host_family,dendrobatidae
+Arthrobacter,BLASTany,23,43.4782608695652,0.0803451151268856,host_family,dendrobatidae
+Arthrobacter,exactV4,23,56.5217391304348,0.149525211613472,host_family,dendrobatidae
+Arthrobacter,exactV4_min2refs,23,56.5217391304348,0.147866979548743,host_family,dendrobatidae
+Arthrobacter,exactV4_unique_min2refs,23,4.34782608695652,0.00105889578347699,host_family,dendrobatidae
+Cryobacterium,BLAST97,23,0,0,host_family,dendrobatidae
+Cryobacterium,BLASTany,23,0,0,host_family,dendrobatidae
+Cryobacterium,exactV4,23,30.4347826086957,0.0231689628464116,host_family,dendrobatidae
+Cryobacterium,exactV4_min2refs,23,17.3913043478261,0.0150557965036644,host_family,dendrobatidae
+Cryobacterium,exactV4_unique_min2refs,23,17.3913043478261,0.0150557965036644,host_family,dendrobatidae
+Ancylobacter,BLAST97,23,17.3913043478261,0.0153421820944064,host_family,dendrobatidae
+Ancylobacter,BLASTany,23,34.7826086956522,0.03749316087166,host_family,dendrobatidae
+Ancylobacter,exactV4,23,13.0434782608696,0.0134458866970945,host_family,dendrobatidae
+Ancylobacter,exactV4_min2refs,23,13.0434782608696,0.0134458866970945,host_family,dendrobatidae
+Ancylobacter,exactV4_unique_min2refs,23,13.0434782608696,0.0134458866970945,host_family,dendrobatidae
+Sphingomonas,BLAST97,23,73.9130434782609,0.939735602297331,host_family,dendrobatidae
+Sphingomonas,BLASTany,23,91.304347826087,1.0784864657525,host_family,dendrobatidae
+Sphingomonas,exactV4,23,95.6521739130435,1.50545354101983,host_family,dendrobatidae
+Sphingomonas,exactV4_min2refs,23,95.6521739130435,1.38721422256203,host_family,dendrobatidae
+Sphingomonas,exactV4_unique_min2refs,23,95.6521739130435,1.38721422256203,host_family,dendrobatidae
+Kineococcus,BLAST97,23,4.34782608695652,0.00017419640296041,host_family,dendrobatidae
+Kineococcus,BLASTany,23,4.34782608695652,0.00017419640296041,host_family,dendrobatidae
+Kineococcus,exactV4,23,8.69565217391304,0.0113747376131117,host_family,dendrobatidae
+Kineococcus,exactV4_min2refs,23,4.34782608695652,0.00017419640296041,host_family,dendrobatidae
+Kineococcus,exactV4_unique_min2refs,23,4.34782608695652,0.00017419640296041,host_family,dendrobatidae
+Rhodococcus (other),BLAST97,23,34.7826086956522,0.0120413861293052,host_family,dendrobatidae
+Rhodococcus (other),BLASTany,23,43.4782608695652,0.0161475332440215,host_family,dendrobatidae
+Rhodococcoides,BLAST97,64,0,0,host_family,ptychadenidae
+Rhodococcoides,BLASTany,64,0,0,host_family,ptychadenidae
+Rhodococcoides,exactV4,64,6.25,0.00474131214041728,host_family,ptychadenidae
+Rhodococcoides,exactV4_min2refs,64,6.25,0.00474131214041728,host_family,ptychadenidae
+Rhodococcoides,exactV4_unique_min2refs,64,0,0,host_family,ptychadenidae
+Psychromicrobium,BLAST97,64,0,0,host_family,ptychadenidae
+Psychromicrobium,BLASTany,64,0,0,host_family,ptychadenidae
+Psychromicrobium,exactV4,64,1.5625,0.000958510551284149,host_family,ptychadenidae
+Psychromicrobium,exactV4_min2refs,64,1.5625,0.000958510551284149,host_family,ptychadenidae
+Psychromicrobium,exactV4_unique_min2refs,64,0,0,host_family,ptychadenidae
+Arthrobacter,BLAST97,64,51.5625,0.15330814946808,host_family,ptychadenidae
+Arthrobacter,BLASTany,64,51.5625,0.153490983542501,host_family,ptychadenidae
+Arthrobacter,exactV4,64,59.375,0.355468722096276,host_family,ptychadenidae
+Arthrobacter,exactV4_min2refs,64,57.8125,0.315768751896656,host_family,ptychadenidae
+Arthrobacter,exactV4_unique_min2refs,64,25,0.112718601502441,host_family,ptychadenidae
+Cryobacterium,BLAST97,64,0,0,host_family,ptychadenidae
+Cryobacterium,BLASTany,64,0,0,host_family,ptychadenidae
+Cryobacterium,exactV4,64,10.9375,0.0139996144583599,host_family,ptychadenidae
+Cryobacterium,exactV4_min2refs,64,6.25,0.00628504742856519,host_family,ptychadenidae
+Cryobacterium,exactV4_unique_min2refs,64,6.25,0.00628504742856519,host_family,ptychadenidae
+Ancylobacter,BLAST97,64,6.25,0.0104846635593874,host_family,ptychadenidae
+Ancylobacter,BLASTany,64,10.9375,0.0156633803438251,host_family,ptychadenidae
+Ancylobacter,exactV4,64,6.25,0.00697538473703553,host_family,ptychadenidae
+Ancylobacter,exactV4_min2refs,64,6.25,0.00697538473703553,host_family,ptychadenidae
+Ancylobacter,exactV4_unique_min2refs,64,6.25,0.00697538473703553,host_family,ptychadenidae
+Sphingomonas,BLAST97,64,89.0625,0.767526570435366,host_family,ptychadenidae
+Sphingomonas,BLASTany,64,89.0625,0.870958615706822,host_family,ptychadenidae
+Sphingomonas,exactV4,64,92.1875,1.17341308809767,host_family,ptychadenidae
+Sphingomonas,exactV4_min2refs,64,90.625,1.089211241521,host_family,ptychadenidae
+Sphingomonas,exactV4_unique_min2refs,64,90.625,1.089211241521,host_family,ptychadenidae
+Kineococcus,BLAST97,64,17.1875,0.0132806414148059,host_family,ptychadenidae
+Kineococcus,BLASTany,64,17.1875,0.0132806414148059,host_family,ptychadenidae
+Kineococcus,exactV4,64,14.0625,0.0123038170855335,host_family,ptychadenidae
+Kineococcus,exactV4_min2refs,64,14.0625,0.00874580122867837,host_family,ptychadenidae
+Kineococcus,exactV4_unique_min2refs,64,14.0625,0.00874580122867837,host_family,ptychadenidae
+Rhodococcus (other),BLAST97,64,23.4375,0.102772708756168,host_family,ptychadenidae
+Rhodococcus (other),BLASTany,64,26.5625,0.111976491428335,host_family,ptychadenidae
+Rhodococcoides,BLAST97,87,0,0,host_family,hyperoliidae
+Rhodococcoides,BLASTany,87,0,0,host_family,hyperoliidae
+Rhodococcoides,exactV4,87,3.44827586206897,0.0016394222113145,host_family,hyperoliidae
+Rhodococcoides,exactV4_min2refs,87,3.44827586206897,0.0016394222113145,host_family,hyperoliidae
+Rhodococcoides,exactV4_unique_min2refs,87,0,0,host_family,hyperoliidae
+Psychromicrobium,BLAST97,87,0,0,host_family,hyperoliidae
+Psychromicrobium,BLASTany,87,0,0,host_family,hyperoliidae
+Psychromicrobium,exactV4,87,0,0,host_family,hyperoliidae
+Psychromicrobium,exactV4_min2refs,87,0,0,host_family,hyperoliidae
+Psychromicrobium,exactV4_unique_min2refs,87,0,0,host_family,hyperoliidae
+Arthrobacter,BLAST97,87,54.0229885057471,0.812729763867306,host_family,hyperoliidae
+Arthrobacter,BLASTany,87,54.0229885057471,0.812729763867306,host_family,hyperoliidae
+Arthrobacter,exactV4,87,63.2183908045977,0.948162188020606,host_family,hyperoliidae
+Arthrobacter,exactV4_min2refs,87,60.9195402298851,0.927473584263348,host_family,hyperoliidae
+Arthrobacter,exactV4_unique_min2refs,87,12.6436781609195,0.0892068878434221,host_family,hyperoliidae
+Cryobacterium,BLAST97,87,0,0,host_family,hyperoliidae
+Cryobacterium,BLASTany,87,0,0,host_family,hyperoliidae
+Cryobacterium,exactV4,87,16.0919540229885,0.0555592666449781,host_family,hyperoliidae
+Cryobacterium,exactV4_min2refs,87,11.4942528735632,0.0457733223975093,host_family,hyperoliidae
+Cryobacterium,exactV4_unique_min2refs,87,11.4942528735632,0.0457733223975093,host_family,hyperoliidae
+Ancylobacter,BLAST97,87,8.04597701149425,0.00972675685867897,host_family,hyperoliidae
+Ancylobacter,BLASTany,87,9.19540229885057,0.0114775546654068,host_family,hyperoliidae
+Ancylobacter,exactV4,87,10.3448275862069,0.0119265019881216,host_family,hyperoliidae
+Ancylobacter,exactV4_min2refs,87,10.3448275862069,0.0119265019881216,host_family,hyperoliidae
+Ancylobacter,exactV4_unique_min2refs,87,10.3448275862069,0.0119265019881216,host_family,hyperoliidae
+Sphingomonas,BLAST97,87,85.0574712643678,0.757220944699571,host_family,hyperoliidae
+Sphingomonas,BLASTany,87,86.2068965517241,0.773581330677263,host_family,hyperoliidae
+Sphingomonas,exactV4,87,96.551724137931,1.35751861877371,host_family,hyperoliidae
+Sphingomonas,exactV4_min2refs,87,96.551724137931,1.28754604434831,host_family,hyperoliidae
+Sphingomonas,exactV4_unique_min2refs,87,96.551724137931,1.28754604434831,host_family,hyperoliidae
+Kineococcus,BLAST97,87,24.1379310344828,0.0751426538845432,host_family,hyperoliidae
+Kineococcus,BLASTany,87,24.1379310344828,0.0751426538845432,host_family,hyperoliidae
+Kineococcus,exactV4,87,24.1379310344828,0.0909395085016432,host_family,hyperoliidae
+Kineococcus,exactV4_min2refs,87,20.6896551724138,0.0742742084958108,host_family,hyperoliidae
+Kineococcus,exactV4_unique_min2refs,87,20.6896551724138,0.0742742084958108,host_family,hyperoliidae
+Rhodococcus (other),BLAST97,87,20.6896551724138,0.0375180397823288,host_family,hyperoliidae
+Rhodococcus (other),BLASTany,87,22.9885057471264,0.0413673513587345,host_family,hyperoliidae
+Rhodococcoides,BLAST97,51,0,0,host_family,salamandridae
+Rhodococcoides,BLASTany,51,0,0,host_family,salamandridae
+Rhodococcoides,exactV4,51,0,0,host_family,salamandridae
+Rhodococcoides,exactV4_min2refs,51,0,0,host_family,salamandridae
+Rhodococcoides,exactV4_unique_min2refs,51,0,0,host_family,salamandridae
+Psychromicrobium,BLAST97,51,0,0,host_family,salamandridae
+Psychromicrobium,BLASTany,51,0,0,host_family,salamandridae
+Psychromicrobium,exactV4,51,0,0,host_family,salamandridae
+Psychromicrobium,exactV4_min2refs,51,0,0,host_family,salamandridae
+Psychromicrobium,exactV4_unique_min2refs,51,0,0,host_family,salamandridae
+Arthrobacter,BLAST97,51,17.6470588235294,0.00545721242422521,host_family,salamandridae
+Arthrobacter,BLASTany,51,17.6470588235294,0.00545721242422521,host_family,salamandridae
+Arthrobacter,exactV4,51,21.5686274509804,0.00566119136721436,host_family,salamandridae
+Arthrobacter,exactV4_min2refs,51,19.6078431372549,0.00497258028559647,host_family,salamandridae
+Arthrobacter,exactV4_unique_min2refs,51,1.96078431372549,0.000189945892555749,host_family,salamandridae
+Cryobacterium,BLAST97,51,0,0,host_family,salamandridae
+Cryobacterium,BLASTany,51,0,0,host_family,salamandridae
+Cryobacterium,exactV4,51,33.3333333333333,0.0711825268550263,host_family,salamandridae
+Cryobacterium,exactV4_min2refs,51,13.7254901960784,0.00339343779273132,host_family,salamandridae
+Cryobacterium,exactV4_unique_min2refs,51,13.7254901960784,0.00339343779273132,host_family,salamandridae
+Ancylobacter,BLAST97,51,35.2941176470588,0.0235399497771395,host_family,salamandridae
+Ancylobacter,BLASTany,51,37.2549019607843,0.0248869564994656,host_family,salamandridae
+Ancylobacter,exactV4,51,1.96078431372549,1.72528316209898e-05,host_family,salamandridae
+Ancylobacter,exactV4_min2refs,51,1.96078431372549,1.72528316209898e-05,host_family,salamandridae
+Ancylobacter,exactV4_unique_min2refs,51,1.96078431372549,1.72528316209898e-05,host_family,salamandridae
+Sphingomonas,BLAST97,51,49.0196078431373,0.0303797289412201,host_family,salamandridae
+Sphingomonas,BLASTany,51,54.9019607843137,0.0358963198164473,host_family,salamandridae
+Sphingomonas,exactV4,51,92.156862745098,0.573212001026505,host_family,salamandridae
+Sphingomonas,exactV4_min2refs,51,80.3921568627451,0.545998825381284,host_family,salamandridae
+Sphingomonas,exactV4_unique_min2refs,51,80.3921568627451,0.545998825381284,host_family,salamandridae
+Kineococcus,BLAST97,51,3.92156862745098,0.00132455566885615,host_family,salamandridae
+Kineococcus,BLASTany,51,3.92156862745098,0.00132455566885615,host_family,salamandridae
+Kineococcus,exactV4,51,3.92156862745098,0.00132455566885615,host_family,salamandridae
+Kineococcus,exactV4_min2refs,51,3.92156862745098,0.00132455566885615,host_family,salamandridae
+Kineococcus,exactV4_unique_min2refs,51,3.92156862745098,0.00132455566885615,host_family,salamandridae
+Rhodococcus (other),BLAST97,51,37.2549019607843,0.228603483407032,host_family,salamandridae
+Rhodococcus (other),BLASTany,51,37.2549019607843,0.228603483407032,host_family,salamandridae
+Rhodococcoides,BLAST97,114,0,0,host_family,alytidae
+Rhodococcoides,BLASTany,114,0,0,host_family,alytidae
+Rhodococcoides,exactV4,114,1.75438596491228,0.000705150335323623,host_family,alytidae
+Rhodococcoides,exactV4_min2refs,114,1.75438596491228,0.000705150335323623,host_family,alytidae
+Rhodococcoides,exactV4_unique_min2refs,114,0,0,host_family,alytidae
+Psychromicrobium,BLAST97,114,0,0,host_family,alytidae
+Psychromicrobium,BLASTany,114,0,0,host_family,alytidae
+Psychromicrobium,exactV4,114,0,0,host_family,alytidae
+Psychromicrobium,exactV4_min2refs,114,0,0,host_family,alytidae
+Psychromicrobium,exactV4_unique_min2refs,114,0,0,host_family,alytidae
+Arthrobacter,BLAST97,114,62.280701754386,2.38786763807691,host_family,alytidae
+Arthrobacter,BLASTany,114,62.280701754386,2.38786763807691,host_family,alytidae
+Arthrobacter,exactV4,114,100,3.54056986353627,host_family,alytidae
+Arthrobacter,exactV4_min2refs,114,100,3.54056986353627,host_family,alytidae
+Arthrobacter,exactV4_unique_min2refs,114,78.9473684210526,0.25296386481206,host_family,alytidae
+Cryobacterium,BLAST97,114,0,0,host_family,alytidae
+Cryobacterium,BLASTany,114,7.89473684210526,0.0018667539801027,host_family,alytidae
+Cryobacterium,exactV4,114,9.64912280701754,0.0264796257046839,host_family,alytidae
+Cryobacterium,exactV4_min2refs,114,1.75438596491228,0.0239827101980145,host_family,alytidae
+Cryobacterium,exactV4_unique_min2refs,114,1.75438596491228,0.0239827101980145,host_family,alytidae
+Ancylobacter,BLAST97,114,7.01754385964912,0.00275223556189751,host_family,alytidae
+Ancylobacter,BLASTany,114,28.9473684210526,0.0106406817411989,host_family,alytidae
+Ancylobacter,exactV4,114,2.63157894736842,0.00084213484231849,host_family,alytidae
+Ancylobacter,exactV4_min2refs,114,2.63157894736842,0.00084213484231849,host_family,alytidae
+Ancylobacter,exactV4_unique_min2refs,114,2.63157894736842,0.00084213484231849,host_family,alytidae
+Sphingomonas,BLAST97,114,75.4385964912281,1.01138104965416,host_family,alytidae
+Sphingomonas,BLASTany,114,79.8245614035088,1.03859071867571,host_family,alytidae
+Sphingomonas,exactV4,114,90.3508771929825,1.02836503996964,host_family,alytidae
+Sphingomonas,exactV4_min2refs,114,88.5964912280702,1.00923005719534,host_family,alytidae
+Sphingomonas,exactV4_unique_min2refs,114,88.5964912280702,1.00923005719534,host_family,alytidae
+Kineococcus,BLAST97,114,7.01754385964912,0.0137944786071469,host_family,alytidae
+Kineococcus,BLASTany,114,7.01754385964912,0.0137944786071469,host_family,alytidae
+Kineococcus,exactV4,114,5.26315789473684,0.0115850134440971,host_family,alytidae
+Kineococcus,exactV4_min2refs,114,5.26315789473684,0.0115850134440971,host_family,alytidae
+Kineococcus,exactV4_unique_min2refs,114,5.26315789473684,0.0115850134440971,host_family,alytidae
+Rhodococcus (other),BLAST97,114,58.7719298245614,0.104372857483171,host_family,alytidae
+Rhodococcus (other),BLASTany,114,60.5263157894737,0.115366705317736,host_family,alytidae
+Rhodococcoides,BLAST97,1793,0,0,lifestage,adult
+Rhodococcoides,BLASTany,1793,0,0,lifestage,adult
+Rhodococcoides,exactV4,1793,5.07529280535416,0.00414881419381302,lifestage,adult
+Rhodococcoides,exactV4_min2refs,1793,5.07529280535416,0.00414881419381302,lifestage,adult
+Rhodococcoides,exactV4_unique_min2refs,1793,0,0,lifestage,adult
+Psychromicrobium,BLAST97,1793,0,0,lifestage,adult
+Psychromicrobium,BLASTany,1793,0,0,lifestage,adult
+Psychromicrobium,exactV4,1793,1.22699386503067,0.000857253369005801,lifestage,adult
+Psychromicrobium,exactV4_min2refs,1793,1.22699386503067,0.000857253369005801,lifestage,adult
+Psychromicrobium,exactV4_unique_min2refs,1793,0,0,lifestage,adult
+Arthrobacter,BLAST97,1793,37.4790853318461,0.220402357466766,lifestage,adult
+Arthrobacter,BLASTany,1793,37.702175125488,0.220672043008271,lifestage,adult
+Arthrobacter,exactV4,1793,53.8761851645287,0.36604432990794,lifestage,adult
+Arthrobacter,exactV4_min2refs,1793,48.8008923591746,0.331697330428297,lifestage,adult
+Arthrobacter,exactV4_unique_min2refs,1793,13.218070273285,0.0651298401388858,lifestage,adult
+Cryobacterium,BLAST97,1793,0.11154489682097,1.95237925831639e-05,lifestage,adult
+Cryobacterium,BLASTany,1793,0.557724484104852,0.000125234426445592,lifestage,adult
+Cryobacterium,exactV4,1793,21.4723926380368,0.0260523017049241,lifestage,adult
+Cryobacterium,exactV4_min2refs,1793,16.1182375906302,0.0188619635443503,lifestage,adult
+Cryobacterium,exactV4_unique_min2refs,1793,16.1182375906302,0.0188619635443503,lifestage,adult
+Ancylobacter,BLAST97,1793,14.6681539319576,0.022960741777272,lifestage,adult
+Ancylobacter,BLASTany,1793,19.7434467373118,0.026060073997937,lifestage,adult
+Ancylobacter,exactV4,1793,9.8159509202454,0.0101124097921967,lifestage,adult
+Ancylobacter,exactV4_min2refs,1793,9.8159509202454,0.0101124097921967,lifestage,adult
+Ancylobacter,exactV4_unique_min2refs,1793,9.8159509202454,0.0101124097921967,lifestage,adult
+Sphingomonas,BLAST97,1793,85.05298382599,0.84051842865356,lifestage,adult
+Sphingomonas,BLASTany,1793,87.7300613496933,0.943796699689844,lifestage,adult
+Sphingomonas,exactV4,1793,93.9765755716676,1.46303392316621,lifestage,adult
+Sphingomonas,exactV4_min2refs,1793,92.4707194645845,1.15401146736041,lifestage,adult
+Sphingomonas,exactV4_unique_min2refs,1793,92.4707194645845,1.15401146736041,lifestage,adult
+Kineococcus,BLAST97,1793,15.2258784160625,0.0221307470304033,lifestage,adult
+Kineococcus,BLASTany,1793,15.3931957612939,0.0221595970610222,lifestage,adult
+Kineococcus,exactV4,1793,13.3853876185165,0.0218407486465787,lifestage,adult
+Kineococcus,exactV4_min2refs,1793,12.3814835471277,0.0196361789768154,lifestage,adult
+Kineococcus,exactV4_unique_min2refs,1793,12.3814835471277,0.0196361789768154,lifestage,adult
+Rhodococcus (other),BLAST97,1793,31.6229782487451,0.299255500067334,lifestage,adult
+Rhodococcus (other),BLASTany,1793,35.1366424986057,0.302563697947318,lifestage,adult
+Rhodococcoides,BLAST97,401,0,0,lifestage,larvae
+Rhodococcoides,BLASTany,401,0,0,lifestage,larvae
+Rhodococcoides,exactV4,401,4.23940149625935,0.00149583220122702,lifestage,larvae
+Rhodococcoides,exactV4_min2refs,401,4.23940149625935,0.00149583220122702,lifestage,larvae
+Rhodococcoides,exactV4_unique_min2refs,401,0,0,lifestage,larvae
+Psychromicrobium,BLAST97,401,0,0,lifestage,larvae
+Psychromicrobium,BLASTany,401,0,0,lifestage,larvae
+Psychromicrobium,exactV4,401,0.249376558603491,0.000135457120371261,lifestage,larvae
+Psychromicrobium,exactV4_min2refs,401,0.249376558603491,0.000135457120371261,lifestage,larvae
+Psychromicrobium,exactV4_unique_min2refs,401,0,0,lifestage,larvae
+Arthrobacter,BLAST97,401,53.3665835411471,0.264353215840091,lifestage,larvae
+Arthrobacter,BLASTany,401,53.3665835411471,0.264353215840091,lifestage,larvae
+Arthrobacter,exactV4,401,59.8503740648379,0.384588429290508,lifestage,larvae
+Arthrobacter,exactV4_min2refs,401,57.6059850374065,0.381296478279283,lifestage,larvae
+Arthrobacter,exactV4_unique_min2refs,401,17.4563591022444,0.106124078537509,lifestage,larvae
+Cryobacterium,BLAST97,401,0.249376558603491,7.92678190093742e-05,lifestage,larvae
+Cryobacterium,BLASTany,401,0.249376558603491,7.92678190093742e-05,lifestage,larvae
+Cryobacterium,exactV4,401,39.1521197007481,0.06753437855115,lifestage,larvae
+Cryobacterium,exactV4_min2refs,401,25.9351620947631,0.0291724534601669,lifestage,larvae
+Cryobacterium,exactV4_unique_min2refs,401,25.9351620947631,0.0291724534601669,lifestage,larvae
+Ancylobacter,BLAST97,401,10.4738154613466,0.0187335438637963,lifestage,larvae
+Ancylobacter,BLASTany,401,18.2044887780549,0.0500328498810959,lifestage,larvae
+Ancylobacter,exactV4,401,3.24189526184539,0.00156173340603944,lifestage,larvae
+Ancylobacter,exactV4_min2refs,401,3.24189526184539,0.00156173340603944,lifestage,larvae
+Ancylobacter,exactV4_unique_min2refs,401,3.24189526184539,0.00156173340603944,lifestage,larvae
+Sphingomonas,BLAST97,401,62.0947630922693,0.258571313936126,lifestage,larvae
+Sphingomonas,BLASTany,401,67.3316708229427,0.2807618164268,lifestage,larvae
+Sphingomonas,exactV4,401,73.5660847880299,0.589802547727991,lifestage,larvae
+Sphingomonas,exactV4_min2refs,401,67.8304239401496,0.399771339941541,lifestage,larvae
+Sphingomonas,exactV4_unique_min2refs,401,67.8304239401496,0.399771339941541,lifestage,larvae
+Kineococcus,BLAST97,401,14.4638403990025,0.00520150000311387,lifestage,larvae
+Kineococcus,BLASTany,401,15.211970074813,0.00536302768833148,lifestage,larvae
+Kineococcus,exactV4,401,5.23690773067332,0.00274324550571549,lifestage,larvae
+Kineococcus,exactV4_min2refs,401,5.23690773067332,0.00274324550571549,lifestage,larvae
+Kineococcus,exactV4_unique_min2refs,401,5.23690773067332,0.00274324550571549,lifestage,larvae
+Rhodococcus (other),BLAST97,401,34.4139650872818,0.254625126484371,lifestage,larvae
+Rhodococcus (other),BLASTany,401,36.9077306733167,0.256590117603483,lifestage,larvae
+Rhodococcoides,BLAST97,217,0,0,lifestage,juvenile_pupae
+Rhodococcoides,BLASTany,217,0,0,lifestage,juvenile_pupae
+Rhodococcoides,exactV4,217,17.0506912442396,0.0165357899758508,lifestage,juvenile_pupae
+Rhodococcoides,exactV4_min2refs,217,17.0506912442396,0.0165357899758508,lifestage,juvenile_pupae
+Rhodococcoides,exactV4_unique_min2refs,217,0,0,lifestage,juvenile_pupae
+Psychromicrobium,BLAST97,217,0,0,lifestage,juvenile_pupae
+Psychromicrobium,BLASTany,217,0,0,lifestage,juvenile_pupae
+Psychromicrobium,exactV4,217,0,0,lifestage,juvenile_pupae
+Psychromicrobium,exactV4_min2refs,217,0,0,lifestage,juvenile_pupae
+Psychromicrobium,exactV4_unique_min2refs,217,0,0,lifestage,juvenile_pupae
+Arthrobacter,BLAST97,217,54.8387096774194,1.30364797100967,lifestage,juvenile_pupae
+Arthrobacter,BLASTany,217,54.8387096774194,1.30364797100967,lifestage,juvenile_pupae
+Arthrobacter,exactV4,217,80.6451612903226,1.98766730548629,lifestage,juvenile_pupae
+Arthrobacter,exactV4_min2refs,217,79.2626728110599,1.98537200246795,lifestage,juvenile_pupae
+Arthrobacter,exactV4_unique_min2refs,217,43.778801843318,0.135764913132075,lifestage,juvenile_pupae
+Cryobacterium,BLAST97,217,0,0,lifestage,juvenile_pupae
+Cryobacterium,BLASTany,217,4.14746543778802,0.0009806910310217,lifestage,juvenile_pupae
+Cryobacterium,exactV4,217,15.2073732718894,0.033109699130178,lifestage,juvenile_pupae
+Cryobacterium,exactV4_min2refs,217,6.91244239631337,0.0229716781826332,lifestage,juvenile_pupae
+Cryobacterium,exactV4_unique_min2refs,217,6.91244239631337,0.0229716781826332,lifestage,juvenile_pupae
+Ancylobacter,BLAST97,217,11.0599078341014,0.0139403210173656,lifestage,juvenile_pupae
+Ancylobacter,BLASTany,217,25.8064516129032,0.0186689642297104,lifestage,juvenile_pupae
+Ancylobacter,exactV4,217,4.14746543778802,0.00137644347599939,lifestage,juvenile_pupae
+Ancylobacter,exactV4_min2refs,217,4.14746543778802,0.00137644347599939,lifestage,juvenile_pupae
+Ancylobacter,exactV4_unique_min2refs,217,4.14746543778802,0.00137644347599939,lifestage,juvenile_pupae
+Sphingomonas,BLAST97,217,81.5668202764977,1.25637109714013,lifestage,juvenile_pupae
+Sphingomonas,BLASTany,217,83.8709677419355,1.28788978453702,lifestage,juvenile_pupae
+Sphingomonas,exactV4,217,93.0875576036866,1.591118670467,lifestage,juvenile_pupae
+Sphingomonas,exactV4_min2refs,217,89.8617511520737,1.3056465231808,lifestage,juvenile_pupae
+Sphingomonas,exactV4_unique_min2refs,217,89.8617511520737,1.3056465231808,lifestage,juvenile_pupae
+Kineococcus,BLAST97,217,7.83410138248848,0.0176782865075227,lifestage,juvenile_pupae
+Kineococcus,BLASTany,217,7.83410138248848,0.0176782865075227,lifestage,juvenile_pupae
+Kineococcus,exactV4,217,5.06912442396313,0.013410353855522,lifestage,juvenile_pupae
+Kineococcus,exactV4_min2refs,217,5.06912442396313,0.013410353855522,lifestage,juvenile_pupae
+Kineococcus,exactV4_unique_min2refs,217,5.06912442396313,0.013410353855522,lifestage,juvenile_pupae
+Rhodococcus (other),BLAST97,217,35.0230414746544,0.0578476936414254,lifestage,juvenile_pupae
+Rhodococcus (other),BLASTany,217,40.5529953917051,0.0648265559736246,lifestage,juvenile_pupae
+Rhodococcoides,BLAST97,364,0,0,biogeo_realm,nearctic
+Rhodococcoides,BLASTany,364,0,0,biogeo_realm,nearctic
+Rhodococcoides,exactV4,364,9.34065934065934,0.00752791126021255,biogeo_realm,nearctic
+Rhodococcoides,exactV4_min2refs,364,9.34065934065934,0.00752791126021255,biogeo_realm,nearctic
+Rhodococcoides,exactV4_unique_min2refs,364,0,0,biogeo_realm,nearctic
+Psychromicrobium,BLAST97,364,0,0,biogeo_realm,nearctic
+Psychromicrobium,BLASTany,364,0,0,biogeo_realm,nearctic
+Psychromicrobium,exactV4,364,1.92307692307692,0.000911655997720906,biogeo_realm,nearctic
+Psychromicrobium,exactV4_min2refs,364,1.92307692307692,0.000911655997720906,biogeo_realm,nearctic
+Psychromicrobium,exactV4_unique_min2refs,364,0,0,biogeo_realm,nearctic
+Arthrobacter,BLAST97,364,44.2307692307692,0.279438657524506,biogeo_realm,nearctic
+Arthrobacter,BLASTany,364,44.2307692307692,0.279438657524506,biogeo_realm,nearctic
+Arthrobacter,exactV4,364,47.2527472527473,0.360440468170966,biogeo_realm,nearctic
+Arthrobacter,exactV4_min2refs,364,46.1538461538462,0.358142863820426,biogeo_realm,nearctic
+Arthrobacter,exactV4_unique_min2refs,364,7.69230769230769,0.018169700189414,biogeo_realm,nearctic
+Cryobacterium,BLAST97,364,0.54945054945055,0.000132384352641708,biogeo_realm,nearctic
+Cryobacterium,BLASTany,364,0.824175824175824,0.000250571177647203,biogeo_realm,nearctic
+Cryobacterium,exactV4,364,40.9340659340659,0.0951349486083006,biogeo_realm,nearctic
+Cryobacterium,exactV4_min2refs,364,29.9450549450549,0.0516906589236161,biogeo_realm,nearctic
+Cryobacterium,exactV4_unique_min2refs,364,29.9450549450549,0.0516906589236161,biogeo_realm,nearctic
+Ancylobacter,BLAST97,364,34.3406593406593,0.0687687298671423,biogeo_realm,nearctic
+Ancylobacter,BLASTany,364,41.4835164835165,0.103424905636588,biogeo_realm,nearctic
+Ancylobacter,exactV4,364,14.010989010989,0.00762192709606599,biogeo_realm,nearctic
+Ancylobacter,exactV4_min2refs,364,14.010989010989,0.00762192709606599,biogeo_realm,nearctic
+Ancylobacter,exactV4_unique_min2refs,364,14.010989010989,0.00762192709606599,biogeo_realm,nearctic
+Sphingomonas,BLAST97,364,79.3956043956044,1.61632786128361,biogeo_realm,nearctic
+Sphingomonas,BLASTany,364,82.1428571428571,1.68619819129635,biogeo_realm,nearctic
+Sphingomonas,exactV4,364,85.989010989011,2.66159568642943,biogeo_realm,nearctic
+Sphingomonas,exactV4_min2refs,364,83.2417582417583,1.84920729569182,biogeo_realm,nearctic
+Sphingomonas,exactV4_unique_min2refs,364,83.2417582417583,1.84920729569182,biogeo_realm,nearctic
+Kineococcus,BLAST97,364,11.2637362637363,0.0265640962778847,biogeo_realm,nearctic
+Kineococcus,BLASTany,364,11.8131868131868,0.0266711181117156,biogeo_realm,nearctic
+Kineococcus,exactV4,364,9.61538461538462,0.0266517196029294,biogeo_realm,nearctic
+Kineococcus,exactV4_min2refs,364,8.51648351648352,0.0242053232729684,biogeo_realm,nearctic
+Kineococcus,exactV4_unique_min2refs,364,8.51648351648352,0.0242053232729684,biogeo_realm,nearctic
+Rhodococcus (other),BLAST97,364,35.7142857142857,0.825741819348116,biogeo_realm,nearctic
+Rhodococcus (other),BLASTany,364,43.1318681318681,0.831210318870288,biogeo_realm,nearctic
+Rhodococcoides,BLAST97,464,0,0,biogeo_realm,palearctic
+Rhodococcoides,BLASTany,464,0,0,biogeo_realm,palearctic
+Rhodococcoides,exactV4,464,13.1465517241379,0.0103934350522695,biogeo_realm,palearctic
+Rhodococcoides,exactV4_min2refs,464,13.1465517241379,0.0103934350522695,biogeo_realm,palearctic
+Rhodococcoides,exactV4_unique_min2refs,464,0,0,biogeo_realm,palearctic
+Psychromicrobium,BLAST97,464,0,0,biogeo_realm,palearctic
+Psychromicrobium,BLASTany,464,0,0,biogeo_realm,palearctic
+Psychromicrobium,exactV4,464,0,0,biogeo_realm,palearctic
+Psychromicrobium,exactV4_min2refs,464,0,0,biogeo_realm,palearctic
+Psychromicrobium,exactV4_unique_min2refs,464,0,0,biogeo_realm,palearctic
+Arthrobacter,BLAST97,464,56.6810344827586,0.746811235805504,biogeo_realm,palearctic
+Arthrobacter,BLASTany,464,56.8965517241379,0.747521495501133,biogeo_realm,palearctic
+Arthrobacter,exactV4,464,70.4741379310345,1.07819653633992,biogeo_realm,palearctic
+Arthrobacter,exactV4_min2refs,464,68.9655172413793,1.07555466687018,biogeo_realm,palearctic
+Arthrobacter,exactV4_unique_min2refs,464,23.7068965517241,0.0642009318582946,biogeo_realm,palearctic
+Cryobacterium,BLAST97,464,0,0,biogeo_realm,palearctic
+Cryobacterium,BLASTany,464,3.44827586206897,0.000774416198157402,biogeo_realm,palearctic
+Cryobacterium,exactV4,464,32.1120689655172,0.0417132869539199,biogeo_realm,palearctic
+Cryobacterium,exactV4_min2refs,464,20.4741379310345,0.0255503159828695,biogeo_realm,palearctic
+Cryobacterium,exactV4_unique_min2refs,464,20.4741379310345,0.0255503159828695,biogeo_realm,palearctic
+Ancylobacter,BLAST97,464,11.8534482758621,0.010952005754065,biogeo_realm,palearctic
+Ancylobacter,BLASTany,464,22.8448275862069,0.0145102805673324,biogeo_realm,palearctic
+Ancylobacter,exactV4,464,3.87931034482759,0.000846152623738435,biogeo_realm,palearctic
+Ancylobacter,exactV4_min2refs,464,3.87931034482759,0.000846152623738435,biogeo_realm,palearctic
+Ancylobacter,exactV4_unique_min2refs,464,3.87931034482759,0.000846152623738435,biogeo_realm,palearctic
+Sphingomonas,BLAST97,464,81.6810344827586,0.968326254214987,biogeo_realm,palearctic
+Sphingomonas,BLASTany,464,84.698275862069,1.01403502506949,biogeo_realm,palearctic
+Sphingomonas,exactV4,464,93.1034482758621,1.52862604008739,biogeo_realm,palearctic
+Sphingomonas,exactV4_min2refs,464,88.5775862068966,1.06924435158093,biogeo_realm,palearctic
+Sphingomonas,exactV4_unique_min2refs,464,88.5775862068966,1.06924435158093,biogeo_realm,palearctic
+Kineococcus,BLAST97,464,10.3448275862069,0.0131629965262589,biogeo_realm,palearctic
+Kineococcus,BLASTany,464,10.9913793103448,0.0133129180665726,biogeo_realm,palearctic
+Kineococcus,exactV4,464,7.32758620689655,0.0101407146669258,biogeo_realm,palearctic
+Kineococcus,exactV4_min2refs,464,6.89655172413793,0.00934314501994775,biogeo_realm,palearctic
+Kineococcus,exactV4_unique_min2refs,464,6.89655172413793,0.00934314501994775,biogeo_realm,palearctic
+Rhodococcus (other),BLAST97,464,30.1724137931035,0.0379747545992248,biogeo_realm,palearctic
+Rhodococcus (other),BLASTany,464,37.5,0.0433863474158598,biogeo_realm,palearctic
+Rhodococcoides,BLAST97,1291,0,0,biogeo_realm,afrotropic
+Rhodococcoides,BLASTany,1291,0,0,biogeo_realm,afrotropic
+Rhodococcoides,exactV4,1291,2.71107668474051,0.00225939685807402,biogeo_realm,afrotropic
+Rhodococcoides,exactV4_min2refs,1291,2.71107668474051,0.00225939685807402,biogeo_realm,afrotropic
+Rhodococcoides,exactV4_unique_min2refs,1291,0,0,biogeo_realm,afrotropic
+Psychromicrobium,BLAST97,1291,0,0,biogeo_realm,afrotropic
+Psychromicrobium,BLASTany,1291,0,0,biogeo_realm,afrotropic
+Psychromicrobium,exactV4,1291,0.309837335398916,0.000308983750405596,biogeo_realm,afrotropic
+Psychromicrobium,exactV4_min2refs,1291,0.309837335398916,0.000308983750405596,biogeo_realm,afrotropic
+Psychromicrobium,exactV4_unique_min2refs,1291,0,0,biogeo_realm,afrotropic
+Arthrobacter,BLAST97,1291,37.8001549186677,0.207710048337113,biogeo_realm,afrotropic
+Arthrobacter,BLASTany,1291,37.8776142525174,0.207743318190531,biogeo_realm,afrotropic
+Arthrobacter,exactV4,1291,57.3973663826491,0.398162835831232,biogeo_realm,afrotropic
+Arthrobacter,exactV4_min2refs,1291,50.7358636715724,0.354667941222689,biogeo_realm,afrotropic
+Arthrobacter,exactV4_unique_min2refs,1291,18.9775367931836,0.117170033080605,biogeo_realm,afrotropic
+Cryobacterium,BLAST97,1291,0.0774593338497289,1.44110388557636e-05,biogeo_realm,afrotropic
+Cryobacterium,BLASTany,1291,0.0774593338497289,1.44110388557636e-05,biogeo_realm,afrotropic
+Cryobacterium,exactV4,1291,18.5902401239349,0.0189709642901071,biogeo_realm,afrotropic
+Cryobacterium,exactV4_min2refs,1291,14.1750580945004,0.0143107000438745,biogeo_realm,afrotropic
+Cryobacterium,exactV4_unique_min2refs,1291,14.1750580945004,0.0143107000438745,biogeo_realm,afrotropic
+Ancylobacter,BLAST97,1291,6.35166537567777,0.0103940226203137,biogeo_realm,afrotropic
+Ancylobacter,BLASTany,1291,10.1471727343145,0.0133080772128889,biogeo_realm,afrotropic
+Ancylobacter,exactV4,1291,4.18280402788536,0.00406255595432049,biogeo_realm,afrotropic
+Ancylobacter,exactV4_min2refs,1291,4.18280402788536,0.00406255595432049,biogeo_realm,afrotropic
+Ancylobacter,exactV4_unique_min2refs,1291,4.18280402788536,0.00406255595432049,biogeo_realm,afrotropic
+Sphingomonas,BLAST97,1291,81.3323005422153,0.529171151751781,biogeo_realm,afrotropic
+Sphingomonas,BLASTany,1291,83.9659178931061,0.627510329254707,biogeo_realm,afrotropic
+Sphingomonas,exactV4,1291,89.9302865995353,0.992463344336569,biogeo_realm,afrotropic
+Sphingomonas,exactV4_min2refs,1291,88.4585592563904,0.862982692306529,biogeo_realm,afrotropic
+Sphingomonas,exactV4_unique_min2refs,1291,88.4585592563904,0.862982692306529,biogeo_realm,afrotropic
+Kineococcus,BLAST97,1291,17.5832687838885,0.0199303261385766,biogeo_realm,afrotropic
+Kineococcus,BLASTany,1291,17.6607281177382,0.0199365082953944,biogeo_realm,afrotropic
+Kineococcus,exactV4,1291,13.3230054221534,0.0187779468030944,biogeo_realm,afrotropic
+Kineococcus,exactV4_min2refs,1291,12.5484120836561,0.017107600372013,biogeo_realm,afrotropic
+Kineococcus,exactV4_unique_min2refs,1291,12.5484120836561,0.017107600372013,biogeo_realm,afrotropic
+Rhodococcus (other),BLAST97,1291,28.1951975213013,0.144934351241513,biogeo_realm,afrotropic
+Rhodococcus (other),BLASTany,1291,29.3570875290473,0.146764227095908,biogeo_realm,afrotropic
+Rhodococcoides,BLAST97,292,0,0,biogeo_realm,neotropic
+Rhodococcoides,BLASTany,292,0,0,biogeo_realm,neotropic
+Rhodococcoides,exactV4,292,5.13698630136986,0.00392919205552892,biogeo_realm,neotropic
+Rhodococcoides,exactV4_min2refs,292,5.13698630136986,0.00392919205552892,biogeo_realm,neotropic
+Rhodococcoides,exactV4_unique_min2refs,292,0,0,biogeo_realm,neotropic
+Psychromicrobium,BLAST97,292,0,0,biogeo_realm,neotropic
+Psychromicrobium,BLASTany,292,0,0,biogeo_realm,neotropic
+Psychromicrobium,exactV4,292,4.10958904109589,0.00294737257175425,biogeo_realm,neotropic
+Psychromicrobium,exactV4_min2refs,292,4.10958904109589,0.00294737257175425,biogeo_realm,neotropic
+Psychromicrobium,exactV4_unique_min2refs,292,0,0,biogeo_realm,neotropic
+Arthrobacter,BLAST97,292,31.8493150684932,0.23181136658562,biogeo_realm,neotropic
+Arthrobacter,BLASTany,292,32.5342465753425,0.232191621025282,biogeo_realm,neotropic
+Arthrobacter,exactV4,292,48.2876712328767,0.329964056941367,biogeo_realm,neotropic
+Arthrobacter,exactV4_min2refs,292,46.2328767123288,0.312196047282831,biogeo_realm,neotropic
+Arthrobacter,exactV4_unique_min2refs,292,6.50684931506849,0.00385283922591793,biogeo_realm,neotropic
+Cryobacterium,BLAST97,292,0,0,biogeo_realm,neotropic
+Cryobacterium,BLASTany,292,0,0,biogeo_realm,neotropic
+Cryobacterium,exactV4,292,12.6712328767123,0.00856940455006919,biogeo_realm,neotropic
+Cryobacterium,exactV4_min2refs,292,7.19178082191781,0.00464605622359176,biogeo_realm,neotropic
+Cryobacterium,exactV4_unique_min2refs,292,7.19178082191781,0.00464605622359176,biogeo_realm,neotropic
+Ancylobacter,BLAST97,292,22.9452054794521,0.0279917096316728,biogeo_realm,neotropic
+Ancylobacter,BLASTany,292,32.5342465753425,0.03178043562215,biogeo_realm,neotropic
+Ancylobacter,exactV4,292,25.6849315068493,0.0364545824318911,biogeo_realm,neotropic
+Ancylobacter,exactV4_min2refs,292,25.6849315068493,0.0364545824318911,biogeo_realm,neotropic
+Ancylobacter,exactV4_unique_min2refs,292,25.6849315068493,0.0364545824318911,biogeo_realm,neotropic
+Sphingomonas,BLAST97,292,79.7945205479452,0.55672084646948,biogeo_realm,neotropic
+Sphingomonas,BLASTany,292,85.2739726027397,0.650276800834343,biogeo_realm,neotropic
+Sphingomonas,exactV4,292,94.5205479452055,0.841198312903782,biogeo_realm,neotropic
+Sphingomonas,exactV4_min2refs,292,92.1232876712329,0.785700935927776,biogeo_realm,neotropic
+Sphingomonas,exactV4_unique_min2refs,292,92.1232876712329,0.785700935927776,biogeo_realm,neotropic
+Kineococcus,BLAST97,292,10.958904109589,0.0140253651392389,biogeo_realm,neotropic
+Kineococcus,BLASTany,292,10.958904109589,0.0140253651392389,biogeo_realm,neotropic
+Kineococcus,exactV4,292,10.6164383561644,0.0154852866234276,biogeo_realm,neotropic
+Kineococcus,exactV4_min2refs,292,9.93150684931507,0.0136503017088542,biogeo_realm,neotropic
+Kineococcus,exactV4_unique_min2refs,292,9.93150684931507,0.0136503017088542,biogeo_realm,neotropic
+Rhodococcus (other),BLAST97,292,50.3424657534247,0.499733496683555,biogeo_realm,neotropic
+Rhodococcus (other),BLASTany,292,53.4246575342466,0.504425588268015,biogeo_realm,neotropic
+Rhodococcoides,BLAST97,639,0,0,country,usa
+Rhodococcoides,BLASTany,639,0,0,country,usa
+Rhodococcoides,exactV4,639,12.0500782472613,0.010436429411264,country,usa
+Rhodococcoides,exactV4_min2refs,639,12.0500782472613,0.010436429411264,country,usa
+Rhodococcoides,exactV4_unique_min2refs,639,0,0,country,usa
+Psychromicrobium,BLAST97,639,0,0,country,usa
+Psychromicrobium,BLASTany,639,0,0,country,usa
+Psychromicrobium,exactV4,639,1.09546165884194,0.000519315779609406,country,usa
+Psychromicrobium,exactV4_min2refs,639,1.09546165884194,0.000519315779609406,country,usa
+Psychromicrobium,exactV4_unique_min2refs,639,0,0,country,usa
+Arthrobacter,BLAST97,639,43.9749608763693,0.185113845531671,country,usa
+Arthrobacter,BLASTany,639,44.131455399061,0.185629589661203,country,usa
+Arthrobacter,exactV4,639,48.9827856025039,0.259216885019095,country,usa
+Arthrobacter,exactV4_min2refs,639,47.2613458528952,0.25645864815908,country,usa
+Arthrobacter,exactV4_unique_min2refs,639,5.94679186228482,0.0113836877150482,country,usa
+Cryobacterium,BLAST97,639,0.312989045383412,7.54114309257926e-05,country,usa
+Cryobacterium,BLASTany,639,0.625978090766823,0.000145084302470071,country,usa
+Cryobacterium,exactV4,639,38.4976525821596,0.0741299695729242,country,usa
+Cryobacterium,exactV4_min2refs,639,25.8215962441315,0.0383382068950318,country,usa
+Cryobacterium,exactV4_unique_min2refs,639,25.8215962441315,0.0383382068950318,country,usa
+Ancylobacter,BLAST97,639,25.9780907668232,0.04620380032489,country,usa
+Ancylobacter,BLASTany,639,33.1768388106416,0.0669214699138731,country,usa
+Ancylobacter,exactV4,639,10.1721439749609,0.00479666304331948,country,usa
+Ancylobacter,exactV4_min2refs,639,10.1721439749609,0.00479666304331948,country,usa
+Ancylobacter,exactV4_unique_min2refs,639,10.1721439749609,0.00479666304331948,country,usa
+Sphingomonas,BLAST97,639,79.4992175273866,1.32513979936794,country,usa
+Sphingomonas,BLASTany,639,82.3161189358373,1.39112331106902,country,usa
+Sphingomonas,exactV4,639,88.8888888888889,2.29794216683736,country,usa
+Sphingomonas,exactV4_min2refs,639,84.3505477308294,1.5122178317558,country,usa
+Sphingomonas,exactV4_unique_min2refs,639,84.3505477308294,1.5122178317558,country,usa
+Kineococcus,BLAST97,639,10.7981220657277,0.0209445502803061,country,usa
+Kineococcus,BLASTany,639,11.5805946791862,0.0211143774199305,country,usa
+Kineococcus,exactV4,639,8.1377151799687,0.0186460194922872,country,usa
+Kineococcus,exactV4_min2refs,639,7.51173708920188,0.0172524541337492,country,usa
+Kineococcus,exactV4_unique_min2refs,639,7.51173708920188,0.0172524541337492,country,usa
+Rhodococcus (other),BLAST97,639,25.3521126760563,0.472371607709426,country,usa
+Rhodococcus (other),BLASTany,639,32.3943661971831,0.476950675744343,country,usa
+Rhodococcoides,BLAST97,52,0,0,country,italy
+Rhodococcoides,BLASTany,52,0,0,country,italy
+Rhodococcoides,exactV4,52,21.1538461538462,0.00801118541621982,country,italy
+Rhodococcoides,exactV4_min2refs,52,21.1538461538462,0.00801118541621982,country,italy
+Rhodococcoides,exactV4_unique_min2refs,52,0,0,country,italy
+Psychromicrobium,BLAST97,52,0,0,country,italy
+Psychromicrobium,BLASTany,52,0,0,country,italy
+Psychromicrobium,exactV4,52,0,0,country,italy
+Psychromicrobium,exactV4_min2refs,52,0,0,country,italy
+Psychromicrobium,exactV4_unique_min2refs,52,0,0,country,italy
+Arthrobacter,BLAST97,52,96.1538461538462,1.04084005633178,country,italy
+Arthrobacter,BLASTany,52,96.1538461538462,1.04084005633178,country,italy
+Arthrobacter,exactV4,52,96.1538461538462,1.12339566133118,country,italy
+Arthrobacter,exactV4_min2refs,52,96.1538461538462,1.11763331394637,country,italy
+Arthrobacter,exactV4_unique_min2refs,52,3.84615384615385,0.00170239951108331,country,italy
+Cryobacterium,BLAST97,52,0,0,country,italy
+Cryobacterium,BLASTany,52,0,0,country,italy
+Cryobacterium,exactV4,52,40.3846153846154,0.0259465068363192,country,italy
+Cryobacterium,exactV4_min2refs,52,32.6923076923077,0.0234487277498532,country,italy
+Cryobacterium,exactV4_unique_min2refs,52,32.6923076923077,0.0234487277498532,country,italy
+Ancylobacter,BLAST97,52,7.69230769230769,0.00262386677760586,country,italy
+Ancylobacter,BLASTany,52,15.3846153846154,0.00434567134706162,country,italy
+Ancylobacter,exactV4,52,1.92307692307692,0.000113946609176804,country,italy
+Ancylobacter,exactV4_min2refs,52,1.92307692307692,0.000113946609176804,country,italy
+Ancylobacter,exactV4_unique_min2refs,52,1.92307692307692,0.000113946609176804,country,italy
+Sphingomonas,BLAST97,52,100,1.06240129447623,country,italy
+Sphingomonas,BLASTany,52,100,1.07707078008989,country,italy
+Sphingomonas,exactV4,52,100,1.15089173547743,country,italy
+Sphingomonas,exactV4_min2refs,52,100,1.12219862066974,country,italy
+Sphingomonas,exactV4_unique_min2refs,52,100,1.12219862066974,country,italy
+Kineococcus,BLAST97,52,15.3846153846154,0.0144815234599099,country,italy
+Kineococcus,BLASTany,52,15.3846153846154,0.0144815234599099,country,italy
+Kineococcus,exactV4,52,15.3846153846154,0.0144815234599099,country,italy
+Kineococcus,exactV4_min2refs,52,15.3846153846154,0.0144815234599099,country,italy
+Kineococcus,exactV4_unique_min2refs,52,15.3846153846154,0.0144815234599099,country,italy
+Rhodococcus (other),BLAST97,52,78.8461538461538,0.0855066403336567,country,italy
+Rhodococcus (other),BLASTany,52,80.7692307692308,0.0875449172053224,country,italy
+Rhodococcoides,BLAST97,1229,0,0,country,madagascar
+Rhodococcoides,BLASTany,1229,0,0,country,madagascar
+Rhodococcoides,exactV4,1229,2.60374288039056,0.00229887985983115,country,madagascar
+Rhodococcoides,exactV4_min2refs,1229,2.60374288039056,0.00229887985983115,country,madagascar
+Rhodococcoides,exactV4_unique_min2refs,1229,0,0,country,madagascar
+Psychromicrobium,BLAST97,1229,0,0,country,madagascar
+Psychromicrobium,BLASTany,1229,0,0,country,madagascar
+Psychromicrobium,exactV4,1229,0.32546786004882,0.000324571213810922,country,madagascar
+Psychromicrobium,exactV4_min2refs,1229,0.32546786004882,0.000324571213810922,country,madagascar
+Psychromicrobium,exactV4_unique_min2refs,1229,0,0,country,madagascar
+Arthrobacter,BLAST97,1229,35.5573637103336,0.143566903050742,country,madagascar
+Arthrobacter,BLASTany,1229,35.6387306753458,0.143601851285699,country,madagascar
+Arthrobacter,exactV4,1229,55.8991049633849,0.333663114431746,country,madagascar
+Arthrobacter,exactV4_min2refs,1229,48.9015459723352,0.290104951322595,country,madagascar
+Arthrobacter,exactV4_unique_min2refs,1229,19.2839707078926,0.122676862467478,country,madagascar
+Cryobacterium,BLAST97,1229,0.081366965012205,1.51380400022707e-05,country,madagascar
+Cryobacterium,BLASTany,1229,0.081366965012205,1.51380400022707e-05,country,madagascar
+Cryobacterium,exactV4,1229,18.3075671277461,0.0162729775400996,country,madagascar
+Cryobacterium,exactV4_min2refs,1229,13.9137510170871,0.0117544707827525,country,madagascar
+Cryobacterium,exactV4_unique_min2refs,1229,13.9137510170871,0.0117544707827525,country,madagascar
+Ancylobacter,BLAST97,1229,5.93978844589097,0.0099378538927387,country,madagascar
+Ancylobacter,BLASTany,1229,9.6826688364524,0.0128143081059974,country,madagascar
+Ancylobacter,exactV4,1229,3.82424735557364,0.00349085692116372,country,madagascar
+Ancylobacter,exactV4_min2refs,1229,3.82424735557364,0.00349085692116372,country,madagascar
+Ancylobacter,exactV4_unique_min2refs,1229,3.82424735557364,0.00349085692116372,country,madagascar
+Sphingomonas,BLAST97,1229,80.7973962571196,0.493500365065163,country,madagascar
+Sphingomonas,BLASTany,1229,83.5638730675346,0.594303638143278,country,madagascar
+Sphingomonas,exactV4,1229,89.4222945484133,0.946535666776521,country,madagascar
+Sphingomonas,exactV4_min2refs,1229,87.8763222131815,0.814548514681556,country,madagascar
+Sphingomonas,exactV4_unique_min2refs,1229,87.8763222131815,0.814548514681556,country,madagascar
+Kineococcus,BLAST97,1229,16.1106590724166,0.015149264229976,country,madagascar
+Kineococcus,BLASTany,1229,16.1920260374288,0.0151557582612631,country,madagascar
+Kineococcus,exactV4,1229,11.7168429617575,0.0126154581051867,country,madagascar
+Kineococcus,exactV4_min2refs,1229,11.1472742066721,0.0122772828984319,country,madagascar
+Kineococcus,exactV4_unique_min2refs,1229,11.1472742066721,0.0122772828984319,country,madagascar
+Rhodococcus (other),BLAST97,1229,29.0480065093572,0.151820052701258,country,madagascar
+Rhodococcus (other),BLASTany,1229,29.8616761594793,0.153039379734488,country,madagascar
+Rhodococcoides,BLAST97,138,0,0,country,panama
+Rhodococcoides,BLASTany,138,0,0,country,panama
+Rhodococcoides,exactV4,138,5.79710144927536,0.00242127997948045,country,panama
+Rhodococcoides,exactV4_min2refs,138,5.79710144927536,0.00242127997948045,country,panama
+Rhodococcoides,exactV4_unique_min2refs,138,0,0,country,panama
+Psychromicrobium,BLAST97,138,0,0,country,panama
+Psychromicrobium,BLASTany,138,0,0,country,panama
+Psychromicrobium,exactV4,138,8.69565217391304,0.00623646949965393,country,panama
+Psychromicrobium,exactV4_min2refs,138,8.69565217391304,0.00623646949965393,country,panama
+Psychromicrobium,exactV4_unique_min2refs,138,0,0,country,panama
+Arthrobacter,BLAST97,138,30.4347826086957,0.0403911305406081,country,panama
+Arthrobacter,BLASTany,138,30.4347826086957,0.0407968456875977,country,panama
+Arthrobacter,exactV4,138,42.0289855072464,0.0780257568732111,country,panama
+Arthrobacter,exactV4_min2refs,138,40.5797101449275,0.0691691169878589,country,panama
+Arthrobacter,exactV4_unique_min2refs,138,5.79710144927536,0.00286964129649332,country,panama
+Cryobacterium,BLAST97,138,0,0,country,panama
+Cryobacterium,BLASTany,138,0,0,country,panama
+Cryobacterium,exactV4,138,18.8405797101449,0.0138806826766011,country,panama
+Cryobacterium,exactV4_min2refs,138,8.69565217391304,0.00702114377567682,country,panama
+Cryobacterium,exactV4_unique_min2refs,138,8.69565217391304,0.00702114377567682,country,panama
+Ancylobacter,BLAST97,138,31.8840579710145,0.0489265565183959,country,panama
+Ancylobacter,BLASTany,138,44.2028985507246,0.0526795536751268,country,panama
+Ancylobacter,exactV4,138,39.1304347826087,0.0673483289519838,country,panama
+Ancylobacter,exactV4_min2refs,138,39.1304347826087,0.0673483289519838,country,panama
+Ancylobacter,exactV4_unique_min2refs,138,39.1304347826087,0.0673483289519838,country,panama
+Sphingomonas,BLAST97,138,90.5797101449275,0.409143941371575,country,panama
+Sphingomonas,BLASTany,138,92.0289855072464,0.507736686075725,country,panama
+Sphingomonas,exactV4,138,95.6521739130435,0.591638061165599,country,panama
+Sphingomonas,exactV4_min2refs,138,91.304347826087,0.542683004727384,country,panama
+Sphingomonas,exactV4_unique_min2refs,138,91.304347826087,0.542683004727384,country,panama
+Kineococcus,BLAST97,138,8.69565217391304,0.00324529272015843,country,panama
+Kineococcus,BLASTany,138,8.69565217391304,0.00324529272015843,country,panama
+Kineococcus,exactV4,138,7.97101449275362,0.00309735789078116,country,panama
+Kineococcus,exactV4_min2refs,138,7.97101449275362,0.00309735789078116,country,panama
+Kineococcus,exactV4_unique_min2refs,138,7.97101449275362,0.00309735789078116,country,panama
+Rhodococcus (other),BLAST97,138,70.2898550724638,0.247975876373015,country,panama
+Rhodococcus (other),BLASTany,138,71.0144927536232,0.249468160914404,country,panama
+Rhodococcoides,BLAST97,107,0,0,country,costa rica
+Rhodococcoides,BLASTany,107,0,0,country,costa rica
+Rhodococcoides,exactV4,107,6.54205607476636,0.00759988264529103,country,costa rica
+Rhodococcoides,exactV4_min2refs,107,6.54205607476636,0.00759988264529103,country,costa rica
+Rhodococcoides,exactV4_unique_min2refs,107,0,0,country,costa rica
+Psychromicrobium,BLAST97,107,0,0,country,costa rica
+Psychromicrobium,BLASTany,107,0,0,country,costa rica
+Psychromicrobium,exactV4,107,0,0,country,costa rica
+Psychromicrobium,exactV4_min2refs,107,0,0,country,costa rica
+Psychromicrobium,exactV4_unique_min2refs,107,0,0,country,costa rica
+Arthrobacter,BLAST97,107,34.5794392523365,0.459938061915642,country,costa rica
+Arthrobacter,BLASTany,107,36.4485981308411,0.460452506832435,country,costa rica
+Arthrobacter,exactV4,107,55.1401869158879,0.640440449693325,country,costa rica
+Arthrobacter,exactV4_min2refs,107,51.4018691588785,0.60358042584897,country,costa rica
+Arthrobacter,exactV4_unique_min2refs,107,5.60747663551402,0.00288658179303393,country,costa rica
+Cryobacterium,BLAST97,107,0,0,country,costa rica
+Cryobacterium,BLASTany,107,0,0,country,costa rica
+Cryobacterium,exactV4,107,8.41121495327103,0.005184101276646,country,costa rica
+Cryobacterium,exactV4_min2refs,107,6.54205607476636,0.00332427564109599,country,costa rica
+Cryobacterium,exactV4_unique_min2refs,107,6.54205607476636,0.00332427564109599,country,costa rica
+Ancylobacter,BLAST97,107,14.018691588785,0.00870899106255049,country,costa rica
+Ancylobacter,BLASTany,107,24.2990654205608,0.0142080039746111,country,costa rica
+Ancylobacter,exactV4,107,12.1495327102804,0.00804501220113585,country,costa rica
+Ancylobacter,exactV4_min2refs,107,12.1495327102804,0.00804501220113585,country,costa rica
+Ancylobacter,exactV4_unique_min2refs,107,12.1495327102804,0.00804501220113585,country,costa rica
+Sphingomonas,BLAST97,107,72.8971962616823,0.869347103309573,country,costa rica
+Sphingomonas,BLASTany,107,82.2429906542056,0.968855207936203,country,costa rica
+Sphingomonas,exactV4,107,97.196261682243,1.3449200637908,country,costa rica
+Sphingomonas,exactV4_min2refs,107,96.2616822429907,1.28411254375328,country,costa rica
+Sphingomonas,exactV4_unique_min2refs,107,96.2616822429907,1.28411254375328,country,costa rica
+Kineococcus,BLAST97,107,17.7570093457944,0.0337942112304425,country,costa rica
+Kineococcus,BLASTany,107,17.7570093457944,0.0337942112304425,country,costa rica
+Kineococcus,exactV4,107,18.6915887850467,0.0382641897674119,country,costa rica
+Kineococcus,exactV4_min2refs,107,16.8224299065421,0.033256567383716,country,costa rica
+Kineococcus,exactV4_unique_min2refs,107,16.8224299065421,0.033256567383716,country,costa rica
+Rhodococcus (other),BLAST97,107,29.9065420560748,0.0228756020349901,country,costa rica
+Rhodococcus (other),BLASTany,107,37.3831775700935,0.0337555597541579,country,costa rica
+Rhodococcoides,BLAST97,62,0,0,country,kenya
+Rhodococcoides,BLASTany,62,0,0,country,kenya
+Rhodococcoides,exactV4,62,4.83870967741936,0.00147674187163036,country,kenya
+Rhodococcoides,exactV4_min2refs,62,4.83870967741936,0.00147674187163036,country,kenya
+Rhodococcoides,exactV4_unique_min2refs,62,0,0,country,kenya
+Psychromicrobium,BLAST97,62,0,0,country,kenya
+Psychromicrobium,BLASTany,62,0,0,country,kenya
+Psychromicrobium,exactV4,62,0,0,country,kenya
+Psychromicrobium,exactV4_min2refs,62,0,0,country,kenya
+Psychromicrobium,exactV4_unique_min2refs,62,0,0,country,kenya
+Arthrobacter,BLAST97,62,82.258064516129,1.4791927186105,country,kenya
+Arthrobacter,BLASTany,62,82.258064516129,1.4791927186105,country,kenya
+Arthrobacter,exactV4,62,87.0967741935484,1.67671376486297,country,kenya
+Arthrobacter,exactV4_min2refs,62,87.0967741935484,1.63447301521003,country,kenya
+Arthrobacter,exactV4_unique_min2refs,62,12.9032258064516,0.00801046346016778,country,kenya
+Cryobacterium,BLAST97,62,0,0,country,kenya
+Cryobacterium,BLASTany,62,0,0,country,kenya
+Cryobacterium,exactV4,62,24.1935483870968,0.0724520242217069,country,kenya
+Cryobacterium,exactV4_min2refs,62,19.3548387096774,0.0649817607199856,country,kenya
+Cryobacterium,exactV4_unique_min2refs,62,19.3548387096774,0.0649817607199856,country,kenya
+Ancylobacter,BLAST97,62,14.5161290322581,0.0194364640104706,country,kenya
+Ancylobacter,BLASTany,62,19.3548387096774,0.0230958551543337,country,kenya
+Ancylobacter,exactV4,62,11.2903225806452,0.0153951061438312,country,kenya
+Ancylobacter,exactV4_min2refs,62,11.2903225806452,0.0153951061438312,country,kenya
+Ancylobacter,exactV4_unique_min2refs,62,11.2903225806452,0.0153951061438312,country,kenya
+Sphingomonas,BLAST97,62,91.9354838709677,1.23625819752362,country,kenya
+Sphingomonas,BLASTany,62,91.9354838709677,1.28575264176998,country,kenya
+Sphingomonas,exactV4,62,100,1.90286843661558,country,kenya
+Sphingomonas,exactV4_min2refs,62,100,1.82307308425961,country,kenya
+Sphingomonas,exactV4_unique_min2refs,62,100,1.82307308425961,country,kenya
+Kineococcus,BLAST97,62,46.7741935483871,0.114703311391319,country,kenya
+Kineococcus,BLASTany,62,46.7741935483871,0.114703311391319,country,kenya
+Kineococcus,exactV4,62,45.1612903225806,0.140934375992268,country,kenya
+Kineococcus,exactV4_min2refs,62,40.3225806451613,0.112856958033805,country,kenya
+Kineococcus,exactV4_unique_min2refs,62,40.3225806451613,0.112856958033805,country,kenya
+Rhodococcus (other),BLAST97,62,11.2903225806452,0.00844197875720241,country,kenya
+Rhodococcus (other),BLASTany,62,19.3548387096774,0.0223745078569697,country,kenya
+Rhodococcoides,BLAST97,28,0,0,country,cuba
+Rhodococcoides,BLASTany,28,0,0,country,cuba
+Rhodococcoides,exactV4,28,0,0,country,cuba
+Rhodococcoides,exactV4_min2refs,28,0,0,country,cuba
+Rhodococcoides,exactV4_unique_min2refs,28,0,0,country,cuba
+Psychromicrobium,BLAST97,28,0,0,country,cuba
+Psychromicrobium,BLASTany,28,0,0,country,cuba
+Psychromicrobium,exactV4,28,0,0,country,cuba
+Psychromicrobium,exactV4_min2refs,28,0,0,country,cuba
+Psychromicrobium,exactV4_unique_min2refs,28,0,0,country,cuba
+Arthrobacter,BLAST97,28,39.2857142857143,0.427909774940355,country,cuba
+Arthrobacter,BLASTany,28,39.2857142857143,0.427909774940355,country,cuba
+Arthrobacter,exactV4,28,67.8571428571429,0.519553879862324,country,cuba
+Arthrobacter,exactV4_min2refs,28,67.8571428571429,0.518767452549179,country,cuba
+Arthrobacter,exactV4_unique_min2refs,28,17.8571428571429,0.015005510828476,country,cuba
+Cryobacterium,BLAST97,28,0,0,country,cuba
+Cryobacterium,BLASTany,28,0,0,country,cuba
+Cryobacterium,exactV4,28,7.14285714285714,0.00114403866600438,country,cuba
+Cryobacterium,exactV4_min2refs,28,7.14285714285714,0.00114403866600438,country,cuba
+Cryobacterium,exactV4_unique_min2refs,28,7.14285714285714,0.00114403866600438,country,cuba
+Ancylobacter,BLAST97,28,3.57142857142857,0.00095646185630117,country,cuba
+Ancylobacter,BLASTany,28,3.57142857142857,0.00095646185630117,country,cuba
+Ancylobacter,exactV4,28,3.57142857142857,0.00095646185630117,country,cuba
+Ancylobacter,exactV4_min2refs,28,3.57142857142857,0.00095646185630117,country,cuba
+Ancylobacter,exactV4_unique_min2refs,28,3.57142857142857,0.00095646185630117,country,cuba
+Sphingomonas,BLAST97,28,53.5714285714286,0.252473117877121,country,cuba
+Sphingomonas,BLASTany,28,64.2857142857143,0.330516195778749,country,cuba
+Sphingomonas,exactV4,28,75,0.432952621266625,country,cuba
+Sphingomonas,exactV4_min2refs,28,75,0.340451175864503,country,cuba
+Sphingomonas,exactV4_unique_min2refs,28,75,0.340451175864503,country,cuba
+Kineococcus,BLAST97,28,3.57142857142857,0.00112770084352023,country,cuba
+Kineococcus,BLASTany,28,3.57142857142857,0.00112770084352023,country,cuba
+Kineococcus,exactV4,28,0,0,country,cuba
+Kineococcus,exactV4_min2refs,28,0,0,country,cuba
+Kineococcus,exactV4_unique_min2refs,28,0,0,country,cuba
+Rhodococcus (other),BLAST97,28,3.57142857142857,0.000301755614163201,country,cuba
+Rhodococcus (other),BLASTany,28,3.57142857142857,0.000301755614163201,country,cuba
+Rhodococcoides,BLAST97,23,0,0,country,south korea
+Rhodococcoides,BLASTany,23,0,0,country,south korea
+Rhodococcoides,exactV4,23,21.7391304347826,0.0172550604044521,country,south korea
+Rhodococcoides,exactV4_min2refs,23,21.7391304347826,0.0172550604044521,country,south korea
+Rhodococcoides,exactV4_unique_min2refs,23,0,0,country,south korea
+Psychromicrobium,BLAST97,23,0,0,country,south korea
+Psychromicrobium,BLASTany,23,0,0,country,south korea
+Psychromicrobium,exactV4,23,0,0,country,south korea
+Psychromicrobium,exactV4_min2refs,23,0,0,country,south korea
+Psychromicrobium,exactV4_unique_min2refs,23,0,0,country,south korea
+Arthrobacter,BLAST97,23,95.6521739130435,0.156858425561577,country,south korea
+Arthrobacter,BLASTany,23,95.6521739130435,0.156858425561577,country,south korea
+Arthrobacter,exactV4,23,95.6521739130435,0.165321518104258,country,south korea
+Arthrobacter,exactV4_min2refs,23,95.6521739130435,0.165321518104258,country,south korea
+Arthrobacter,exactV4_unique_min2refs,23,34.7826086956522,0.00880093209254306,country,south korea
+Cryobacterium,BLAST97,23,0,0,country,south korea
+Cryobacterium,BLASTany,23,26.0869565217391,0.00630513919993625,country,south korea
+Cryobacterium,exactV4,23,86.9565217391305,0.0977017477008317,country,south korea
+Cryobacterium,exactV4_min2refs,23,86.9565217391305,0.0964899762068007,country,south korea
+Cryobacterium,exactV4_unique_min2refs,23,86.9565217391305,0.0964899762068007,country,south korea
+Ancylobacter,BLAST97,23,8.69565217391304,0.00604886988823346,country,south korea
+Ancylobacter,BLASTany,23,17.3913043478261,0.00772191006310761,country,south korea
+Ancylobacter,exactV4,23,0,0,country,south korea
+Ancylobacter,exactV4_min2refs,23,0,0,country,south korea
+Ancylobacter,exactV4_unique_min2refs,23,0,0,country,south korea
+Sphingomonas,BLAST97,23,95.6521739130435,0.884351508414604,country,south korea
+Sphingomonas,BLASTany,23,100,0.911024999882879,country,south korea
+Sphingomonas,exactV4,23,95.6521739130435,1.41905578480094,country,south korea
+Sphingomonas,exactV4_min2refs,23,95.6521739130435,1.28378632514462,country,south korea
+Sphingomonas,exactV4_unique_min2refs,23,95.6521739130435,1.28378632514462,country,south korea
+Kineococcus,BLAST97,23,17.3913043478261,0.00294713143863072,country,south korea
+Kineococcus,BLASTany,23,17.3913043478261,0.00294713143863072,country,south korea
+Kineococcus,exactV4,23,13.0434782608696,0.018173057948084,country,south korea
+Kineococcus,exactV4_min2refs,23,4.34782608695652,0.00208295724383098,country,south korea
+Kineococcus,exactV4_unique_min2refs,23,4.34782608695652,0.00208295724383098,country,south korea
+Rhodococcus (other),BLAST97,23,0,0,country,south korea
+Rhodococcus (other),BLASTany,23,56.5217391304348,0.0093999725308346,country,south korea
+Rhodococcoides,BLAST97,30,0,0,country,spain
+Rhodococcoides,BLASTany,30,0,0,country,spain
+Rhodococcoides,exactV4,30,0,0,country,spain
+Rhodococcoides,exactV4_min2refs,30,0,0,country,spain
+Rhodococcoides,exactV4_unique_min2refs,30,0,0,country,spain
+Psychromicrobium,BLAST97,30,0,0,country,spain
+Psychromicrobium,BLASTany,30,0,0,country,spain
+Psychromicrobium,exactV4,30,0,0,country,spain
+Psychromicrobium,exactV4_min2refs,30,0,0,country,spain
+Psychromicrobium,exactV4_unique_min2refs,30,0,0,country,spain
+Arthrobacter,BLAST97,30,46.6666666666667,1.24027496136963,country,spain
+Arthrobacter,BLASTany,30,46.6666666666667,1.24027496136963,country,spain
+Arthrobacter,exactV4,30,100,1.66268444731174,country,spain
+Arthrobacter,exactV4_min2refs,30,100,1.66268444731174,country,spain
+Arthrobacter,exactV4_unique_min2refs,30,83.3333333333333,0.236166284334232,country,spain
+Cryobacterium,BLAST97,30,0,0,country,spain
+Cryobacterium,BLASTany,30,20,0.00569416389334643,country,spain
+Cryobacterium,exactV4,30,3.33333333333333,0.000462128564166551,country,spain
+Cryobacterium,exactV4_min2refs,30,0,0,country,spain
+Cryobacterium,exactV4_unique_min2refs,30,0,0,country,spain
+Ancylobacter,BLAST97,30,6.66666666666667,0.00427324654224005,country,spain
+Ancylobacter,BLASTany,30,33.3333333333333,0.0180999116655258,country,spain
+Ancylobacter,exactV4,30,10,0.00320011240081026,country,spain
+Ancylobacter,exactV4_min2refs,30,10,0.00320011240081026,country,spain
+Ancylobacter,exactV4_unique_min2refs,30,10,0.00320011240081026,country,spain
+Sphingomonas,BLAST97,30,86.6666666666667,0.794434434728371,country,spain
+Sphingomonas,BLASTany,30,86.6666666666667,0.835170038002278,country,spain
+Sphingomonas,exactV4,30,93.3333333333333,0.813333834785354,country,spain
+Sphingomonas,exactV4_min2refs,30,93.3333333333333,0.798392581928478,country,spain
+Sphingomonas,exactV4_unique_min2refs,30,93.3333333333333,0.798392581928478,country,spain
+Kineococcus,BLAST97,30,13.3333333333333,0.0215193070860436,country,spain
+Kineococcus,BLASTany,30,13.3333333333333,0.0215193070860436,country,spain
+Kineococcus,exactV4,30,10,0.0187896882647741,country,spain
+Kineococcus,exactV4_min2refs,30,10,0.0187896882647741,country,spain
+Kineococcus,exactV4_unique_min2refs,30,10,0.0187896882647741,country,spain
+Rhodococcus (other),BLAST97,30,60,0.109507815111752,country,spain
+Rhodococcus (other),BLASTany,30,66.6666666666667,0.113249846122642,country,spain
+Rhodococcoides,BLAST97,84,0,0,country,france
+Rhodococcoides,BLASTany,84,0,0,country,france
+Rhodococcoides,exactV4,84,2.38095238095238,0.000956989740796344,country,france
+Rhodococcoides,exactV4_min2refs,84,2.38095238095238,0.000956989740796344,country,france
+Rhodococcoides,exactV4_unique_min2refs,84,0,0,country,france
+Psychromicrobium,BLAST97,84,0,0,country,france
+Psychromicrobium,BLASTany,84,0,0,country,france
+Psychromicrobium,exactV4,84,0,0,country,france
+Psychromicrobium,exactV4_min2refs,84,0,0,country,france
+Psychromicrobium,exactV4_unique_min2refs,84,0,0,country,france
+Arthrobacter,BLAST97,84,67.8571428571429,2.79772216547236,country,france
+Arthrobacter,BLASTany,84,67.8571428571429,2.79772216547236,country,france
+Arthrobacter,exactV4,84,100,4.2112432264736,country,france
+Arthrobacter,exactV4_min2refs,84,100,4.2112432264736,country,france
+Arthrobacter,exactV4_unique_min2refs,84,77.3809523809524,0.258963000696998,country,france
+Cryobacterium,BLAST97,84,0,0,country,france
+Cryobacterium,BLASTany,84,3.57142857142857,0.000499821868229945,country,france
+Cryobacterium,exactV4,84,11.9047619047619,0.0357715889691544,country,france
+Cryobacterium,exactV4_min2refs,84,2.38095238095238,0.0325479638401625,country,france
+Cryobacterium,exactV4_unique_min2refs,84,2.38095238095238,0.0325479638401625,country,france
+Ancylobacter,BLAST97,84,7.14285714285714,0.00220901735463233,country,france
+Ancylobacter,BLASTany,84,27.3809523809524,0.00797667105393933,country,france
+Ancylobacter,exactV4,84,0,0,country,france
+Ancylobacter,exactV4_min2refs,84,0,0,country,france
+Ancylobacter,exactV4_unique_min2refs,84,0,0,country,france
+Sphingomonas,BLAST97,84,71.4285714285714,1.08886198355623,country,france
+Sphingomonas,BLASTany,84,77.3809523809524,1.11124096177336,country,france
+Sphingomonas,exactV4,84,89.2857142857143,1.10516189896403,country,france
+Sphingomonas,exactV4_min2refs,84,86.9047619047619,1.08452915550494,country,france
+Sphingomonas,exactV4_unique_min2refs,84,86.9047619047619,1.08452915550494,country,france
+Kineococcus,BLAST97,84,4.76190476190476,0.0110356112932552,country,france
+Kineococcus,BLASTany,84,4.76190476190476,0.0110356112932552,country,france
+Kineococcus,exactV4,84,3.57142857142857,0.00901191529385537,country,france
+Kineococcus,exactV4_min2refs,84,3.57142857142857,0.00901191529385537,country,france
+Kineococcus,exactV4_unique_min2refs,84,3.57142857142857,0.00901191529385537,country,france
+Rhodococcus (other),BLAST97,84,58.3333333333333,0.102538944044392,country,france
+Rhodococcus (other),BLASTany,84,58.3333333333333,0.116122726458841,country,france

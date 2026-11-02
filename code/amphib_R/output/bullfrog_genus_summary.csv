@@ -1,0 +1,57 @@
+genus,method,n_ASVs,prevalence_pct,n_samples,mean_rel_pct,median_rel_pct,max_rel_pct
+Rhodococcoides,BLAST97_top,0,0,0,0,0,0
+Rhodococcoides,BLAST97_tied,1,50,20,0.0400865123144049,0.0137854976564654,0.208
+Rhodococcoides,exact120,1,50,20,0.0400865123144049,0.0137854976564654,0.208
+Rhodococcoides,exact120_min2refs,1,50,20,0.0400865123144049,0.0137854976564654,0.208
+Rhodococcoides,metaTaxonomy90_97,0,0,0,0,0,0
+Rhodococcoides,exact120_unique_min2refs,0,0,0,0,0,0
+Rhodococcoides,any_method,1,50,20,0.0400865123144049,0.0137854976564654,0.208
+Psychromicrobium,BLAST97_top,0,0,0,0,0,0
+Psychromicrobium,BLAST97_tied,0,0,0,0,0,0
+Psychromicrobium,exact120,0,0,0,0,0,0
+Psychromicrobium,exact120_min2refs,0,0,0,0,0,0
+Psychromicrobium,metaTaxonomy90_97,0,0,0,0,0,0
+Psychromicrobium,exact120_unique_min2refs,0,0,0,0,0,0
+Psychromicrobium,any_method,0,0,0,0,0,0
+Arthrobacter,BLAST97_top,0,0,0,0,0,0
+Arthrobacter,BLAST97_tied,1,17.5,7,0.00843898391455352,0,0.118577075098814
+Arthrobacter,exact120,1,17.5,7,0.00843898391455352,0,0.118577075098814
+Arthrobacter,exact120_min2refs,1,17.5,7,0.00843898391455352,0,0.118577075098814
+Arthrobacter,metaTaxonomy90_97,1,17.5,7,0.00843898391455352,0,0.118577075098814
+Arthrobacter,exact120_unique_min2refs,0,0,0,0,0,0
+Arthrobacter,any_method,1,17.5,7,0.00843898391455352,0,0.118577075098814
+Cryobacterium,BLAST97_top,0,0,0,0,0,0
+Cryobacterium,BLAST97_tied,0,0,0,0,0,0
+Cryobacterium,exact120,5,92.5,37,0.308124331480105,0.23265407144625,1.104
+Cryobacterium,exact120_min2refs,0,0,0,0,0,0
+Cryobacterium,metaTaxonomy90_97,0,0,0,0,0,0
+Cryobacterium,exact120_unique_min2refs,0,0,0,0,0,0
+Cryobacterium,any_method,5,92.5,37,0.308124331480105,0.23265407144625,1.104
+Ancylobacter,BLAST97_top,6,85,34,0.0793816271489298,0.0619533283023656,0.362100181050091
+Ancylobacter,BLAST97_tied,7,87.5,35,0.0874675609333772,0.0681068266589935,0.362100181050091
+Ancylobacter,exact120,0,0,0,0,0,0
+Ancylobacter,exact120_min2refs,0,0,0,0,0,0
+Ancylobacter,metaTaxonomy90_97,3,50,20,0.028355855779675,0.0055847202055177,0.176
+Ancylobacter,exact120_unique_min2refs,0,0,0,0,0,0
+Ancylobacter,any_method,7,87.5,35,0.0874675609333772,0.0681068266589935,0.362100181050091
+Sphingomonas,BLAST97_top,25,100,40,0.93393128665809,0.752480355780895,3.34861747950535
+Sphingomonas,BLAST97_tied,30,100,40,1.18391053193411,1.13920460159749,3.54007363353158
+Sphingomonas,exact120,20,100,40,1.14222876807729,1.039697709353,3.42679127725857
+Sphingomonas,exact120_min2refs,17,100,40,0.988475570217122,1.01152869526849,3.25686774284905
+Sphingomonas,metaTaxonomy90_97,29,100,40,0.959215239201037,0.913808240556986,3.2285471537808
+Sphingomonas,exact120_unique_min2refs,17,100,40,0.988475570217122,1.01152869526849,3.25686774284905
+Sphingomonas,any_method,40,100,40,1.41788036372013,1.28031111570609,3.93656188048711
+Kineococcus,BLAST97_top,2,37.5,15,0.0101938095893021,0,0.0542152344808891
+Kineococcus,BLAST97_tied,2,37.5,15,0.0101938095893021,0,0.0542152344808891
+Kineococcus,exact120,0,0,0,0,0,0
+Kineococcus,exact120_min2refs,0,0,0,0,0,0
+Kineococcus,metaTaxonomy90_97,4,62.5,25,0.0274910035993787,0.019335091333728,0.101803374054683
+Kineococcus,exact120_unique_min2refs,0,0,0,0,0,0
+Kineococcus,any_method,4,62.5,25,0.0274910035993787,0.019335091333728,0.101803374054683
+Rhodococcus (other),BLAST97_top,0,0,0,0,0,0
+Rhodococcus (other),BLAST97_tied,0,0,0,0,0,0
+Rhodococcus (other),exact120,2,62.5,25,0.0699489657922457,0.0509350803248352,0.256
+Rhodococcus (other),exact120_min2refs,1,50,20,0.0400865123144049,0.0137854976564654,0.208
+Rhodococcus (other),metaTaxonomy90_97,0,0,0,0,0,0
+Rhodococcus (other),exact120_unique_min2refs,0,0,0,0,0,0
+Rhodococcus (other),any_method,2,62.5,25,0.0699489657922457,0.0509350803248352,0.256

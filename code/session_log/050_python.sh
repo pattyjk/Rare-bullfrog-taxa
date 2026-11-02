@@ -1,0 +1,4 @@
+# session cell 50 | 2026-10-15 21:22 | env: python | language: bash
+# files written: [{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/meta/ref/Kineococcus.fasta","sha256":"711ebd8dad2aa8c9ce6e98a1ca5694ffbcaa7f24caf460df732e117045e454d8"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/meta/ref/fetch3.py","sha256":"d07f3a526592c1c10c0a04d1e6d6ef4029532fdf1ec62aac97c49c474557765b"}]
+
+cd meta/ref; sed -e 's/for g in \["Rhodococcoides","Psychromicrobium","Arthrobacter","Cryobacterium","Ancylobacter","Sphingomonas"\]/for g in ["Kineococcus"]/' fetch.py > fetch3.py; python fetch3.py; grep ">" Kineococcus.fasta | awk '{print $2,$3}' | sort | uniq -c | sort -k1nr | head

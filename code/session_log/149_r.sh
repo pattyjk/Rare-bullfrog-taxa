@@ -1,0 +1,15 @@
+# session cell 149 | 2026-10-18 12:27 | env: r | language: bash
+# files written: [{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/figures/sOTU_Bd_variance.png","sha256":"df95bcc77a346fe24e13ae4fde6ac9049b995374669f9b68e3bdfff86811bf91","preview_sha256":"ed043acd330899f68f5ba6328b634c62da32d320e94faa3b681957d1c3b71efd","preview_content_type":"image/jpeg"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/figures/rank_abundance.png","sha256":"886257edce82025dd217cc0ad9c6a21aaa61e3e3759125be369b63becd43025a","preview_sha256":"7bdd43ab0306170b1f67a0385131ad89bb85cb41c46a21db5d4663d82c38a493","preview_content_type":"image/jpeg"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/figures/cultured_vs_abundance.png","sha256":"e0f9998b92635f09b3aa70701bce3dd81f8f833fe8d6553f298623c3471bf9b6","preview_sha256":"b81e0f4639924f13aa547b19ceffc317845aa1babb85f7ba76dc2ce595d69225","preview_content_type":"image/jpeg"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/output/sOTU_Bd_function_variance.csv","sha256":"366d9c13dc111134aa4295f048f1ca1bd8184c84a4d80155933bda7aa6fa37a7"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/output/detection_vs_function.csv","sha256":"cd248f82f861a189175106a925ad5a76dff134443b5b254c782615348a0b9fc9"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amphib_R/output/Bd_variance_partitioning.csv","sha256":"352f9ef1920a95a17bc4038d64d103430da641ce50b128a74361cdf8ac8ca098"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/amph…[+1373 chars]
+
+cd amphib_R
+python3 - <<'E'
+p="R/05_sOTU_function_variance.R"; s=open(p).read()
+s=s.replace('E <- X[!is.na(Bd_function) & sOTUs_3mm != ""','E <- X[Bd_function %in% c("Inhibitory","Non-inhibitory","Facilitating") & sOTUs_3mm != ""')
+open(p,"w").write(s)
+p="R/06_cultured_share.R"; s=open(p).read()
+s=s.replace('Xb <- X[!is.na(Bd_function) & detection_3mm','Xb <- X[Bd_function %in% c("Inhibitory","Non-inhibitory","Facilitating") & detection_3mm')
+open(p,"w").write(s)
+E
+Rscript R/05_sOTU_function_variance.R 2>&1 | grep -E "sOTUs with|^1:|^2:|^3:|^4:|p-value|median_agreement" -A1 | head -30
+Rscript R/06_cultured_share.R 2>&1 | tail -12
+Rscript -e 'library(data.table);S<-fread("output/sOTU_Bd_function_variance.csv");print(S[,.(n=.N,inh=sum(function_class=="Inhibitory")),by=abundance_class])'

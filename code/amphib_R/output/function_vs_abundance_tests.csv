@@ -1,0 +1,5 @@
+test,stat,p
+Mann-Whitney mean rel. abundance: inhibitory vs no-effect/mixed sOTUs,34861,0.243321340479018
+Mann-Whitney prevalence: inhibitory vs no-effect/mixed sOTUs,32495.5,0.814147779684559
+Spearman: fraction inhibitory vs mean rel. abundance (sOTUs),0.120970165447241,0.00480004795080071
+Chi-square: isolate inhibitory vs detected/not detected (<=3 mm),0.659170628877885,0.416852895224251

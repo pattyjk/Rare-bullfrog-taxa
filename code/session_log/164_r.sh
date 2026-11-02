@@ -1,0 +1,36 @@
+# session cell 164 | 2026-10-18 12:53 | env: r | language: bash
+# files written: [{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA.zip","sha256":"ef3be9a3dc18e654586041df7fa9fd3cd1e3df945c1f78f7c1aed5038baffbf8"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/methods_panelA.md","sha256":"830bfa5c1c0f2c50b72fa443a4c62b78bf84193d4c4e87bd1cdd8ec4a9d159ba"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/panelA_sOTU_Bd_spread.R","sha256":"039fdb274522e1c7cffe359db9a9ad8720414e5f1c137c384ea3ff75cb9c1274"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/README.md","sha256":"9e8449887e86c200baea7a7512b50cda63fe66d77f206b0c9defe92b97ee13c8"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/output/panelA_sOTU_Bd_spread.png","sha256":"bf5eaf428707c36fa54e44ce4f54e143c414bf461bbf866a6ceafba58539dd9c","preview_sha256":"bf5eaf428707c36fa54e44ce4f54e143c414bf461bbf866a6ceafba58539dd9c","preview_content_type":"image/png"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/output/panelA_sOTU_Bd_spread.pdf","sha256":"d3456dd2022c7ae80e2f05b3bda59b6bc8e5ae31b7d99c59a5319ab45f5c1ef5"},{"path":"/Users/p.kearns/.claude-science/orgs/02812373-138d-4a58-874b-33e46fa50871/workspaces/893213d0-d199-4b99-9dfb-31fb80306f9a/sOTU_Bd_panelA/output/panelA_sOTU_summary.csv","sha256":"2a62f4503b3cb60590b5867e339a911886fed605c8eb16fd2b865de47232e713"}]
+
+cd sOTU_Bd_panelA
+sed -i '' 's|ggsave("output/panelA_sOTU_Bd_spread.pdf", p, width = 4.2, height = 3)|ggsave("output/panelA_sOTU_Bd_spread.pdf", p, width = 4.2, height = 3, device = cairo_pdf)|' panelA_sOTU_Bd_spread.R
+Rscript panelA_sOTU_Bd_spread.R 2>&1 | grep -i "warn\|sOTUs:"
+Rscript -e 'library(data.table);s<-fread("../amphib_R/data/derived/sample_totals.csv");print(table(s$included))'
+cat > methods_panelA.md <<'EOF'
+# Methods: within-sOTU variation in Bd inhibition (panel A)
+
+**Data sources.** Isolate-level anti-*Batrachochytrium dendrobatidis* (Bd) assay data came from the AmphiBac database of amphibian skin bacterial isolates (Woodhams et al. 2015, *Ecology* 96:595; release 2025.1, "tested" subset: 16S rRNA sequences plus metadata). Community data came from the amphibian skin microbiome meta-analysis OTU table: 90-bp V4 (515F/806R) Deblur sub-OTUs (sOTUs). We kept 2,411 samples with ≥1,000 reads. For each sOTU, mean relative abundance was calculated across all retained samples, with zeros included.
+
+**Linking isolates to sOTUs.** For each AmphiBac 16S sequence we searched both strands for the 515F primer (GTGYCAGCMGCCGCGGTAA). The 90 bp immediately downstream of the primer were taken as the isolate's V4 window. An isolate was assigned to an sOTU in one of two ways. First, by exact containment of a 90-bp sOTU sequence anywhere in the isolate sequence; only sOTUs with reads in the retained samples were considered. Second, if there was no exact match, by the nearest sOTU with ≤3 mismatches (Hamming distance; ≥96.7% identity) over the V4 window. The near-match step allows for Sanger sequencing error in isolate sequences. Ties went to the more abundant sOTU. Isolates whose sequences did not span the V4 window could not be assigned.
+
+**Inhibition score.** For isolates tested in 96-well cell-free supernatant assays, the inhibition score was (1 − proportional Bd growth) × 100. Proportional Bd growth is the Bd growth in the presence of the supernatant relative to the control, as reported in AmphiBac. A score of 100 means complete inhibition, 0 means no effect, and negative values mean Bd growth was enhanced. Because proportional growth can be negative or above 1, scores can fall outside −100 to 100. Agar-plate (zone-of-inhibition) assays give no proportional-growth value and were excluded. Bd function labels were harmonised to inhibitory, non-inhibitory and facilitating, and only isolates with one of these labels were retained.
+
+**Analysis.** We kept sOTUs with ≥5 scored isolates: 174 sOTUs, 4,551 isolates from 16 studies (AmphiBac reference field). For each sOTU we computed the median, interquartile range, SD and full range of isolate scores. sOTUs are ranked by median score. Points show the median, thick bars the IQR, and thin bars the full range. The display is clipped at −250 to 200; this truncates the lower whisker of 12 sOTUs, and true minima and maxima are given in the summary table. Colour gives the sOTU's meta-analysis abundance class by mean relative abundance: dominant ≥1%, intermediate 0.1–1%, rare <0.1%. Analyses were done in R with data.table and ggplot2.
+
+**Results to cite** (from output/panelA_sOTU_summary.csv): the median within-sOTU SD was 39.6 percentage points (IQR of SDs 28.6–51.1). 74.7% of sOTUs (130/174) contained both a strongly inhibitory isolate (score >50) and an enhancing isolate (score <0). The median SD was similar across abundance classes: dominant 37.0 (n = 13), intermediate 38.8 (n = 39), rare 40.6 (n = 122).
+
+*Suggested legend:* **(A)** Bd inhibition scores of AmphiBac isolates grouped by the meta-analysis V4 sOTU they match (≤3 mismatches). The plot shows the 174 sOTUs with ≥5 isolates scored in cell-free supernatant assays, ranked by median score. Points are medians, thick bars are interquartile ranges and thin bars are full ranges (clipped at −250). Colour gives the sOTU's mean relative abundance across 2,411 amphibian skin samples. The dashed line marks no effect; values below it indicate enhancement of Bd growth.
+EOF
+Rscript -e 's<-data.table::fread("output/panelA_sOTU_summary.csv"); cat(sum(s$spans_inhib_and_enh), "\n")'
+cat > README.md <<'EOF'
+# Panel A: within-sOTU spread of Bd inhibition (stand-alone)
+
+Run with `Rscript panelA_sOTU_Bd_spread.R` from this folder (requires R ≥4.1, data.table and ggplot2; cairo is used for the PDF).
+
+- `data/panelA_isolate_scores.csv`: one row per scored isolate (4,551). Columns: sOTU_id (sOTU_001–174, ranked by median score), sOTU_V4_sequence (90-bp meta-analysis sOTU), FastaID (AmphiBac ID), Reference (study DOI), host_species, Bd_function, inhib_score = (1 − proportional growth) × 100, mean_rel_pct and prevalence_pct (sOTU in the meta-analysis, 2,411 samples).
+- `panelA_sOTU_Bd_spread.R`: computes the per-sOTU summary and draws the panel.
+- `output/`: panelA_sOTU_summary.csv, panelA_sOTU_Bd_spread.png (300 dpi) and .pdf (vector).
+- `methods_panelA.md`: methods paragraph, numbers to cite and a suggested legend.
+
+The input table was derived from AmphiBac 2025.1-tested and the meta-analysis OTU table by scripts 01, 04 and 05 of the companion `amphib_R` project. The isolate-to-sOTU assignment and the filters are described in the methods.
+EOF
+cd ..; rm -f sOTU_Bd_panelA.zip; zip -rq sOTU_Bd_panelA.zip sOTU_Bd_panelA; ls -la sOTU_Bd_panelA.zip; unzip -l sOTU_Bd_panelA.zip | tail -12

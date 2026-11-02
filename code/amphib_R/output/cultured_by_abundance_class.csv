@@ -1,0 +1,4 @@
+abundance_class,n_sOTUs,n_cultured_exact,n_cultured_3mm,pct_cultured_exact,pct_cultured_3mm
+Dominant (>=1%),15,15,15,100,100
+Intermediate (0.1-1%),82,50,55,60.9756097560976,67.0731707317073
+Rare (<0.1%),48334,428,494,0.885505027516862,1.02205486820871
