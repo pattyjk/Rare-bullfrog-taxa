@@ -42,7 +42,7 @@ Files: [antiSMASH_BGC_summary.xlsx](outputs/02_antiSMASH/antiSMASH_BGC_summary.x
 - Only 3 regions reach ≥75% similarity to a known MIBiG cluster: ε-poly-L-lysine in BF7 and in BF4, and zeaxanthin in BF1. Most regions are below 50%, i.e. potentially novel.
 - BF5 and BF4 (binned from the same culture) share NAPAA, T3PKS and betalactone region types.
 
-![BGC types per genome]({{artifact:art_c95ac310-8aa6-4f67-ba9c-ad428201fe4a}})
+![BGC types per genome](outputs/02_antiSMASH/antiSMASH_BGC_stacked_bar.png)
 *BGC regions per genome by class (left) and by similarity to the nearest MIBiG cluster (right).*
 
 ## 4. Target genera in amplicon data
@@ -75,10 +75,10 @@ Isolates were matched to sOTUs by exact containment of the 90-bp sOTU in the iso
 - **Cultured share by abundance class:** 15/15 dominant, 55/82 intermediate, 494/48.3k rare sOTUs have a cultured representative. Per sample, cultured sOTUs are a median 20% of sOTUs but 68% of reads.
 - **Detected vs undetected isolates:** inhibition rates are similar, 49% vs 43% (p = 0.32).
 
-![Rank abundance]({{artifact:art_78eb1e4d-cdd0-4743-886e-94ff4855f9ab}})
+![Rank abundance](outputs/04_AmphiBac_vs_meta/AmphiBac_rank_abundance.png)
 *(a) Rank abundance of all meta-analysis sOTUs, with AmphiBac-matched sOTUs coloured by Bd function and the BF isolates marked. (b) Share of Bd-inhibitory sOTUs by abundance class.*
 
-![Cultured vs abundance]({{artifact:art_b07bf735-051c-443d-829c-baa800ea0f54}})
+![Cultured vs abundance](outputs/04_AmphiBac_vs_meta/AmphiBac_cultured_vs_abundance.png)
 *(a) sOTUs with a cultured AmphiBac match by abundance class. (b) Per-sample share of sOTUs and reads matched to cultured isolates. (c) Read share vs number of matched sOTUs per sample.*
 
 **Source host** ([AmphiBac_source_host_abundance.xlsx](outputs/04_AmphiBac_vs_meta/AmphiBac_source_host_abundance.xlsx)):
@@ -86,7 +86,7 @@ Isolates were matched to sOTUs by exact containment of the 90-bp sOTU in the iso
 - Host by host (1,476 units), the source host ranks above a median 54% of other host species.
 - The taxon is absent on its source host in 35% of units, and the source host is the top host only 40 times.
 
-![Source host]({{artifact:art_1447eaa2-4bb7-45be-ad06-f72f29353a07}})
+![Source host](outputs/04_AmphiBac_vs_meta/AmphiBac_source_host_abundance.png)
 *(a) Abundance on the source host vs other hosts. (b) Share of other host species with lower abundance than the source host.*
 
 ## 6. Abundance class vs Bd function
@@ -101,10 +101,10 @@ Classes: dominant ≥1%, intermediate 0.1–1%, rare <0.1%. Files: [AmphiBac_abu
 
 **Conclusion:** under every definition, rare taxa are *less* often Bd-inhibitory, not more. Framing for the paper: the BF isolates are an exception to the database-wide trend. They are rare or undetected yet strongly inhibitory, which shows that inhibition is a strain-level trait not predictable from 16S.
 
-![Abundance class vs function]({{artifact:art_b2f37314-9a7d-40d0-aa88-47b3c474ab92}})
+![Abundance class vs function](outputs/04_AmphiBac_vs_meta/AmphiBac_abundance_class_function.png)
 *Bd-tested taxa by global abundance class: (a) counts, (b) Bd function, (c) inhibition score.*
 
-![Alternative definitions]({{artifact:art_4e5c7613-69a4-4f74-8c81-fb196863b038}})
+![Alternative definitions](outputs/04_AmphiBac_vs_meta/AmphiBac_abundance_class_definitions.png)
 *The same comparison under three abundance-class definitions: global mean, mean when present, and mean on the source host.*
 
 ## 7. Variation in Bd inhibition within each sOTU
@@ -117,18 +117,18 @@ Score = (1 − proportional Bd growth) × 100, from 96-well cell-free supernatan
 
 Current values from the rebuilt R project (script 05). Earlier saved versions of these three files predated the Bd-label filter and showed 175 sOTUs, 11% unanimous and 29% of 147; the current versions are linked here: [sOTU_Bd_function_variance.csv](outputs/06_within_sOTU_Bd_variance/sOTU_Bd_function_variance.csv), [Bd_variance_partitioning.csv](outputs/06_within_sOTU_Bd_variance/Bd_variance_partitioning.csv), [sOTU_Bd_variance.png](outputs/06_within_sOTU_Bd_variance/sOTU_Bd_variance.png).
 
-![Within-sOTU Bd variance]({{artifact:art_aec82799-b151-4484-8c4c-7585c357a69c}})
+![Within-sOTU Bd variance](outputs/06_within_sOTU_Bd_variance/sOTU_Bd_variance.png)
 *(a) Per-sOTU spread of Bd inhibition scores (174 sOTUs with ≥5 scored isolates). (b) SD by abundance class. (c) Share of isolates sharing the majority label.*
 
 **Panel A, packaged for the separate manuscript:** [sOTU_Bd_panelA.zip](outputs/07_panelA_separate_manuscript/sOTU_Bd_panelA.zip) (data, R script, figure, methods; abundance colouring removed).
 
-![Panel A]({{artifact:art_9f347f5d-a30c-4c51-920a-c31c1850058d}})
+![Panel A](outputs/07_panelA_separate_manuscript/panelA_sOTU_Bd_spread.png)
 *Panel A as packaged for the separate manuscript (no abundance colouring).*
 
 ## 8. Multi-hit sensitivity of the abundance-class results
 Files: [AmphiBac_multihit_sensitivity.xlsx](outputs/05_multihit_sensitivity/AmphiBac_multihit_sensitivity.xlsx), figure [AmphiBac_multihit_sensitivity.png](outputs/05_multihit_sensitivity/AmphiBac_multihit_sensitivity.png); script [code/multihit_sensitivity.py](code/multihit_sensitivity.py).
 
-![Multi-hit sensitivity]({{artifact:art_a5d45787-ca23-4669-ba79-8710390a7ebe}})
+![Multi-hit sensitivity](outputs/05_multihit_sensitivity/AmphiBac_multihit_sensitivity.png)
 *% of sOTUs called inhibitory by abundance class under alternative rules for (a) isolates tied between sOTUs and (b) sOTUs with conflicting isolate labels; χ² p-values at right.*
 
 - **Isolate side:** 852 of the 5,972 matched Bd-tested isolates (14%) have no exact match and are tied between several nearest sOTUs (median 5). No isolate exactly contains more than one sOTU. The original "most abundant tied sOTU" rule placed 229 isolates in the dominant or intermediate class that a "rarest" rule would call rare.
