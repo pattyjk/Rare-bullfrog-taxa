@@ -1,8 +1,0 @@
-new_ID,original_ID,original_label_variants,genome_taxonomy
-BF1,78E,78E,Sphingomonas paucimobilis
-BF2,BF170,BF170_Starkeya; BF170-Starkeya; BF170 Starkeya,Xanthobacteraceae (possible new genus)
-BF3,BF261,BF261_Kineo; BF261 Kineo,Kineococcus sp. nov.
-BF4,CSWG105 cryobin,CSWG105_Microterricola_cryobin; CSWG105-Microterricola; CSWG105_cryobin; CSWG105 cryobin,Cryobacterium sp. nov. (binned from the same culture as BF5)
-BF5,CSWG105,CSWG105,Arthrobacter sp. nov.
-BF6,M1241,M1241_Renibacterium; M1241 Renibacterium,Psychromicrobium sp. nov.
-BF7,sfa6.6,sfa6.6; sfa6 6; sfa6,Rhodococcoides fascians
