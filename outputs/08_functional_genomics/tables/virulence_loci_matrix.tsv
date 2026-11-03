@@ -1,0 +1,195 @@
+genome	fasR	fasA	fasB	fasC	fasD	fasE	fasF	attR	attX	attA	attB	attC	attD	attE	attF	attG	attH	hyp	fas_genes_present(of7)	att_genes_present(of10)	hyp_genes_present(of1)	pFiD188_CDS_shared(of184)	pFiD188_frac	in_pangenome_set	virulence_type	strain	host	isolation_source
+BF7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	True	non-pathogenic-type (no fas/att/hyp)			
+GCA_060880165.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0.054	True	non-pathogenic-type (no fas/att/hyp)			wastewater treatment plant
+GCA_062054756.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)			groundwater from uranium ore deposit
+GCA_977207755.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	56	0.304	True	non-pathogenic-type (no fas/att/hyp)			missing
+GCF_000760675.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	141	0.766	True	pathogenic-type (complete fas)	A3b	Heliopsis helianthoides	
+GCF_000760775.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	7	10	1	163	0.886	True	pathogenic-type (complete fas)	A78	Leucanthemum x superbum	
+GCF_000760795.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	GIC26		glacial ice core
+GCF_000760815.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	GIC36		glacial ice core
+GCF_000760875.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	05-561-1	Lavandula angustifolia	
+GCF_000760975.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	7	10	1	161	0.875	False	pathogenic-type (complete fas)	D188	Chrysanthemum x morifolium	Europe
+GCF_000760995.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	LMG 3602	Lilium longiflorum	
+GCF_000761015.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	7	10	1	162	0.88	False	pathogenic-type (complete fas)	LMG 3605	Chrysanthemum x morifolium	
+GCF_000761035.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	7	10	1	143	0.777	True	pathogenic-type (complete fas)	LMG 3616	Lathyrus odoratus	
+GCF_000761055.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	160	0.87	True	pathogenic-type (complete fas)	LMG 3623	Verbascum nigrum	
+GCF_001037935.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	F7		
+GCF_001620005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	PBTS 2		UCB-1 pistachio rootstock
+GCF_001620305.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	7	10	1	160	0.87	True	pathogenic-type (complete fas)	D188	Chrysanthemum x morifolium	
+GCF_001894785.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	160	0.87	True	pathogenic-type (complete fas)	NBRC 12155		
+GCF_002258705.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	138	0.75	False	pathogenic-type (complete fas)	15-508-1b	Petunia	
+GCF_002259165.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	PBTS 2	Pistachio	
+GCF_002259295.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	138	0.75	False	pathogenic-type (complete fas)	14-2632-D2	Petunia	
+GCF_002259325.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	138	0.75	True	pathogenic-type (complete fas)	14-2632c-1	Petunia	
+GCF_002259465.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	138	0.75	False	pathogenic-type (complete fas)	B3	missing	missing
+GCF_002259505.1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	7	10	0	137	0.745	False	pathogenic-type (complete fas)	A2	missing	missing
+GCF_011770005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	GS6	Prunus dulcis	plant tissue from nut nursery
+GCF_011770045.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	SB10	Prunus persica x Prunus dulcis	plant tissue from nut nursery
+GCF_016905965.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-96	pistachio	missing
+GCF_019375995.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0.016	True	non-pathogenic-type (no fas/att/hyp)	S11		
+GCF_019781225.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-9	Pistacia vera	leaves
+GCF_019781245.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-8	Pistacia vera	leaves
+GCF_019781255.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-77	Pistacia vera	leaves
+GCF_019781285.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-7	Pistacia vera	leaves
+GCF_019781305.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-6	Pistacia vera	Galls
+GCF_019781325.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-53	Pistacia vera	leaves
+GCF_019781345.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-5	Pistacia vera	Galls
+GCF_019781365.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-51	Pistacia vera	leaves
+GCF_019781385.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-47	Pistacia vera	leaves
+GCF_019781405.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-46	Pistacia vera	leaves
+GCF_019781425.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-44	Pistacia vera	leaves
+GCF_019781445.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-43	Pistacia vera	Bark
+GCF_019781465.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-45	Pistacia vera	leaves
+GCF_019781485.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-40	Pistacia vera	leaves
+GCF_019781505.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-39	Pistacia vera	leaves
+GCF_019781515.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-4	Pistacia vera	leaves
+GCF_019781545.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-372	Pistacia vera	missing
+GCF_019781565.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-373	Pistacia vera	missing
+GCF_019781585.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-37	Pistacia vera	leaves
+GCF_019781595.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-371	Pistacia vera	missing
+GCF_019781605.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-38	Pistacia vera	leaves
+GCF_019781645.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-367	Pistacia vera	leaves
+GCF_019781665.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-368	Pistacia vera	leaves
+GCF_019781685.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-355	Pistacia vera	leaves
+GCF_019781695.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-366	Pistacia vera	leaves
+GCF_019781715.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-356	Pistacia vera	leaves
+GCF_019781725.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-365	Pistacia vera	leaves
+GCF_019781765.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-354	Pistacia vera	leaves
+GCF_019781785.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-348	Pistacia vera	leaves
+GCF_019781795.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-346	Pistacia vera	leaves
+GCF_019781805.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-347	Pistacia vera	leaves
+GCF_019781845.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-345	Pistacia vera	leaves
+GCF_019781865.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-34	Pistacia vera	leaves
+GCF_019781885.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-337	Pistacia vera	leaves
+GCF_019781905.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-330	Pistacia vera	leaves
+GCF_019781925.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-338	Pistacia vera	leaves
+GCF_019781945.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-328	Pistacia vera	leaves
+GCF_019781955.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-329	Pistacia vera	leaves
+GCF_019781985.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-327	Pistacia vera	leaves
+GCF_019782005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-326	Pistacia vera	leaves
+GCF_019782025.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-325	Pistacia vera	leaves
+GCF_019782045.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-311	Pistacia vera	Young Galls
+GCF_019782065.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-310	Pistacia vera	Young Galls
+GCF_019782085.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	BP-312	Pistacia vera	Multiple Brancheing
+GCF_019782105.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-309	Pistacia vera	Young Galls
+GCF_019782125.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-308	Pistacia vera	Young Galls
+GCF_019782135.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-306	Pistacia vera	Young Galls
+GCF_019782145.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-307	Pistacia vera	Young Galls
+GCF_019782185.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-305	Pistacia vera	Bark
+GCF_019782205.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	BP-304	Pistacia vera	Bark
+GCF_019782225.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-300	Pistacia vera	Bark
+GCF_019782245.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-303	Pistacia vera	Bark
+GCF_019782265.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-302	Pistacia vera	Bark
+GCF_019782285.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-30	Pistacia vera	leaves
+GCF_019782305.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-299	Pistacia vera	Bark
+GCF_019782325.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-298	Pistacia vera	Bark
+GCF_019782365.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-296	Pistacia vera	Bark
+GCF_019782405.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-292	Pistacia vera	missing
+GCF_019782425.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-280	Pistacia vera	missing
+GCF_019782445.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-29	Pistacia vera	missing
+GCF_019782455.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-293	Pistacia vera	missing
+GCF_019782485.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-279	Pistacia vera	missing
+GCF_019782505.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-28	Pistacia vera	missing
+GCF_019782525.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-27	Pistacia vera	missing
+GCF_019782545.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-278	Pistacia vera	missing
+GCF_019782565.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-263	Pistacia vera	missing
+GCF_019782585.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-26	Pistacia vera	leaves
+GCF_019782605.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-249	Pistacia vera	Suckers
+GCF_019782625.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-25	Pistacia vera	Bark
+GCF_019782645.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-247	Pistacia vera	Suckers
+GCF_019782665.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-244	Pistacia vera	Suckers
+GCF_019782685.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-243	Pistacia vera	leaves
+GCF_019782705.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-242	Pistacia vera	leaves
+GCF_019782725.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-240	Pistacia vera	leaves
+GCF_019782745.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-239	Pistacia vera	leaves
+GCF_019782755.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-24	Pistacia vera	Bark
+GCF_019782785.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	True	non-pathogenic-type (no fas/att/hyp)	BP-215	Pistacia vera	Suckers
+GCF_019782805.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	False	non-pathogenic-type (no fas/att/hyp)	BP-214	Pistacia vera	Suckers
+GCF_019782825.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	BP-212	Pistacia vera	Suckers
+GCF_019782845.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-208	Pistacia vera	Suckers
+GCF_019782855.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-209	Pistacia vera	Suckers
+GCF_019782885.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-206	Pistacia vera	Suckers
+GCF_019782895.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-204	Pistacia vera	Suckers
+GCF_019782925.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-202	Pistacia vera	Suckers
+GCF_019782945.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-203	Pistacia vera	Suckers
+GCF_019782955.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-201	Pistacia vera	missing
+GCF_019782985.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-237	Pistacia vera	leaves
+GCF_019783005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-238	Pistacia vera	leaves
+GCF_019783025.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-231	Pistacia vera	leaves
+GCF_019783045.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-23	Pistacia vera	Bark
+GCF_019783065.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-230	Pistacia vera	leaves
+GCF_019783075.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-229	Pistacia vera	leaves
+GCF_019783105.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-228	Pistacia vera	leaves
+GCF_019783125.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-226	Pistacia vera	leaves
+GCF_019783145.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-227	Pistacia vera	leaves
+GCF_019783165.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-223	Pistacia vera	leaves
+GCF_019783185.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-225	Pistacia vera	leaves
+GCF_019783205.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-222	Pistacia vera	leaves
+GCF_019783225.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-22	Pistacia vera	leaves
+GCF_019783235.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-217	Pistacia vera	leaves
+GCF_019783255.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-218	Pistacia vera	leaves
+GCF_019783285.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-219	Pistacia vera	leaves
+GCF_019783305.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-216	Pistacia vera	leaves
+GCF_019783325.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	False	non-pathogenic-type (no fas/att/hyp)	BP-211	Pistacia vera	Suckers
+GCF_019783345.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-200	Pistacia vera	leaves
+GCF_019783365.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	False	non-pathogenic-type (no fas/att/hyp)	BP-210	Pistacia vera	Suckers
+GCF_019783385.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-20	Pistacia vera	Bark
+GCF_019783405.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-2	Pistacia vera	leaves
+GCF_019783425.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-199	Pistacia vera	leaves
+GCF_019783445.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-197	Pistacia vera	leaves
+GCF_019783465.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	False	non-pathogenic-type (no fas/att/hyp)	BP-195	Pistacia vera	leaves
+GCF_019783485.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	True	non-pathogenic-type (no fas/att/hyp)	BP-194	Pistacia vera	leaves
+GCF_019783505.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-196	Pistacia vera	leaves
+GCF_019783515.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	BP-193	Pistacia vera	leaves
+GCF_019783545.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	False	non-pathogenic-type (no fas/att/hyp)	BP-192	Pistacia vera	leaves
+GCF_019783555.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-190	Pistacia vera	leaves
+GCF_019783585.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	BP-191	Pistacia vera	missing
+GCF_019783595.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-189	Pistacia vera	leaves
+GCF_019783625.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-185	Pistacia vera	leaves
+GCF_019783645.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-19	Pistacia vera	Bark
+GCF_019783655.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-184	Pistacia vera	leaves
+GCF_019783685.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-181	Pistacia vera	leaves
+GCF_019783695.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-183	Pistacia vera	leaves
+GCF_019783725.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-18	Pistacia vera	leaves
+GCF_019783745.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-17	Pistacia vera	Bark
+GCF_019783765.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-166	Pistacia vera	leaves
+GCF_019783785.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-16	Pistacia vera	missing
+GCF_019783805.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-153	Pistacia vera	leaves
+GCF_019783825.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-163	Pistacia vera	leaves
+GCF_019783845.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-152	Pistacia vera	leaves
+GCF_019783865.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-141	Pistacia vera	leaves
+GCF_019783885.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-151	Pistacia vera	leaves
+GCF_019783905.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-143	Pistacia vera	leaves
+GCF_019783915.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-140	Pistacia vera	leaves
+GCF_019783945.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-14	Pistacia vera	missing
+GCF_019783965.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-131	Pistacia vera	leaf
+GCF_019783975.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-132	Pistacia vera	leaf
+GCF_019784005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-139	Pistacia vera	leaves
+GCF_019784025.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-128	Pistacia vera	leaves
+GCF_019784045.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-116	Pistacia vera	Suckers
+GCF_019784055.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-12	Pistacia vera	leaves
+GCF_019784085.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-13	Pistacia vera	Galls
+GCF_019784105.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-111	Pistacia vera	Suckers
+GCF_019784125.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-113	Pistacia vera	Suckers
+GCF_019784145.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-11	Pistacia vera	Galls
+GCF_019784165.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-103	Pistacia vera	leaves
+GCF_019784185.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-100	Pistacia vera	leaves
+GCF_019784205.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-10	Pistacia vera	leaves
+GCF_019784225.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	False	non-pathogenic-type (no fas/att/hyp)	BP-1	Pistacia vera	leaves
+GCF_030057095.1	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	0	0	10	0	14	0.076	True	partial (att and/or hyp only, no fas)	IEGM 1233		Elytrigia repens rhizosphere, oilfield
+GCF_030063535.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	IEGM 455		sand
+GCF_030063615.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	IEGM 1122		Plantago major rhizosphere, soil, former landfill area
+GCF_030063685.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	IEGM 712		foam, aerotenk of treatment facilities with use of active silt
+GCF_030813815.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	2	0.011	True	partial (att and/or hyp only, no fas)	DSM 43673	not applicable	missing
+GCF_031456435.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	3241	not applicable	missing
+GCF_034479715.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	GS01		garbage dump
+GCF_042768175.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0.098	True	non-pathogenic-type (no fas/att/hyp)	Rhodococcus fascians R86508	Ulva intestinalis	
+GCF_044460825.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	True	non-pathogenic-type (no fas/att/hyp)	NPDC049968		
+GCF_045820725.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0.022	True	non-pathogenic-type (no fas/att/hyp)	YWS3-1	Lilium sp.	
+GCF_049913325.1	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	0	0	10	0	13	0.071	True	partial (att and/or hyp only, no fas)	R-03		maize rhizosphere
+GCF_056679835.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)	PTI8		
+GCF_056754785.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.005	True	non-pathogenic-type (no fas/att/hyp)	MSU4B		
+GCF_060513785.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0.033	True	non-pathogenic-type (no fas/att/hyp)	1P10PD		cleanroom floor
+GCF_060514005.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	75	0.408	True	non-pathogenic-type (no fas/att/hyp)	1P04PD		cleanroom floor
+GCF_918697885.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0.011	True	non-pathogenic-type (no fas/att/hyp)			
+GCF_988226545.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	True	non-pathogenic-type (no fas/att/hyp)			

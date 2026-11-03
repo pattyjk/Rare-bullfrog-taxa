@@ -1,0 +1,111 @@
+category	feature	value_type	BF1	BF2	BF3	BF4	BF5	BF6	BF7
+Vitamin/cofactor	B1 thiamine	module completeness (best alternative)	0.571	0.667	1.0	0.143	0.667	1.0	1.0
+Vitamin/cofactor	B2 riboflavin	module completeness (best alternative)	0.857	0.857	0.714	0.857	0.714	0.714	0.857
+Vitamin/cofactor	B3 NAD de novo	module completeness (best alternative)	1.0	1.0	0.8	1.0	1.0	1.0	1.0
+Vitamin/cofactor	B5 pantothenate	module completeness (best alternative)	0.6	0.8	0.8	1.0	0.8	0.8	0.8
+Vitamin/cofactor	CoA from pantothenate	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Vitamin/cofactor	B6 pyridoxal-P	module completeness (best alternative)	0.667	0.667	1.0	1.0	1.0	1.0	1.0
+Vitamin/cofactor	B7 biotin	module completeness (best alternative)	0.667	0.0	0.0	0.0	0.0	0.667	1.0
+Vitamin/cofactor	B9 tetrahydrofolate	module completeness (best alternative)	1.0	0.8	1.0	0.8	1.0	0.8	1.0
+Vitamin/cofactor	B12 cobalamin (corrin ring)	module completeness (best alternative)	0.909	0.091	0.091	0.091	0.091	0.091	0.909
+Vitamin/cofactor	B12 cobalamin (cobinamide => cobalamin)	module completeness (best alternative)	1.0	0.286	0.286	0.0	0.0	0.0	1.0
+Vitamin/cofactor	Heme	module completeness (best alternative)	0.8	0.9	1.0	1.0	1.0	1.0	1.0
+Vitamin/cofactor	Siroheme	module completeness (best alternative)	0.5	0.833	1.0	0.833	1.0	1.0	1.0
+Vitamin/cofactor	Menaquinone	module completeness (best alternative)	0.111	0.111	0.778	0.889	0.778	0.889	0.778
+Vitamin/cofactor	Ubiquinone	module completeness (best alternative)	0.5	0.5	0.125	0.125	0.125	0.125	0.125
+Vitamin/cofactor	Molybdenum cofactor	module completeness (best alternative)	1.0	1.0	0.667	0.667	0.667	0.667	0.667
+Amino acid	Serine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Cysteine	module completeness (best alternative)	1.0	1.0	0.5	1.0	1.0	1.0	0.5
+Amino acid	Threonine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Methionine	module completeness (best alternative)	0.667	0.833	0.833	0.833	0.833	1.0	0.833
+Amino acid	Lysine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Valine (+isoleucine from 2-oxobutanoate)	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Isoleucine (2-oxobutanoate supply)	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Leucine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Proline	module completeness (best alternative)	1.0	1.0	0.5	1.0	1.0	1.0	1.0
+Amino acid	Ornithine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Arginine	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Amino acid	Histidine	module completeness (best alternative)	0.833	0.833	0.667	0.667	0.833	0.833	0.833
+Amino acid	Chorismate (shikimate)	module completeness (best alternative)	1.0	1.0	0.75	1.0	1.0	1.0	1.0
+Amino acid	Tryptophan	module completeness (best alternative)	1.0	1.0	0.667	0.667	1.0	1.0	1.0
+Amino acid	Phenylalanine	module completeness (best alternative)	0.0	0.0	0.5	0.5	0.5	0.5	0.0
+Amino acid	Tyrosine	module completeness (best alternative)	0.5	0.0	0.5	0.5	0.5	0.5	0.5
+Nitrogen	Assimilatory nitrate reduction	module completeness (best alternative)	1.0	1.0	0.5	0.0	0.0	0.0	0.5
+Nitrogen	Dissimilatory nitrate reduction (DNRA)	module completeness (best alternative)	0.0	0.0	0.0	1.0	0.5	0.0	0.5
+Nitrogen	Denitrification	module completeness (best alternative)	0.0	0.0	0.0	0.5	0.0	0.0	0.0
+Nitrogen	Nitrification	module completeness (best alternative)	0.0	0.0	0.0	0.333	0.0	0.0	0.0
+Nitrogen	Nitrogen fixation	module completeness (best alternative)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Urease alpha ureC	fraction of marker KOs present	0.0	1.0	1.0	1.0	1.0	0.0	1.0
+Nitrogen	Urease beta ureB	fraction of marker KOs present	0.0	1.0	0.0	0.0	1.0	0.0	1.0
+Nitrogen	Urease gamma ureA	fraction of marker KOs present	0.0	1.0	0.0	1.0	1.0	0.0	1.0
+Nitrogen	Urease fused gamma-beta ureAB	fraction of marker KOs present	0.0	1.0	1.0	0.0	0.0	0.0	1.0
+Nitrogen	Urease accessory ureD/ureE/ureF/ureG	fraction of marker KOs present	0.0	1.0	1.0	0.75	1.0	0.0	0.75
+Nitrogen	Urea ABC transporter urtABCDE	fraction of marker KOs present	0.0	1.0	0.0	0.8	0.0	0.0	1.0
+Nitrogen	Urea carboxylase / allophanate hydrolase	fraction of marker KOs present	0.0	0.5	1.0	1.0	1.0	0.0	1.0
+Nitrogen	Glutamine synthetase glnA	fraction of marker KOs present	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Nitrogen	Glutamate synthase GOGAT gltB/gltD (NADPH)	fraction of marker KOs present	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Nitrogen	Glutamate synthase GOGAT (ferredoxin) / glutamate dehydrogenase	fraction of marker KOs present	0.5	0.25	0.25	0.0	0.5	0.25	0.25
+Nitrogen	Ammonium transporter amtB	fraction of marker KOs present	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Nitrogen	Assimilatory nitrate reductase narB/nasA/nasC	fraction of marker KOs present	0.333	0.333	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Assimilatory nitrite reductase nirBD (NADH)	fraction of marker KOs present	0.0	0.0	0.0	1.0	1.0	0.0	1.0
+Nitrogen	Ferredoxin-nitrite reductase nirA	fraction of marker KOs present	0.0	1.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Respiratory nitrate reductase narGHI	fraction of marker KOs present	0.0	0.0	0.0	1.0	0.0	0.0	0.0
+Nitrogen	Periplasmic nitrate reductase napAB	fraction of marker KOs present	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	NO-forming nitrite reductase nirK/nirS	fraction of marker KOs present	0.0	0.0	0.0	0.5	0.0	0.0	0.0
+Nitrogen	Nitric oxide reductase norBC	fraction of marker KOs present	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Nitrous oxide reductase nosZ	fraction of marker KOs present	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Nitrogenase nifHDK	fraction of marker KOs present	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nitrogen	Nitrate/nitrite transporters narK/nrtABC	fraction of marker KOs present	0.25	0.75	0.25	0.25	0.25	0.0	0.25
+Nitrogen	Flavohemoprotein NO dioxygenase hmp	fraction of marker KOs present	0.0	1.0	0.0	0.0	1.0	0.0	1.0
+Sulfur	Assimilatory sulfate reduction	module completeness (best alternative)	0.667	0.667	0.0	0.0	0.667	0.667	0.667
+Sulfur	Dissimilatory sulfate reduction	module completeness (best alternative)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Sulfur	SOX thiosulfate oxidation	module completeness (best alternative)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Central carbon	Glycolysis (EMP)	module completeness (best alternative)	0.889	0.889	1.0	1.0	1.0	1.0	1.0
+Central carbon	Glycolysis core (C3)	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Central carbon	Gluconeogenesis	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Central carbon	Pyruvate oxidation	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Central carbon	TCA cycle	module completeness (best alternative)	1.0	1.0	1.0	1.0	0.875	1.0	0.875
+Central carbon	Entner-Doudoroff	module completeness (best alternative)	1.0	0.75	0.75	0.75	0.75	0.5	0.75
+Central carbon	Semi-phosphorylative ED	module completeness (best alternative)	0.6	0.8	0.8	0.8	0.8	0.4	0.8
+Central carbon	Glyoxylate cycle	module completeness (best alternative)	1.0	0.8	0.4	1.0	0.8	1.0	0.8
+Central carbon	Pentose phosphate (oxidative)	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Central carbon	Pentose phosphate (non-oxidative)	module completeness (best alternative)	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Aromatic/steroid degradation (KO count)	map00361 Chlorocyclohexane and chlorobenzene degradation	n KOs present in map	2.0	5.0	2.0	3.0	3.0	2.0	7.0
+Aromatic/steroid degradation (KO count)	map00362 Benzoate degradation	n KOs present in map	10.0	15.0	4.0	4.0	17.0	14.0	27.0
+Aromatic/steroid degradation (KO count)	map00364 Fluorobenzoate degradation	n KOs present in map	1.0	2.0	0.0	1.0	1.0	0.0	3.0
+Aromatic/steroid degradation (KO count)	map00621 Dioxin degradation	n KOs present in map	1.0	0.0	1.0	0.0	1.0	1.0	4.0
+Aromatic/steroid degradation (KO count)	map00622 Xylene degradation	n KOs present in map	1.0	1.0	1.0	1.0	4.0	4.0	6.0
+Aromatic/steroid degradation (KO count)	map00623 Toluene degradation	n KOs present in map	1.0	2.0	0.0	1.0	3.0	3.0	5.0
+Aromatic/steroid degradation (KO count)	map00624 Polycyclic aromatic hydrocarbon degradation	n KOs present in map	0.0	1.0	1.0	0.0	2.0	2.0	3.0
+Aromatic/steroid degradation (KO count)	map00626 Naphthalene degradation	n KOs present in map	2.0	1.0	1.0	2.0	1.0	0.0	0.0
+Aromatic/steroid degradation (KO count)	map00627 Aminobenzoate degradation	n KOs present in map	6.0	5.0	2.0	2.0	8.0	5.0	7.0
+Aromatic/steroid degradation (KO count)	map00633 Nitrotoluene degradation	n KOs present in map	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+Aromatic/steroid degradation (KO count)	map00643 Styrene degradation	n KOs present in map	6.0	4.0	1.0	2.0	3.0	2.0	4.0
+Aromatic/steroid degradation (KO count)	map00791 Atrazine degradation	n KOs present in map	0.0	5.0	6.0	6.0	7.0	0.0	8.0
+Aromatic/steroid degradation (KO count)	map00930 Caprolactam degradation	n KOs present in map	1.0	2.0	1.0	1.0	3.0	3.0	4.0
+Aromatic/steroid degradation (KO count)	map00984 Steroid degradation	n KOs present in map	0.0	3.0	0.0	1.0	3.0	3.0	7.0
+Two-component (host sensing)	PhoR/PhoB (phosphate limitation)	HK+RR pair present (1/0)	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	PhoQ/PhoP (Mg2+ / cationic antimicrobial peptides / acidic pH)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	BasS/BasR (PmrB/PmrA) (Fe3+ / acidic pH; LPS modification)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	QseC/QseB (host catecholamines / AI-3 (enteric literature))	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	CpxA/CpxR (envelope stress)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	EnvZ/OmpR (osmolarity)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	KdpD/KdpE (K+ limitation / osmotic stress)	HK+RR pair present (1/0)	0.0	1.0	1.0	1.0	1.0	1.0	1.0
+Two-component (host sensing)	BaeS/BaeR (envelope stress / efflux)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	CusS/CusR (copper/silver)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	RstB/RstA (acid / PhoPQ network)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	MtrB/MtrA (actinobacterial cell envelope / osmotic)	HK+RR pair present (1/0)	0.0	0.0	1.0	1.0	1.0	1.0	1.0
+Two-component (host sensing)	SenX3/RegX3 (phosphate (Actinobacteria))	HK+RR pair present (1/0)	0.0	0.0	1.0	1.0	1.0	1.0	1.0
+Two-component (host sensing)	PrrB/PrrA (host-intracellular / N limitation (mycobacteria))	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	1.0
+Two-component (host sensing)	DevS/DevR (DosS/DosR) (hypoxia / NO / CO)	HK+RR pair present (1/0)	0.0	0.0	1.0	1.0	1.0	0.0	0.0
+Two-component (host sensing)	ChvG/ChvI (acidic pH; plant-host interaction (Alphaproteobacteria))	HK+RR pair present (1/0)	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	NarX/NarL (nitrate/nitrite)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	NtrB/NtrC (nitrogen limitation)	HK+RR pair present (1/0)	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	FixL/FixJ (oxygen)	HK+RR pair present (1/0)	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	RegB/RegA (redox)	HK+RR pair present (1/0)	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	LiaS/LiaR (cell-envelope stress / antimicrobial peptides)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	VraS/VraR (cell-wall-active antibiotics)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	VanS/VanR (glycopeptide)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	GacS/GacA (BarA/UvrY) (secondary-metabolite / biocontrol regulation)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	CheA/CheY (chemotaxis)	HK+RR pair present (1/0)	1.0	0.0	0.0	0.0	0.0	0.0	0.0
+Two-component (host sensing)	PilS/PilR (pilin expression / surface)	HK+RR pair present (1/0)	0.0	0.0	0.0	0.0	0.0	0.0	0.0

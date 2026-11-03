@@ -7,6 +7,9 @@
 3. **They are rare on amphibian skin.** Their V4 sequences make up at most 0.22% mean relative abundance in the meta-analysis, and BF7 and BF2 are absent. *Rhodococcoides* and *Psychromicrobium* are essentially undetected in the meta-analysis, bullfrog and salamander data.
 4. **They are an exception to the database-wide pattern.** In AmphiBac, cultured isolates mostly match abundant sOTUs (15/15 dominant sOTUs have a cultured match), and rare taxa are not more often Bd-inhibitory than dominant ones (sections 6 and 8).
 5. **Inhibition is a strain-level trait.** Isolates sharing a V4 sOTU differ widely in Bd inhibition (median within-sOTU SD 39.6 points; 74.7% of sOTUs contain both strong inhibitors and enhancers), and the sOTU explains only about 15% of the variance in inhibition score (section 7).
+6. **The genomes point to secondary metabolism rather than cell-wall enzymes.** No isolate carries a canonical chitinase. BF7 is a non-pathogenic, distinct *R. fascians* lineage with novel biosynthetic islands, and the isolates differ in B12, biotin, urease and nitrogen capacity (section 9).
+7. **No isolate carries vertebrate steroid-hormone synthesis genes.** None has the testosterone/progesterone genes from Mohamed et al. 2026; BF7 has only the first steroid-breakdown steps. The leads are a possible corticosteroid-modifying 3α/20β-HSD in BF4/BF5, ACC deaminase and GABA synthesis (section 10).
+8. **Rarity on amphibian skin depends more on context than on host.** 413 sOTUs are consistently rare (mostly soil oligotrophs) and 180 conditionally rare (mostly bloom-forming Proteobacteria/Bacteroidota). Abundant sOTUs drop out more often across sites, stages or studies of the same host than between co-sampled host species. BF1 and BF5 are conditionally rare; BF3 is almost consistently rare (section 11).
 
 ## Repository layout
 | Path | Contents |
@@ -16,6 +19,12 @@
 | [code/multihit_sensitivity.py](code/multihit_sensitivity.py) | Multi-hit sensitivity analysis (section 8) |
 | [code/sOTU_Bd_panelA/](code/sOTU_Bd_panelA/) | Stand-alone data, script and methods for panel A |
 | [code/session_log/](code/session_log/) | Every code cell run during the analysis, in order, with an index |
+| [outputs/08_functional_genomics/](outputs/08_functional_genomics/) | CAZyme/mucin, KEGG and comparative-genomics results (section 9) |
+| [code/functional_genomics/](code/functional_genomics/) | Scripts for the functional-genomics screens |
+| [outputs/09_hormone_screen/](outputs/09_hormone_screen/) | Steroid (Mohamed et al. 2026) and hormone-related KO tables (section 10) |
+| [code/hormone_KO_screen/](code/hormone_KO_screen/) | Script for section 10 |
+| [outputs/10_conditional_rarity/](outputs/10_conditional_rarity/) | Consistently vs conditionally rare sOTUs, taxonomy of both classes (section 11) |
+| [code/conditional_rarity/](code/conditional_rarity/) | Scripts for section 11 |
 | [aggregated_genomes/](aggregated_genomes/), [Prokka/](Prokka/), [gff_files/](gff_files/) | Genome assemblies and Prokka annotations for BF1–BF7 |
 
 ## 1. Goal
@@ -139,13 +148,157 @@ Files: [AmphiBac_multihit_sensitivity.xlsx](outputs/05_multihit_sensitivity/Amph
 - **Robust to every rule:** isolate-level inhibitory share (68–69 / 51–52 / 40–41%), cultured share (dominant always 15/15), and a weak positive correlation between abundance and median score (ρ 0.12–0.14, p ≤ 0.009).
 - **Manuscript wording:** "rare taxa are not more often inhibitory" stands; describe the dominant > rare gradient as a trend that is sensitive to how multi-hits are resolved.
 
-## 9. Decisions recorded
+## 9. Functional genomics of BF1–BF7
+Full section, tables and methods: [outputs/08_functional_genomics/](outputs/08_functional_genomics/) (workbook [functional_genomics_BF1-BF7.xlsx](outputs/08_functional_genomics/functional_genomics_BF1-BF7.xlsx)). Gene presence means genetic capacity, not demonstrated activity.
+- **Fungal cell wall:** no isolate encodes a canonical secreted chitinase or AA10 chitin LPMO. The only secreted β-1,3-glucanase candidates are GH16 in BF1, BF5 and BF7, GH81 in BF4 and GH128 in BF5. Direct enzymatic attack on the Bd wall is unlikely to explain inhibition in most isolates.
+- **Mucin glycans:** the broadest O-glycan repertoires (sialidase, fucosidases, hexosaminidases) are in BF6, BF1 and BF3. BF6 alone has an endo-α-GalNAc-ase (GH101), and BF3 alone has a weak M66 mucinase hit. No complete sialic-acid or fucose catabolic cluster was found.
+- **Metabolism:** only BF1 and BF7 can make B12 de novo. Biotin synthesis genes are absent at threshold in BF2–BF5. Urease occurs in BF2, BF3, BF5 and BF7, plus a near-threshold ureDGF-CBA cluster in BF4. Only BF4 has respiratory nitrate reductase.
+- **Steroids:** BF7 carries the steroid-degradation genes (6 cholesterol oxidases, KstD, KshB). Whether it uses host sterols or glucocorticoids is untested.
+- **BF7 vs public *R. fascians*:** BF7 is a non-pathogenic-type strain with no fas/att/hyp virulence genes (13 of 193 public genomes have complete fas). It is a distinct lineage (≥7,929 core SNPs to any reference) with 1,146 isolate-specific genes. These include a 135-kb RiPP/lanthipeptide-associated island and a PKS/NRPS hybrid island on plasmid-like contigs.
+- **BF1 vs public *S. paucimobilis*:** BF1 is near-clonal with public genomes (44 core SNPs to FDAARGOS_881). Its 985 isolate-specific genes are mostly mobile/accessory content.
+
+![CAZymes, mucin and fungal cell-wall enzymes](outputs/08_functional_genomics/fig_cazymes_mucin_fungalwall.png)
+*Degradative CAZymes (a, b), mucin O-glycan enzymes (c) and fungal cell-wall-active families with predicted signal peptides (d).*
+
+![KEGG metabolic capacity](outputs/08_functional_genomics/fig_kegg_capacity.png)
+*KEGG module completeness (a), aromatic/steroid degradation KOs (b) and two-component systems (c).*
+
+![Comparative genomics](outputs/08_functional_genomics/fig_comparative.png)
+*Core-genome SNP distance of BF7 (a) and BF1 (b) to conspecific public genomes, and isolate-specific gene counts (c).*
+
+## 10. Steroid and hormone genes (BF1–BF7)
+
+**Method.** The KO calls come from the KofamScan 1.3.0 run in `outputs/08_functional_genomics` (KOfam profiles dated Oct 2026). A hit counts when it passes the KO-specific threshold.
+
+**Steroid genes from Mohamed et al. 2026** (*Nat Microbiol*, doi:10.1038/s41564-026-02494-1; steroid hormones made by coral *Endozoicomonas*). The paper's 11 genes map to KOs as follows:
+
+choD K03333, 17βHSD K05296, tesI K16051, ksi K01822, kstD K05898, kshA K15982, kshB K15983, hsaA K16047, hsaC K16049, hsaD K16050, fadD3 K18687.
+
+| Gene | BF1 | BF2 | BF3 | BF4 | BF5 | BF6 | BF7 |
+|---|---|---|---|---|---|---|---|
+| choD | · | · | · | · | · | · | 6 |
+| kstD | · | 1 | · | · | · | · | 1 |
+| kshB | · | · | · | · | · | · | 1 |
+| hsaA | · | 1 | · | · | · | · | · |
+| 17βHSD, tesI, ksi, kshA, hsaC, hsaD, fadD3 | · | · | · | · | · | · | · |
+
+- **No synthesis genes.** No isolate has the paper's testosterone/progesterone synthesis genes (17βHSD, tesI, ksi).
+- **BF7 has only early breakdown steps.** It has cholesterol oxidase, kstD and kshB, but not kshA or the later ring-cleavage genes, so there is no complete steroid-degradation pathway.
+- **Closest misses** (score/threshold): BF5 hsaA 0.91, BF7 fadD3 0.85, BF7 hsaD 0.82.
+- **The 17βHSD near-misses are not evidence.** BF4's best K05296 hit is 0.89, but it comes from the large short-chain dehydrogenase family, which has many look-alike proteins.
+
+**Wider hormone screen.** 136 KOs had definitions matching hormone or signalling terms. Hits at threshold (the full table in [outputs/09_hormone_screen/hormone_related_KOs_BF1-BF7.tsv](outputs/09_hormone_screen/hormone_related_KOs_BF1-BF7.tsv) also lists bile-acid transporters K03453/K14347 and the steroid hsaA/B subunits K16047/K16048):
+
+| Group | KO | BF1 | BF2 | BF3 | BF4 | BF5 | BF6 | BF7 |
+|---|---|---|---|---|---|---|---|---|
+| 3α/20β-hydroxysteroid dehydrogenase (C20 of cortisol/progesterone) | K00038 | · | · | · | 2 | 1 | · | · |
+| Bile salt hydrolase | K01442 | · | 1 | · | · | · | · | · |
+| Bile acid–CoA ligase (baiB) | K15868 | · | · | 1 | · | · | · | · |
+| ACC deaminase (ethylene) | K01505 | · | · | · | 1 | 1 | · | 1 |
+| LOG (cytokinin release) | K22522 | 1 | 2 | 1 | · | · | · | 1 |
+| tRNA-IPT miaA (housekeeping) | K00791 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Glutamate decarboxylase (GABA) | K01580 | · | · | · | 1 | 1 | 1 | 1 |
+| Tyramine oxidase A/B | K25271/2 | 1 | · | · | · | · | · | · |
+
+- **Absent at threshold:**
+  - auxin synthesis (ipdC, iaaM, iaaH; BF2 ipdC is closest at 0.99);
+  - aromatic-amino-acid and histidine decarboxylases, so no serotonin, dopamine or histamine synthesis;
+  - gibberellin, abscisic acid, melatonin and deiodinase genes.
+- **Targeted check outside the regex screen:** nitrilase (K01501, which can convert indole-3-acetonitrile to auxin but has broad substrate range) passes threshold only in BF1; it is not in the 09 table because its definition contains no hormone term.
+- **Strongest leads:**
+  - possible corticosteroid C20 modification in BF4 and BF5 (relevant to corticosterone, the amphibian stress hormone);
+  - ACC deaminase (BF4, BF5, BF7);
+  - GABA synthesis (BF4–BF7).
+- **Hits that need checking:** K00038, ACC deaminase (look-alike: D-cysteine desulfhydrase) and bile salt hydrolase (look-alike: penicillin V acylase) all have look-alike enzyme families. Each needs an alignment or active-site check before it is claimed.
+- **Not run.** The curated hormone and host-interaction marker screen was not run, so this section relies on the KEGG annotation only.
+
+Files: [outputs/09_hormone_screen/](outputs/09_hormone_screen/); script [code/hormone_KO_screen/hormone_KO_screen.py](code/hormone_KO_screen/hormone_KO_screen.py).
+
+## 11. Consistently vs conditionally rare taxa (meta-analysis)
+
+### Method
+- **Data and filters:** amphibian meta-analysis, 90-bp V4 deblur sOTUs. Samples need ≥1,000 reads, and only skin samples are used (2,326).
+- **Why sOTUs, not genera:** only about 32% of reads get a genus at ≥97% identity over 90 bp.
+- **Units:** 47 units of host species × dataset (DOI) × country × life stage, each with ≥15 samples. Units are used instead of species because most species come from a single dataset.
+- **Classes per unit** (mean relative abundance, zeros included):
+  - abundant ≥1%;
+  - intermediate 0.1–1%;
+  - rare = detected but <0.1%;
+  - absent = no reads.
+- **Consistently rare:** detected in ≥24 of 47 units and never ≥0.1% in any unit.
+- **Conditionally rare:** abundant in ≥1 unit and rare in ≥1 other.
+- **Pairwise comparison:** for every ordered pair of units, the % of unit A's abundant sOTUs that are rare or absent in unit B. Pairs are grouped by what differs between the two units: host, country, life stage or study.
+
+### Results
+- **413 consistently rare sOTUs.**
+- **180 conditionally rare sOTUs:**
+  - 143 are mostly rare but locally abundant; 37 are mostly abundant but locally rare;
+  - 155 still qualify when the abundant unit must also have ≥25% prevalence;
+  - 101 switch between different hosts sampled in the same dataset, country and life stage;
+  - 58 switch within one host species across contexts.
+- **Context changes rarity more than host species does.**
+  - Different hosts sampled together: a median 21% of one unit's abundant sOTUs are rare or absent in the other (460 pairs).
+  - Same host in a different context: medians of 29% (life stage), 48% (country), 65% (country + stage) and 68% (study + stage). Each of these groups has only 4–6 pairs.
+  - In *Anaxyrus boreas*, study and life stage are completely confounded.
+
+![Figure 1. Conditional rarity in the amphibian meta-analysis](outputs/10_conditional_rarity/conditional_rarity_meta.png)
+
+*Figure 1.* **(a)** For each pair of units, the % of one unit's abundant sOTUs (≥1% mean) that are rare or absent in the other unit; bars show medians. **(b)** Each sOTU's highest unit mean abundance against the number of units where it was detected. Stars mark the V4 sequences extracted from the isolate genomes.
+
+**Where the isolates fall** (V4 extracted from the genomes):
+
+| Isolate | Pattern | Detail |
+|---|---|---|
+| BF1 | conditionally rare | rare in 34 units; ≥1% only on *Craugastor taurus*, Costa Rica (1.38%) |
+| BF5 | conditionally rare | rare in 30, intermediate in 12; ≥1% only on *Alytes obstetricans*, France (1.78%) |
+| BF3 | almost consistently rare | rare in 33 of the 34 units where detected; max 0.11% |
+| BF6 | rare, narrowly distributed | rare in the 6 units where detected |
+| BF2, BF7 | not detected | — |
+
+On bullfrogs, all detected isolate sOTUs are <0.1% in every bullfrog unit except BF5 on Italian larvae (0.65%).
+
+### Taxonomy of the two classes
+
+The rank labels come from the BLAST top hit to NCBI 16S RefSeq. A family is assigned at ≥86.5% identity and a genus at ≥94.5% (Yarza et al. 2014 thresholds); anything below is unclassified.
+
+![Figure 2. Top families and genera of consistently and conditionally rare sOTUs](outputs/10_conditional_rarity/rare_classes_taxonomy.png)
+
+*Figure 2.* The top 15 families **(a, b)** and genera **(c, d)** in each class, as % of the class's sOTUs, with the sOTU count beside each bar. The black tick is the same taxon's share among the 43,901 sOTUs in neither class.
+
+- **Consistently rare taxa are mostly soil and freshwater oligotrophs** (slow-growing, low-nutrient specialists). Families: Sphingomonadaceae, Chitinophagaceae, Gemmataceae, Bryobacteraceae, Acidobacteriaceae, Nocardioidaceae, Gaiellaceae. Genera: *Sphingomonas*, *Nocardioides*, *Phenylobacterium*, *Solirubrobacter*. This fits a low-level environmental background.
+- **Conditionally rare taxa are mostly fast-growing Proteobacteria and Bacteroidota** that can bloom. Families: Comamonadaceae, Sphingomonadaceae, Pseudomonadaceae, Weeksellaceae, Moraxellaceae. Genera: *Pseudomonas*, *Chryseobacterium*, *Acinetobacter*. These are the same groups that make up dominant skin taxa and many cultured Bd-inhibitory isolates.
+- **Both classes are taxonomically diverse.** The top family holds only 6–8% of a class. Genus is unassigned for 32–35% of sOTUs.
+
+### Caveats
+- The 1% and 0.1% thresholds are fixed and were not tuned.
+- With 15–20 samples per unit, the line between rare and absent is noisy.
+- GAMP combines several sources, so differences between GAMP countries may partly be differences between studies.
+- Counts are distinct sOTUs, not reads.
+
+Files: [outputs/10_conditional_rarity/](outputs/10_conditional_rarity/) (workbooks [conditional_rarity_meta.xlsx](outputs/10_conditional_rarity/conditional_rarity_meta.xlsx) and [rare_classes_taxonomy.xlsx](outputs/10_conditional_rarity/rare_classes_taxonomy.xlsx); every sOTU's class in [sOTU_classes_all.tsv.gz](outputs/10_conditional_rarity/sOTU_classes_all.tsv.gz)); scripts in [code/conditional_rarity/](code/conditional_rarity/).
+
+Reproducing sections 10–11 (Python 3.11 with pandas, numpy, matplotlib, openpyxl; each script was run end to end and the bundled outputs are its outputs):
+
+```bash
+# 09: needs kofam_all7_detail.tsv.gz (KofamScan --format detail-tsv, BF1-BF7)
+python code/hormone_KO_screen/hormone_KO_screen.py kofam_all7_detail.tsv.gz outputs/09_hormone_screen
+
+# 10: needs the user's meta-analysis files (not distributed here) and AmphiBac_meta_abundance.xlsx
+python code/conditional_rarity/conditional_rarity.py amphib_only_otu_table.zip amphib_only_map.txt \
+       meta_analysis_taxonomy.txt AmphiBac_meta_abundance.xlsx outputs/10_conditional_rarity
+python code/conditional_rarity/rare_classes_taxonomy.py outputs/10_conditional_rarity/sOTU_classes_all.tsv.gz \
+       meta_analysis_taxonomy.txt outputs/10_conditional_rarity
+```
+
+
+## 12. Decisions recorded
 - AmphiBac matching uses ≤3 mismatches over V4 (chosen to allow for Sanger sequencing error).
 - Taxon-level p-values are the conservative ones; isolate-level tests are inflated by non-independence.
 - Genome and salamander analyses are kept out of the R package.
 
-## 10. Open items
+## 13. Open items
 1. **R project (`amphib_R`)**: rebuilt on 2026-11-02 by replaying the recorded session code; it is in [code/amphib_R/](code/amphib_R/) (see its README for the input files to add). All outputs match the earlier results. The one exception is the *Arthrobacter* strictest-method count (unique to one genus, ≥2 references) in the bullfrog data: 0 ASVs vs 1 in the saved workbook, because the exact match is shared with *Paeniglutamicibacter*. The 16S BLAST was re-run against the 29 Oct 2026 NCBI release (27,646 sequences) with identical BLAST-based results.
 2. The optional NCBI re-download script timed out against NCBI E-utilities and is untested. The reference sequences used are saved in [code/amphib_R/data/raw/ncbi_refs/](code/amphib_R/data/raw/ncbi_refs/).
 3. Not re-checked for multi-hit sensitivity: the mean-when-present and host-specific class definitions and the source-host analysis, which use the same most-abundant tie rule.
-4. Offered but not run: the ≥2-record *Cryobacterium* filter for the per-sample meta-analysis files, and bullfrog-only abundance classes.
+4. The curated hormone/host-marker gene screen (section 10 covers only what KEGG annotation captures) (steroid catabolism genes, auxin/cytokinin, quorum sensing/quenching, AMP resistance, iron uptake, secretion systems, cold/stress) was stopped by the analysis platform's content-safety filter and has not been run.
+5. Offered but not run: the ≥2-record *Cryobacterium* filter for the per-sample meta-analysis files, and bullfrog-only abundance classes.

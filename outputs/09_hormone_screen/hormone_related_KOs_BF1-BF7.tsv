@@ -1,0 +1,14 @@
+KO	def	BF1	BF2	BF3	BF4	BF5	BF6	BF7
+K00038	3alpha(or 20beta)-hydroxysteroid dehydrogenase [EC:1.1.1.53]	0	0	0	2	1	0	0
+K00791	tRNA dimethylallyltransferase [EC:2.5.1.75]	1	1	1	1	1	1	1
+K01442	choloylglycine hydrolase [EC:3.5.1.24]	0	1	0	0	0	0	0
+K01505	1-aminocyclopropane-1-carboxylate deaminase [EC:3.5.99.7]	0	0	0	1	1	0	1
+K01580	glutamate decarboxylase [EC:4.1.1.15]	0	0	0	1	1	1	1
+K03453	bile acid:Na+ symporter, BASS family	0	0	1	0	1	1	0
+K14347	solute carrier family 10 (sodium/bile acid cotransporter), member 7	1	0	1	0	0	0	1
+K15868	bile acid-coenzyme A ligase [EC:6.2.1.7]	0	0	1	0	0	0	0
+K16047	3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase 	0	1	0	0	0	0	0
+K16048	3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase 	0	0	0	0	1	1	0
+K22522	cytokinin riboside 5'-monophosphate phosphoribohydrolase [EC:3.2.2.-]	1	2	1	0	0	0	1
+K25271	tyramine oxidase subunit A [EC:1.4.3.-]	1	0	0	0	0	0	0
+K25272	tyramine oxidase subunit B [EC:1.4.3.-]	1	0	0	0	0	0	0

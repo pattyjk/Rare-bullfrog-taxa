@@ -1,0 +1,12 @@
+gene	KO	KO_definition	BF1	BF1_best_ratio	BF2	BF2_best_ratio	BF3	BF3_best_ratio	BF4	BF4_best_ratio	BF5	BF5_best_ratio	BF6	BF6_best_ratio	BF7	BF7_best_ratio
+choD	K03333	cholesterol oxidase [EC:1.1.3.6]	0	0.61	0	0.12	0	0.58	0	0.05	0	0.3	0	0.23	6	2.11
+17βHSD	K05296	3(or 17)beta-hydroxysteroid dehydrogenase [EC:1.1.1.51]	0	0.67	0	0.63	0	0.72	0	0.89	0	0.84	0	0.7	0	0.75
+tesI	K16051	3-oxo-5alpha-steroid 4-dehydrogenase [EC:1.3.99.5]	0	0.06	0	0.23	0	0.06	0	0.1	0	0.33	0	0.12	0	0.32
+ksi	K01822	steroid Delta-isomerase [EC:5.3.3.1]	0	0.5	0	0.45	0	0.5	0	0.54	0	0.62	0	0.33	0	0.78
+kstD	K05898	3-oxosteroid 1-dehydrogenase [EC:1.3.99.4]	0	0.12	1	1.86	0	0.14	0	0.23	0	0.8	0	0.23	1	2.24
+kshA	K15982	3-ketosteroid 9alpha-monooxygenase subunit A [EC:1.14.15.30]	0	0.12	0		0	0.14	0	0.1	0	0.3	0	0.07	0	0.29
+kshB	K15983	3-ketosteroid 9alpha-monooxygenase subunit B [EC:1.14.15.30]	0	0.75	0	0.41	0	0.54	0	0.36	0	0.79	0	0.8	1	1.19
+hsaA	K16047	3-hydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione monooxygenase [EC:1.14.14.12]	0	0.18	1	1.04	0	0.31	0	0.35	0	0.91	0	0.27	0	0.57
+hsaC	K16049	3,4-dihydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione 4,5-dioxygenase [EC:1.13.11.25]	0	0.08	0	0.08	0	0.09	0	0.11	0	0.19	0	0.18	0	0.18
+hsaD	K16050	4,5:9,10-diseco-3-hydroxy-5,9,17-trioxoandrosta-1(10),2-diene-4-oate hydrolase [EC:3.7.1.17]	0	0.41	0	0.41	0	0.39	0	0.38	0	0.36	0	0.33	0	0.82
+fadD3	K18687	HIP---CoA ligase [EC:6.2.1.41]	0	0.61	0	0.64	0	0.72	0	0.62	0	0.83	0	0.8	0	0.85

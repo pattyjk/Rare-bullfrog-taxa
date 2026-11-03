@@ -1,0 +1,86 @@
+isolate	category	feature	value
+BF7	pangenome	n_genomes	50
+BF7	pangenome	n_references	49
+BF7	pangenome	total_clusters	31143
+BF7	pangenome	core_clusters_all_genomes(100%)	1114
+BF7	pangenome	core_clusters_>=99%	1114
+BF7	pangenome	soft_core_95-99%	1201
+BF7	pangenome	shell_15-95%	3934
+BF7	pangenome	cloud_<15%	24894
+BF7	pangenome	accessory_<99%	30029
+BF7	pangenome	isolate_clusters	5317
+BF7	pangenome	isolate_core_>=99%	1114
+BF7	pangenome	isolate_accessory	4203
+BF7	pangenome	isolate_specific_<=10%refs	952
+BF7	pangenome	isolate_unique_0refs	461
+BF7	pangenome	max_refs_allowed_for_specific	4
+BF7	pangenome	single_copy_core_used_for_tree	734
+BF7	pangenome	mmseqs_total_clusters	19249
+BF7	pangenome	mmseqs_core_100%	1982
+BF7	pangenome	mmseqs_isolate_clusters	5430
+BF7	pangenome	mmseqs_isolate_specific_<=10%refs	631
+BF7	pangenome	mmseqs_isolate_unique_0refs	346
+BF7	pangenome	isolate_specific_union_genes	1199
+BF7	pangenome	isolate_specific_genes_on_lowcov(<5x)_contigs_excluded	53
+BF7	pangenome	isolate_specific_genes_tier_both	392
+BF7	pangenome	isolate_specific_genes_tier_mmseqs_only	194
+BF7	pangenome	isolate_specific_genes_tier_panaroo_only	560
+BF7	species_membership	n_conspecific_assemblies_ANI>=95	193
+BF7	species_membership	max_ANI_to_reference	98.22
+BF7	species_membership	max_ANI_reference	GCF_019781985.1
+BF7	placement	tree_sister	GCF_019781985.1(BP-327)
+BF7	placement	nearest_core_SNP_reference	GCA_062054756.1()
+BF7	placement	nearest_core_SNPs	7929
+BF7	placement	core_alignment_bp	663619
+BF7	islands	n_islands(>=3 specific genes)	50
+BF7	islands	n_islands_novel_content	24
+BF7	islands	n_islands_BGC_flagged	10
+BF7	islands	n_islands_on_putative_plasmid_contigs	3
+BF1	pangenome	n_genomes	11
+BF1	pangenome	n_references	10
+BF1	pangenome	total_clusters	7168
+BF1	pangenome	core_clusters_all_genomes(100%)	2186
+BF1	pangenome	core_clusters_>=99%	2186
+BF1	pangenome	soft_core_95-99%	0
+BF1	pangenome	shell_15-95%	2618
+BF1	pangenome	cloud_<15%	2364
+BF1	pangenome	accessory_<99%	4982
+BF1	pangenome	isolate_clusters	4052
+BF1	pangenome	isolate_core_>=99%	2186
+BF1	pangenome	isolate_accessory	1866
+BF1	pangenome	isolate_specific_<=10%refs	418
+BF1	pangenome	isolate_unique_0refs	111
+BF1	pangenome	max_refs_allowed_for_specific	1
+BF1	pangenome	single_copy_core_used_for_tree	1780
+BF1	pangenome	mmseqs_total_clusters	8120
+BF1	pangenome	mmseqs_core_100%	2611
+BF1	pangenome	mmseqs_isolate_clusters	5090
+BF1	pangenome	mmseqs_isolate_specific_<=10%refs	1340
+BF1	pangenome	mmseqs_isolate_unique_0refs	1152
+BF1	pangenome	isolate_specific_union_genes	1634
+BF1	pangenome	isolate_specific_genes_on_lowcov(<5x)_contigs_excluded	649
+BF1	pangenome	isolate_specific_genes_tier_both	164
+BF1	pangenome	isolate_specific_genes_tier_mmseqs_only	567
+BF1	pangenome	isolate_specific_genes_tier_panaroo_only	254
+BF1	species_membership	n_conspecific_assemblies_ANI>=95	26
+BF1	species_membership	max_ANI_to_reference	99.97
+BF1	species_membership	max_ANI_reference	GCF_046294315.1
+BF1	placement	tree_sister	GCF_016028435.1(FDAARGOS_881);GCF_050971725.1(CL001);GCF_039596115.1;GCF_000739895.2(NBRC 13935);GCF_016027095.1(FDAARGOS_908)
+BF1	placement	nearest_core_SNP_reference	GCF_016028435.1(FDAARGOS_881)
+BF1	placement	nearest_core_SNPs	44
+BF1	placement	core_alignment_bp	1717815
+BF1	islands	n_islands(>=3 specific genes)	59
+BF1	islands	n_islands_novel_content	44
+BF1	islands	n_islands_BGC_flagged	1
+BF1	islands	n_islands_on_putative_plasmid_contigs	13
+BF7	virulence_loci	fas_genes_present(of7)	0
+BF7	virulence_loci	att_genes_present(of10)	0
+BF7	virulence_loci	hyp_genes_present(of1)	0
+BF7	virulence_loci	pFiD188_CDS_shared(of184)	2
+BF7	virulence_loci	virulence_type	non-pathogenic-type (no fas/att/hyp)
+BF7	virulence_refs_derep49	non-pathogenic-type (no fas/att/hyp)	39
+BF7	virulence_refs_derep49	pathogenic-type (complete fas)	7
+BF7	virulence_refs_derep49	partial (att and/or hyp only, no fas)	3
+BF7	virulence_refs_all193	non-pathogenic-type (no fas/att/hyp)	177
+BF7	virulence_refs_all193	pathogenic-type (complete fas)	13
+BF7	virulence_refs_all193	partial (att and/or hyp only, no fas)	3
