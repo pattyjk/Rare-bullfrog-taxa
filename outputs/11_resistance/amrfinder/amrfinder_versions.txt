@@ -1,0 +1,6 @@
+Running: amrfinder --database_version -d amr/amrdb/latest
+Software directory: '/Users/p.kearns/.claude-science/conda/envs/amr/bin/'
+Software version: 4.2.7
+Database directory: '/private/tmp/rs/amr/amrdb/2026-10-29.1'
+Database version: 2026-10-29.1
+amrfinder took 0 seconds to complete

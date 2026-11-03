@@ -10,6 +10,7 @@
 6. **The genomes point to secondary metabolism rather than cell-wall enzymes.** No isolate carries a canonical chitinase. BF7 is a non-pathogenic, distinct *R. fascians* lineage with novel biosynthetic islands, and the isolates differ in B12, biotin, urease and nitrogen capacity (section 9).
 7. **No isolate carries vertebrate steroid-hormone synthesis genes.** None has the testosterone/progesterone genes from Mohamed et al. 2026; BF7 has only the first steroid-breakdown steps. The leads are a possible corticosteroid-modifying 3α/20β-HSD in BF4/BF5, ACC deaminase and GABA synthesis (section 10).
 8. **Rarity on amphibian skin depends more on context than on host.** 413 sOTUs are consistently rare (mostly soil oligotrophs) and 180 conditionally rare (mostly bloom-forming Proteobacteria/Bacteroidota). Abundant sOTUs drop out more often across sites, stages or studies of the same host than between co-sampled host species. BF1 and BF5 are conditionally rare; BF3 is almost consistently rare (section 11).
+9. **No acquired antibiotic resistance; BF1 stands out for metal resistance.** All 17 antibiotic-resistance calls are intrinsic-type, family-level matches. BF1 carries 59 metal-resistance genes (copper/silver, cobalt/zinc/cadmium, arsenic, mercury), and many of them are BF1-specific islands absent from public *S. paucimobilis* (section 12).
 
 ## Repository layout
 | Path | Contents |
@@ -25,6 +26,8 @@
 | [code/hormone_KO_screen/](code/hormone_KO_screen/) | Script for section 10 |
 | [outputs/10_conditional_rarity/](outputs/10_conditional_rarity/) | Consistently vs conditionally rare sOTUs, taxonomy of both classes (section 11) |
 | [code/conditional_rarity/](code/conditional_rarity/) | Scripts for section 11 |
+| [outputs/11_resistance/](outputs/11_resistance/) | Antibiotic and metal resistance genes (section 12) |
+| [code/resistance_screen/](code/resistance_screen/) | AMRFinderPlus run and table/figure scripts for section 12 |
 | [aggregated_genomes/](aggregated_genomes/), [Prokka/](Prokka/), [gff_files/](gff_files/) | Genome assemblies and Prokka annotations for BF1–BF7 |
 
 ## 1. Goal
@@ -291,12 +294,76 @@ python code/conditional_rarity/rare_classes_taxonomy.py outputs/10_conditional_r
 ```
 
 
-## 12. Decisions recorded
+## 12. Antibiotic and heavy-metal resistance genes (BF1–BF7)
+
+**Method.**
+- **Antibiotic resistance:** NCBI AMRFinderPlus 4.2.7 (database 2026-10-29.1) with `--plus`, run on the Prokka proteins, contigs and GFF of each genome.
+- **Metal resistance:** AMRFinderPlus metal calls plus curated KEGG KOs (KofamScan 1.3.0, above KO threshold). Only efflux, detoxification and regulator genes are counted; uptake transporters, B12 synthesis and metalloproteases are excluded.
+- **Duplicates:** proteins that hit two KOs are counted once, under the better-scoring KO.
+- **Genomic context:**
+  - contig coverage relative to the genome median (≥1.5× = plasmid-like);
+  - for BF1 and BF7, overlap with the isolate-specific islands from section 9.
+- **BF3 workaround:** one BF3 protein (IHHBNBAB_01063) crashes AMRFinderPlus 4.2.7. BF3 was run without it, and the protein was called by BLASTP against the AMRFinderPlus reference proteins: *helR*, 61.5% identity over 710 of 723 aa.
+
+![Antibiotic and metal resistance genes in BF1–BF7](outputs/11_resistance/resistance_genes_BF1-BF7.png)
+
+*Figure.* **(a)** Resistance genes per 1,000 proteins, split into metal and antibiotic; n = genes per isolate. **(b)** Genes per resistance class. All antibiotic calls are family-level HMM matches.
+
+| Class | BF1 | BF2 | BF3 | BF4 | BF5 | BF6 | BF7 |
+|---|---|---|---|---|---|---|---|
+| β-lactam (class A bla, OXA) | 1 | 1 | 1 | · | · | · | 1 |
+| Aminoglycoside (aac(6')) | 1 | · | · | · | · | · | · |
+| Rifamycin (arr, helR) | · | · | 2 | 1 | · | 2 | 2 |
+| Phenicol (cml efflux) | · | · | · | · | · | 2 | 1 |
+| Macrolide (erm) | · | · | · | · | · | 1 | · |
+| Arsenic | 11 | 4 | 5 | 6 | 3 | 2 | 10 |
+| Copper/silver | 24 | 4 | 6 | 4 | 6 | 8 | 7 |
+| Zinc/cadmium/cobalt/nickel | 14 | 1 | 2 | 2 | 1 | 2 | 4 |
+| Mercury | 4 | · | · | · | · | · | · |
+| Chromate | 2 | 7 | 1 | · | 2 | 1 | 1 |
+| Tellurite | 4 | · | 6 | · | · | · | 6 |
+| **Total** | **61** | **17** | **23** | **13** | **12** | **18** | **32** |
+
+**Antibiotic resistance: 17 genes**
+- **No acquired antibiotic resistance genes.** All 17 calls are family-level HMM matches at 45–77% identity, so they are most likely intrinsic chromosomal genes of these genera:
+  - rifampin ADP-ribosyltransferase *arr* and *helR* in the Actinobacteria;
+  - class A β-lactamases (BF1, BF3, BF7) and an OXA-type β-lactamase (BF2);
+  - *aac(6')* in BF1;
+  - *cml* chloramphenicol efflux in BF6 and BF7;
+  - *erm* in BF6.
+- **Possible self-resistance gene.** BF7's *cml* lies in island GI44, the PKS/NRPS island on a plasmid-like contig (1.73×). It may protect BF7 from that cluster's product.
+
+**Metal resistance**
+- **BF1 carries the largest metal repertoire:** 59 genes, 12.6 per 1,000 proteins against 3.0–5.0 in the other isolates. They include *cusCBAF* copper/silver efflux, *cop* genes, *czcCBA*/*czcD* cobalt-zinc-cadmium efflux, *cnrR*, *mer* transport/regulation and arsenic genes.
+- **Mercury genes are incomplete:** BF1 has *merT* and *merR* but no *merA* reductase.
+- **Many of BF1's metal genes are its own:**
+  - 21 of the 59 lie in BF1 genomic islands;
+  - 15 are isolate-specific (in ≤10% of the 10 public *S. paucimobilis* genomes);
+  - *czcCB* and one *merR* sit on contigs with 1.5–2.0× coverage.
+  
+  Because BF1 is otherwise near-clonal with public strains (44 core SNPs), these islands are its clearest functional difference from them.
+- **Other isolates:**
+  - BF7: 10 arsenic genes (3 *arsA*) and 6 tellurite genes;
+  - BF3: 6 tellurite genes;
+  - BF2: 7 chromate genes;
+  - all seven isolates have the *copA* Cu⁺ ATPase.
+
+**Caveats**
+- AMRFinderPlus does not report general multidrug efflux pumps, so they are not counted.
+- *arsA* (K01551) also covers an unrelated membrane-protein transport ATPase and may not be arsenic-specific.
+- Island and isolate-specific flags exist only for BF1 and BF7, the two isolates with sets of public genomes from the same species.
+- Gene presence = capacity only; no MICs or metal tolerance were measured.
+
+Files: [outputs/11_resistance/](outputs/11_resistance/). The workbook [resistance_genes_BF1-BF7.xlsx](outputs/11_resistance/resistance_genes_BF1-BF7.xlsx) has methods, counts, all 176 genes with coordinates, island and coverage flags, and the raw AMRFinderPlus calls. Per-genome AMRFinderPlus output is in [outputs/11_resistance/amrfinder/](outputs/11_resistance/amrfinder/).
+
+Reproducing: `bash code/resistance_screen/run_amrfinder.sh <fg_inputs> <amr_dir>` (needs ncbi-amrfinderplus; about 5 min), then `python code/resistance_screen/resistance_tables.py <amr_dir> <fg_inputs> kofam_all7_detail.tsv.gz outputs/08_functional_genomics/tables outputs/11_resistance`. Both steps were run end to end; their output matches the delivered table gene for gene (176 of 176).
+
+## 13. Decisions recorded
 - AmphiBac matching uses ≤3 mismatches over V4 (chosen to allow for Sanger sequencing error).
 - Taxon-level p-values are the conservative ones; isolate-level tests are inflated by non-independence.
 - Genome and salamander analyses are kept out of the R package.
 
-## 13. Open items
+## 14. Open items
 1. **R project (`amphib_R`)**: rebuilt on 2026-11-02 by replaying the recorded session code; it is in [code/amphib_R/](code/amphib_R/) (see its README for the input files to add). All outputs match the earlier results. The one exception is the *Arthrobacter* strictest-method count (unique to one genus, ≥2 references) in the bullfrog data: 0 ASVs vs 1 in the saved workbook, because the exact match is shared with *Paeniglutamicibacter*. The 16S BLAST was re-run against the 29 Oct 2026 NCBI release (27,646 sequences) with identical BLAST-based results.
 2. The optional NCBI re-download script timed out against NCBI E-utilities and is untested. The reference sequences used are saved in [code/amphib_R/data/raw/ncbi_refs/](code/amphib_R/data/raw/ncbi_refs/).
 3. Not re-checked for multi-hit sensitivity: the mean-when-present and host-specific class definitions and the source-host analysis, which use the same most-abundant tie rule.
