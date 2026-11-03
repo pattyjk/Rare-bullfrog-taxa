@@ -15,7 +15,7 @@ All files use the IDs BF1–BF7. **isolate_ID_crosswalk.csv** maps them to the o
 ## Contents
 | Folder | What it holds |
 |---|---|
-| project_summary.md | Methods, results, decisions and open items for every analysis (sections 1–14) |
+| project_summary.md | Methods, results, decisions and open items for every analysis (sections 1–15) |
 | outputs/01_MiGA_taxonomy | MiGA TypeMat summary of the 7 genomes |
 | outputs/02_antiSMASH | BGC summary workbook, region table, stacked-bar figure, and the full antiSMASH 7.1.0 result zip per genome (open index.html) |
 | outputs/03_genus_abundance | Target-genus abundance: meta-analysis, bullfrog, salamander (summary workbooks and per-sample tables) |
@@ -27,6 +27,7 @@ All files use the IDs BF1–BF7. **isolate_ID_crosswalk.csv** maps them to the o
 | outputs/09_hormone_screen | Steroid and hormone-related KO tables |
 | outputs/10_conditional_rarity | Consistently vs conditionally rare sOTUs and their taxonomy |
 | outputs/11_resistance | Antibiotic (AMRFinderPlus) and heavy-metal resistance genes with genomic context |
+| outputs/12_dormancy | Dormancy-related genes (sporulation, Rpf, DosR, stringent response, hibernation, toxin–antitoxin, storage) |
 | code/amphib_R | R pipeline (scripts 00–08, run_all.R, BLAST script); see its README for the input files to add |
 | code/multihit_sensitivity.py | Stand-alone Python script for outputs/05; verified to reproduce them from the AmphiBac files and the meta-analysis OTU table |
 | code/sOTU_Bd_panelA | The panel-A package, unzipped |
@@ -35,6 +36,7 @@ All files use the IDs BF1–BF7. **isolate_ID_crosswalk.csv** maps them to the o
 | code/hormone_KO_screen | Script for outputs/09 (run end to end from the KofamScan detail output) |
 | code/conditional_rarity | Scripts for outputs/10 (run end to end from the meta-analysis files) |
 | code/resistance_screen | Scripts for outputs/11 (run end to end; AMRFinderPlus database 2026-10-29.1) |
+| code/dormancy_screen | Script for outputs/12 (run end to end) |
 | artifact_index.csv | Every project file with its artifact ID, its role (output / your input / public input) and its location in this bundle |
 
 ## Not included

@@ -10,7 +10,8 @@
 6. **The genomes point to secondary metabolism rather than cell-wall enzymes.** No isolate carries a canonical chitinase. BF7 is a non-pathogenic, distinct *R. fascians* lineage with novel biosynthetic islands, and the isolates differ in B12, biotin, urease and nitrogen capacity (section 9).
 7. **No isolate carries vertebrate steroid-hormone synthesis genes.** None has the testosterone/progesterone genes from Mohamed et al. 2026; BF7 has only the first steroid-breakdown steps. The leads are a possible corticosteroid-modifying 3α/20β-HSD in BF4/BF5, ACC deaminase and GABA synthesis (section 10).
 8. **Rarity on amphibian skin depends more on context than on host.** 413 sOTUs are consistently rare (mostly soil oligotrophs) and 180 conditionally rare (mostly bloom-forming Proteobacteria/Bacteroidota). Abundant sOTUs drop out more often across sites, stages or studies of the same host than between co-sampled host species. BF1 and BF5 are conditionally rare; BF3 is almost consistently rare (section 11).
-9. **No acquired antibiotic resistance; BF1 stands out for metal resistance.** All 17 antibiotic-resistance calls are intrinsic-type, family-level matches. BF1 carries 59 metal-resistance genes (copper/silver, cobalt/zinc/cadmium, arsenic, mercury), and many of them are BF1-specific islands absent from public *S. paucimobilis* (section 12).
+9. **No acquired antibiotic resistance; BF1 stands out for metal resistance.** All 16 antibiotic-resistance calls are intrinsic-type, family-level matches. BF1 carries 59 metal-resistance genes (copper/silver, cobalt/zinc/cadmium, arsenic, mercury), and many of them are BF1-specific islands absent from public *S. paucimobilis* (section 12).
+10. **None forms endospores; the Actinobacteria have a mycobacterial-type dormancy toolkit.** BF3–BF7 carry Rpf resuscitation factors and/or the DosR regulon, Tgs and many universal stress proteins. BF1 and BF2 rely instead on PHB storage, and BF1 also on toxin–antitoxin modules (section 13).
 
 ## Repository layout
 | Path | Contents |
@@ -28,6 +29,8 @@
 | [code/conditional_rarity/](code/conditional_rarity/) | Scripts for section 11 |
 | [outputs/11_resistance/](outputs/11_resistance/) | Antibiotic and metal resistance genes (section 12) |
 | [code/resistance_screen/](code/resistance_screen/) | AMRFinderPlus run and table/figure scripts for section 12 |
+| [outputs/12_dormancy/](outputs/12_dormancy/) | Dormancy-related genes (section 13) |
+| [code/dormancy_screen/](code/dormancy_screen/) | Script for section 13 |
 | [aggregated_genomes/](aggregated_genomes/), [Prokka/](Prokka/), [gff_files/](gff_files/) | Genome assemblies and Prokka annotations for BF1–BF7 |
 
 ## 1. Goal
@@ -324,8 +327,8 @@ python code/conditional_rarity/rare_classes_taxonomy.py outputs/10_conditional_r
 | Tellurite | 4 | · | 6 | · | · | · | 6 |
 | **Total** | **61** | **17** | **23** | **13** | **12** | **18** | **32** |
 
-**Antibiotic resistance: 17 genes**
-- **No acquired antibiotic resistance genes.** All 17 calls are family-level HMM matches at 45–77% identity, so they are most likely intrinsic chromosomal genes of these genera:
+**Antibiotic resistance: 16 genes**
+- **No acquired antibiotic resistance genes.** All 16 calls are family-level matches at 45–77% identity (15 AMRFinderPlus HMM calls plus the manual BF3 *helR*), so they are most likely intrinsic chromosomal genes of these genera:
   - rifampin ADP-ribosyltransferase *arr* and *helR* in the Actinobacteria;
   - class A β-lactamases (BF1, BF3, BF7) and an OXA-type β-lactamase (BF2);
   - *aac(6')* in BF1;
@@ -358,12 +361,57 @@ Files: [outputs/11_resistance/](outputs/11_resistance/). The workbook [resistanc
 
 Reproducing: `bash code/resistance_screen/run_amrfinder.sh <fg_inputs> <amr_dir>` (needs ncbi-amrfinderplus; about 5 min), then `python code/resistance_screen/resistance_tables.py <amr_dir> <fg_inputs> kofam_all7_detail.tsv.gz outputs/08_functional_genomics/tables outputs/11_resistance`. Both steps were run end to end; their output matches the delivered table gene for gene (176 of 176).
 
-## 13. Decisions recorded
+## 13. Dormancy strategies (BF1–BF7)
+
+**Method.**
+- **Gene calls:** dormancy-related KEGG KOs from the KofamScan run (above KO threshold). Universal stress proteins were counted from Prokka product names instead, because no reliable KO covers them.
+- **Categories:**
+  - endospore formation;
+  - resuscitation-promoting factors (Rpf);
+  - the DosR/DevSR dormancy regulon;
+  - the stringent response;
+  - ribosome hibernation;
+  - toxin–antitoxin (persistence) modules;
+  - storage compounds;
+  - general stress survival.
+
+![Dormancy-related genes in BF1–BF7](outputs/12_dormancy/dormancy_genes_BF1-BF7.png)
+
+*Figure.* Dormancy-related genes per genome, grouped by strategy.
+
+**Results**
+- **No endospore program in any isolate.** *spo0A* and the sporulation sigma factors are below threshold everywhere (best 0.63–0.74 of threshold).
+- **The Actinobacteria (BF3–BF7) carry the mycobacterial-type dormancy toolkit.**
+  - Rpf resuscitation factors: BF3 (1), BF5 (1), BF6 (2), BF7 (3).
+  - DevS/DevR (DosR), the hypoxia-induced dormancy regulator: BF3, BF4, BF5.
+  - HspX-like small heat-shock proteins: BF1, BF3–BF5, BF7.
+  - Tgs triacylglycerol synthase: BF4 (1), BF7 (2).
+  - Universal stress proteins: up to 11 (BF7) and 8 (BF5).
+  - c-di-AMP diadenylate cyclase: BF3, BF5–BF7.
+- **All isolates share core starvation responses.**
+  - Rel/SpoT ppGpp signalling, plus extra small alarmone synthetases in BF3–BF7.
+  - The Hpf ribosome hibernation factor (Rmf is absent in all).
+  - Glycogen, trehalose and polyphosphate storage.
+  - Dps and cold-shock proteins.
+- **BF1 and BF2 rely on storage and persistence modules.**
+  - Only they make polyhydroxybutyrate (*phaC* + *phaAB*).
+  - BF1 has the most toxin–antitoxin genes: 6 toxins and 7 antitoxins (MazF, RelE, ParDE, VapBC, SocAB).
+
+**Caveats**
+- The HSP20 family includes generic chaperones as well as HspX.
+- Some toxin–antitoxin pairs may be addiction modules of mobile elements rather than dormancy systems.
+- These are gene-content results only; dormancy was not measured.
+
+Files: [outputs/12_dormancy/](outputs/12_dormancy/) ([dormancy_genes_BF1-BF7.xlsx](outputs/12_dormancy/dormancy_genes_BF1-BF7.xlsx): gene table and methods notes with near-miss scores).
+
+Reproducing: `python code/dormancy_screen/dormancy_screen.py kofam_all7_detail.tsv.gz <fg_inputs> outputs/12_dormancy`. The script was run end to end and reproduces the delivered table exactly.
+
+## 14. Decisions recorded
 - AmphiBac matching uses ≤3 mismatches over V4 (chosen to allow for Sanger sequencing error).
 - Taxon-level p-values are the conservative ones; isolate-level tests are inflated by non-independence.
 - Genome and salamander analyses are kept out of the R package.
 
-## 14. Open items
+## 15. Open items
 1. **R project (`amphib_R`)**: rebuilt on 2026-11-02 by replaying the recorded session code; it is in [code/amphib_R/](code/amphib_R/) (see its README for the input files to add). All outputs match the earlier results. The one exception is the *Arthrobacter* strictest-method count (unique to one genus, ≥2 references) in the bullfrog data: 0 ASVs vs 1 in the saved workbook, because the exact match is shared with *Paeniglutamicibacter*. The 16S BLAST was re-run against the 29 Oct 2026 NCBI release (27,646 sequences) with identical BLAST-based results.
 2. The optional NCBI re-download script timed out against NCBI E-utilities and is untested. The reference sequences used are saved in [code/amphib_R/data/raw/ncbi_refs/](code/amphib_R/data/raw/ncbi_refs/).
 3. Not re-checked for multi-hit sensitivity: the mean-when-present and host-specific class definitions and the source-host analysis, which use the same most-abundant tie rule.
