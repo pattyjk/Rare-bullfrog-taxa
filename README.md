@@ -2,16 +2,6 @@
 
 Start with **project_summary.md** (repository root). It summarises every analysis and its results, with relative links to the files in this bundle.
 
-## Isolate IDs
-All files use the IDs BF1–BF7. **isolate_ID_crosswalk.csv** maps them to the original labels (78E, BF170, BF261, the CSWG105 cryobin, CSWG105, M1241, sfa6.6).
-- **Where the renaming was applied:** table contents, workbook sheets, scripts, the summary, file names, and the file names and contents inside the antiSMASH result zips.
-- **Redrawn figures:** the two that carried isolate labels, antiSMASH_BGC_stacked_bar.png and AmphiBac_rank_abundance.png.
-- **Old genus nicknames removed:** Starkeya, Kineo, Renibacterium and Microterricola no longer appear as isolate labels. These names still appear where they are real genus names in reference or BLAST data (e.g. *Starkeya novella*, *Renibacterium salmoninarum*).
-- **First MiGA batch dropped:** the 9-report batch (HB58, BF246, and the earlier *Bacillus velezensis* isolate also labelled BF4) is not in this export, to avoid two isolates sharing the ID BF4.
-- **Session log:** this is a historical record of the code that ran. Its cells that parsed that batch still name HB58 and BF246, and they call the earlier *Bacillus* isolate "BF4old".
-- **AmphiBac data:** the public AmphiBac files and the AmphiBac-derived match tables were not altered. Some AmphiBac isolates of other studies have names containing these strings (e.g. Panama78E).
-- **Project store:** artifact_index.csv lists files under their new names, but the stored project copies keep their original names.
-
 ## Contents
 | Folder | What it holds |
 |---|---|
